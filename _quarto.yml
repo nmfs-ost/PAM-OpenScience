@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "Open Sciences for NOAA Fisheries PAM" 
+  # site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
+  repo-url: "https://github.com/SAEL-SWFSC/OpenScience"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -20,12 +20,12 @@ website:
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+      # - icon: globe
+      #   href: https://nmfs-opensci.github.io
+        # text: "NMFS Open Science"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/SAEL-SWFSC/OpenScience
+        text: "SAEL Open Science"
 
     style: "docked"
     search: true
