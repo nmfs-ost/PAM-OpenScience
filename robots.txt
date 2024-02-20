@@ -1,1 +1,1 @@
-Sitemap: https://SAEL-SWFSC.github.io/OpenScience/sitemap.xml
+Sitemap: https://sael-swfsc.github.io/OpenScience/sitemap.xml
