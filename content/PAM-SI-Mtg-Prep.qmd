@@ -12,6 +12,8 @@ The tasks outlined below will help us practice working together with a shared Gi
 
     1.  [Github Desktop](https://desktop.github.com/)
 
+        1.  Sign User Agreement (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) for more information)
+
     2.  [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (v2022.07.2 build 576 or later)
 
     3.  [R](https://www.r-project.org/)
@@ -45,16 +47,16 @@ The tasks outlined below will help us practice working together with a shared Gi
     3.  Add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-\> Github. *Note: Anytime you want to navigate to this project in RStudio, you can select it from the dropdown in this top right corner. If you want to use a new computer, you will need to repeat the steps of cloning the repository using Github Desktop, then creating a new project in RStudio.*
 
 5.  Modify Document
-         
-1.   In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio (insert Screenshot)
 
-2.  In the newer RStudio, you can use the Quarto Visual Editor to modify documents. Please navigate to the 'Visual' editor (insert screenshot) to make modifications.
+6.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio (insert Screenshot)
 
-3.  Add your name in BOLD, your affiliation in Italics, with a link to your lab or personal website, insert a picture of you, give a one sentence explanation of the work you do with NOAA Fisheries.
+7.  In the newer RStudio, you can use the Quarto Visual Editor to modify documents. Please navigate to the 'Visual' editor (insert screenshot) to make modifications.
 
-4.  Save the document
+8.  Add your name in BOLD, your affiliation in Italics, with a link to your lab or personal website, insert a picture of you, give a one sentence explanation of the work you do with NOAA Fisheries.
 
-6.  Commit & Push to Github.
+9.  Save the document
+
+10. Commit & Push to Github.
 
     1.  Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).
 
@@ -62,7 +64,7 @@ The tasks outlined below will help us practice working together with a shared Gi
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
-7.  We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!
+11. We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!
 
 For more information, see:
 
