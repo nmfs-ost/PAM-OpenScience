@@ -12,7 +12,7 @@ The tasks outlined below will help us practice working together with a shared Gi
 
     1.  [Github Desktop](https://desktop.github.com/)
 
-        1.  Sign User Agreement (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) for more information)
+        -   Sign User Agreement (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) for more information)
 
     2.  [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (v2022.07.2 build 576 or later)
 
