@@ -1,0 +1,11 @@
+---
+title: Presentations
+---
+
+## Quarto Slides
+
+Presentations can be made in Quarto as three different slide formats including reveal.js (HTML), PowerPoint (MS Office), and Beamer (LaTeX/PDF).
+
+## HTML Slides Template
+
+[Methods Slides Template](Slides/methodsSlidesTemplate.qmd)

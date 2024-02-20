@@ -1,0 +1,15 @@
+---
+title: Stack Exchange
+---
+
+## Stack Exchange
+
+Stack Exchange is a publicly available crowd-sourced question and answer platform. Stack Exchange consists of many sites on different topics, including the original Stack Overflow (for programming questions), Biology, and even Bioacoustics. Here we provide you with a very brief introduction to Stack Exchange to help you use the platform effectively.
+
+1.  Register for Stack Exchange
+2.  Join relevant sites
+3.  Learn how to search for questions
+4.  Learn how to write a good question
+5.  Learn how to write a good answer
+
+For more information, see:

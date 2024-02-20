@@ -1,0 +1,27 @@
+---
+title: Research Guide
+---
+
+## Research Guide
+
+The purpose of this guide is to provide an approach to working on a research project that provides an efficient approach to collaborating with yourself (including your future self!) and other researchers. This guide follows our lab philosophy of Open and Reproducible Science.
+
+1.  Create a Github Repository for your research
+    1.  Create Repository
+
+    2.  Use Github Desktop to clone to your local computer (store in Documents-\>Github)
+
+    3.  Open project in RStudio (version 2022.07.2 build576 or later)
+2.  Create a draft manuscript to document your research (see Writing Guide in this lab manual).
+3.  Be sure to document all changes to your research using the 'commit' documentation. Be detailed. Consider doing smaller changes/commits to keep track of things.
+4.  Create a project board in Github to identify tasks in your project (to do, doing, done!). Retain these for future review.
+5.  Use Issues to document discussions, modifications, and workflow. Link Issues to tasks in your Project Board.
+6.  When you reach milestones in your work (say a draft for author review), create a Version in Github. This will help future you go back in time to a previous version of your work.
+
+***Things to remember as you work:***
+
+-   *Document everything!* Assume you are documenting every detail for someone who is absolutely new to your work and needs to follow your methods exactly. Your future self will thank you!
+
+***For additional information:***
+
+Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY).

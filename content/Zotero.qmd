@@ -1,0 +1,64 @@
+---
+title: Zotero
+---
+
+## Zotero
+
+Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.
+
+Get started:
+
+1.  Load [Zotero](https://www.zotero.org/) and create a [login](https://www.zotero.org/user/login/).
+
+2.  Create a [browser plugin](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en) so that you can directly save google scholar citations to your online reference list.
+
+3.  Link Rstudio to your Zotero library
+
+Add to your Document:
+
+1.  Use Zotero to download the csl file for the journal you want to use.
+
+    -   Go to the Zotero Preferences menu (Zotero \> Preferences on Mac, Edit \> Preferences on PC).
+
+    -   Click on the Cite menu. \...
+
+    -   Below the list of pre-installed styles, click the link for Get additional styles\...
+
+    -   Search for your desired style in the provided search field.
+
+    -   Select the style you want to install.
+
+2.  CSL: [Citation Style Language](https://citationstyles.org/)
+
+    1.  Use Zotero to download the csl file for the journal you want to use.
+
+        -   Go to the Zotero Preferences menu (Zotero \> Preferences on Mac, Edit \> Preferences on PC).
+
+        -   Click on the Cite menu. \...
+
+        -   Below the list of pre-installed styles, click the link for Get additional styles\...
+
+        -   Search for your desired style in the provided search field.
+
+        -   Select the style you want to install.
+
+    2.  Add csl to your yaml
+
+        \-\--
+        title**:** "My Document"
+        bibliography**:** references.bib
+        csl**:** nature.csl
+        \-\--
+
+3.  Add your references into the document
+
+    1.  Inline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an '\@' symbol plus the citation identifier from the database. For example, [@wickham2015]
+
+    2.  Bibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:
+
+        \### References
+
+        ::: {#refs}
+        :::
+
+    3.  For more information, see [Quarto Guide](https://quarto.org/docs/authoring/footnotes-and-citations.html)

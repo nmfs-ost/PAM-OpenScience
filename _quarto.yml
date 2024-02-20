@@ -33,6 +33,10 @@ website:
     contents:
       - href: index.qmd
         text: Home
+      - href: content/Getting-Started.qmd
+        text: Getting Started with Open Science
+      - href: content/Zotero.qmd
+        text: Working with Zotero
       - href: content/add-content.qmd
         text: Add content
       - href: content/customizing.qmd
