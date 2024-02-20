@@ -1,31 +1,132 @@
 [
   {
+    "objectID": "content/Getting-Started.html",
+    "href": "content/Getting-Started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\n\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.\nAdd Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login\n\nCreate a Test Repository in Github (see help here)\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.\n\nOpen project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\nModify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nCommit & Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out the changes on your README at the bottom of the page!\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.\n\nFor more information, see:\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
+    "crumbs": [
+      "Getting Started with Open Science"
+    ]
+  },
+  {
+    "objectID": "content/Getting-Started.html#getting-started-in-open-science",
+    "href": "content/Getting-Started.html#getting-started-in-open-science",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\n\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.\nAdd Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login\n\nCreate a Test Repository in Github (see help here)\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.\n\nOpen project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\nModify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nCommit & Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out the changes on your README at the bottom of the page!\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.\n\nFor more information, see:\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
+    "crumbs": [
+      "Getting Started with Open Science"
+    ]
+  },
+  {
     "objectID": "content/customizing.html",
     "href": "content/customizing.html",
     "title": "Customization",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "Customizing"
+    ]
   },
   {
     "objectID": "content/customizing.html#quarto-documentation",
     "href": "content/customizing.html#quarto-documentation",
     "title": "Customization",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "Customizing"
+    ]
   },
   {
     "objectID": "content/customizing.html#examples",
     "href": "content/customizing.html#examples",
     "title": "Customization",
     "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
+    "crumbs": [
+      "Customizing"
+    ]
   },
   {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
+    "objectID": "content/Presentations.html",
+    "href": "content/Presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
+    "text": "Presentations can be made in Quarto as three different slide formats including reveal.js (HTML), PowerPoint (MS Office), and Beamer (LaTeX/PDF)."
+  },
+  {
+    "objectID": "content/Presentations.html#quarto-slides",
+    "href": "content/Presentations.html#quarto-slides",
+    "title": "Presentations",
+    "section": "",
+    "text": "Presentations can be made in Quarto as three different slide formats including reveal.js (HTML), PowerPoint (MS Office), and Beamer (LaTeX/PDF)."
+  },
+  {
+    "objectID": "content/Presentations.html#html-slides-template",
+    "href": "content/Presentations.html#html-slides-template",
+    "title": "Presentations",
+    "section": "HTML Slides Template",
+    "text": "HTML Slides Template\nMethods Slides Template"
+  },
+  {
+    "objectID": "content/add-content.html",
+    "href": "content/add-content.html",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Add content"
+    ]
+  },
+  {
+    "objectID": "content/add-content.html#edit-and-add-your-pages",
+    "href": "content/add-content.html#edit-and-add-your-pages",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Add content"
+    ]
+  },
+  {
+    "objectID": "content/add-content.html#add-your-pages-the-project",
+    "href": "content/add-content.html#add-your-pages-the-project",
+    "title": "Customize",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "Add content"
+    ]
+  },
+  {
+    "objectID": "content/CoWorking.html",
+    "href": "content/CoWorking.html",
+    "title": "Co-Working",
+    "section": "",
+    "text": "Writers Workshop is a weekly co-working meeting where we work on our individual projects together. It is especially difficult to stay focused while writing, and these workshops provide a level of accountability that helps us move our writing forward.\nMeetings are virtual and typically 2-3 hours in length. You should have your materials ready before the workshop begins, so you can focus on your writing.\n\nHave all your materials ready before the workshop begins. Identify a small manageable chunk of writing to complete during the workshop. For example, I will work on paragraph 3 of my introduction. If I have extra time, I will begin on my methods.\nTurn off ALL distractions (no email or web browser, turn off phone, etc)\nFirst 5 minutes of workshop– everyone briefly introduces the work they hope to complete in the first 90 min of the workshop.\nSelect a person to keep the time– they will give a 5 minute warning before the end of the 90 minutes.\nWork on your section with videos on, and your sound muted. Stay focused on your one specific goal and avoid all distractions. Do not do anything that would distract the others from their work.\nAt 90 min mark, everyone briefly discuss how things went (if they had any obstacles). Take a 15 minute break\nEveryone briefly discuss what they will do for the final 60 min of the workshop (one manageable chunk of writing). Identify a person to keep the time. Work quietly (with videos on, sound muted) until the 5 minute warning is given.\nEveryone give a brief update on what they accomplished, how they feel about their work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here."
+  },
+  {
+    "objectID": "content/CoWorking.html#co-working-writers-workshop",
+    "href": "content/CoWorking.html#co-working-writers-workshop",
+    "title": "Co-Working",
+    "section": "",
+    "text": "Writers Workshop is a weekly co-working meeting where we work on our individual projects together. It is especially difficult to stay focused while writing, and these workshops provide a level of accountability that helps us move our writing forward.\nMeetings are virtual and typically 2-3 hours in length. You should have your materials ready before the workshop begins, so you can focus on your writing.\n\nHave all your materials ready before the workshop begins. Identify a small manageable chunk of writing to complete during the workshop. For example, I will work on paragraph 3 of my introduction. If I have extra time, I will begin on my methods.\nTurn off ALL distractions (no email or web browser, turn off phone, etc)\nFirst 5 minutes of workshop– everyone briefly introduces the work they hope to complete in the first 90 min of the workshop.\nSelect a person to keep the time– they will give a 5 minute warning before the end of the 90 minutes.\nWork on your section with videos on, and your sound muted. Stay focused on your one specific goal and avoid all distractions. Do not do anything that would distract the others from their work.\nAt 90 min mark, everyone briefly discuss how things went (if they had any obstacles). Take a 15 minute break\nEveryone briefly discuss what they will do for the final 60 min of the workshop (one manageable chunk of writing). Identify a person to keep the time. Work quietly (with videos on, sound muted) until the 5 minute warning is given.\nEveryone give a brief update on what they accomplished, how they feel about their work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here."
+  },
+  {
+    "objectID": "content/Writers-Workshop.html",
+    "href": "content/Writers-Workshop.html",
+    "title": "Writers Workshop",
+    "section": "",
+    "text": "Writers Workshop is a weekly co-working meeting where we work on our individual projects together. It is especially difficult to stay focused while writing, and these workshops provide a level of accountability that helps us move our writing forward.\nMeetings are virtual and typically 2-3 hours in length. You should have your materials ready before the workshop begins, so you can focus on your writing.\n\nHave all your materials ready before the workshop begins. Identify a small manageable chunk of writing to complete during the workshop. For example, I will work on paragraph 3 of my introduction. If I have extra time, I will begin on my methods.\nTurn off ALL distractions (no email or web browser, turn off phone, etc)\nFirst 5 minutes of workshop– everyone briefly introduces the work they hope to complete in the first 90 min of the workshop.\nSelect a person to keep the time– they will give a 5 minute warning before the end of the 90 minutes.\nWork on your section with videos on, and your sound muted. Stay focused on your one specific goal and avoid all distractions. Do not do anything that would distract the others from their work.\nAt 90 min mark, everyone briefly discuss how things went (if they had any obstacles). Take a 15 minute break\nEveryone briefly discuss what they will do for the final 60 min of the workshop (one manageable chunk of writing). Identify a person to keep the time. Work quietly (with videos on, sound muted) until the 5 minute warning is given.\nEveryone give a brief update on what they accomplished, how they feel about their work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here."
+  },
+  {
+    "objectID": "content/Writers-Workshop.html#writers-workshop",
+    "href": "content/Writers-Workshop.html#writers-workshop",
+    "title": "Writers Workshop",
+    "section": "",
+    "text": "Writers Workshop is a weekly co-working meeting where we work on our individual projects together. It is especially difficult to stay focused while writing, and these workshops provide a level of accountability that helps us move our writing forward.\nMeetings are virtual and typically 2-3 hours in length. You should have your materials ready before the workshop begins, so you can focus on your writing.\n\nHave all your materials ready before the workshop begins. Identify a small manageable chunk of writing to complete during the workshop. For example, I will work on paragraph 3 of my introduction. If I have extra time, I will begin on my methods.\nTurn off ALL distractions (no email or web browser, turn off phone, etc)\nFirst 5 minutes of workshop– everyone briefly introduces the work they hope to complete in the first 90 min of the workshop.\nSelect a person to keep the time– they will give a 5 minute warning before the end of the 90 minutes.\nWork on your section with videos on, and your sound muted. Stay focused on your one specific goal and avoid all distractions. Do not do anything that would distract the others from their work.\nAt 90 min mark, everyone briefly discuss how things went (if they had any obstacles). Take a 15 minute break\nEveryone briefly discuss what they will do for the final 60 min of the workshop (one manageable chunk of writing). Identify a person to keep the time. Work quietly (with videos on, sound muted) until the 5 minute warning is given.\nEveryone give a brief update on what they accomplished, how they feel about their work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here."
   },
   {
     "objectID": "content/publishing.html",
@@ -60,104 +161,205 @@
     "href": "content/code.html",
     "title": "Rendering with Code",
     "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326",
+    "crumbs": [
+      "Code in your files"
+    ]
   },
   {
     "objectID": "content/code.html#modify-the-github-action",
     "href": "content/code.html#modify-the-github-action",
     "title": "Rendering with Code",
     "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it.",
+    "crumbs": [
+      "Code in your files"
+    ]
   },
   {
     "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
     "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
     "title": "Rendering with Code",
     "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages",
+    "crumbs": [
+      "Code in your files"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NOAA quarto simple with R",
     "section": "",
-    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references."
+    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#github-set-up",
     "href": "index.html#github-set-up",
     "title": "NOAA quarto simple with R",
     "section": "GitHub Set-up",
-    "text": "GitHub Set-up\n\nClick the green “use template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nTurn on GitHub Actions under Settings &gt; Actions &gt; General \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url."
+    "text": "GitHub Set-up\n\nClick the green “use template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nTurn on GitHub Actions under Settings &gt; Actions &gt; General \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
-    "objectID": "content/rendering.html",
-    "href": "content/rendering.html",
-    "title": "Rendering",
+    "objectID": "content/Zotero.html",
+    "href": "content/Zotero.html",
+    "title": "Zotero",
     "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+    "text": "Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.\nGet started:\n\nLoad Zotero and create a login.\nCreate a browser plugin so that you can directly save google scholar citations to your online reference list.\nLink Rstudio to your Zotero library\n\nAdd to your Document:\n\nUse Zotero to download the csl file for the journal you want to use.\n\nGo to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).\nClick on the Cite menu. ...\nBelow the list of pre-installed styles, click the link for Get additional styles...\nSearch for your desired style in the provided search field.\nSelect the style you want to install.\n\nCSL: Citation Style Language\n\nUse Zotero to download the csl file for the journal you want to use.\n\nGo to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).\nClick on the Cite menu. ...\nBelow the list of pre-installed styles, click the link for Get additional styles...\nSearch for your desired style in the provided search field.\nSelect the style you want to install.\n\nAdd csl to your yaml\n--- title: “My Document” bibliography: references.bib csl: nature.csl ---\n\nAdd your references into the document\n\nInline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an ‘@’ symbol plus the citation identifier from the database. For example, [@wickham2015]\nBibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:\n### References\n\n\n\nFor more information, see Quarto Guide",
+    "crumbs": [
+      "Working with Zotero"
+    ]
   },
   {
-    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
-  },
-  {
-    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
-  },
-  {
-    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
-  },
-  {
-    "objectID": "content/add-content.html",
-    "href": "content/add-content.html",
-    "title": "Customize",
+    "objectID": "content/Zotero.html#zotero",
+    "href": "content/Zotero.html#zotero",
+    "title": "Zotero",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.\nGet started:\n\nLoad Zotero and create a login.\nCreate a browser plugin so that you can directly save google scholar citations to your online reference list.\nLink Rstudio to your Zotero library\n\nAdd to your Document:\n\nUse Zotero to download the csl file for the journal you want to use.\n\nGo to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).\nClick on the Cite menu. ...\nBelow the list of pre-installed styles, click the link for Get additional styles...\nSearch for your desired style in the provided search field.\nSelect the style you want to install.\n\nCSL: Citation Style Language\n\nUse Zotero to download the csl file for the journal you want to use.\n\nGo to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).\nClick on the Cite menu. ...\nBelow the list of pre-installed styles, click the link for Get additional styles...\nSearch for your desired style in the provided search field.\nSelect the style you want to install.\n\nAdd csl to your yaml\n--- title: “My Document” bibliography: references.bib csl: nature.csl ---\n\nAdd your references into the document\n\nInline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an ‘@’ symbol plus the citation identifier from the database. For example, [@wickham2015]\nBibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:\n### References\n\n\n\nFor more information, see Quarto Guide",
+    "crumbs": [
+      "Working with Zotero"
+    ]
   },
   {
-    "objectID": "content/add-content.html#edit-and-add-your-pages",
-    "href": "content/add-content.html#edit-and-add-your-pages",
-    "title": "Customize",
+    "objectID": "content/Research-Guide.html",
+    "href": "content/Research-Guide.html",
+    "title": "Research Guide",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "The purpose of this guide is to provide an approach to working on a research project that provides an efficient approach to collaborating with yourself (including your future self!) and other researchers. This guide follows our lab philosophy of Open and Reproducible Science.\n\nCreate a Github Repository for your research\n\nCreate Repository\nUse Github Desktop to clone to your local computer (store in Documents-&gt;Github)\nOpen project in RStudio (version 2022.07.2 build576 or later)\n\nCreate a draft manuscript to document your research (see Writing Guide in this lab manual).\nBe sure to document all changes to your research using the ‘commit’ documentation. Be detailed. Consider doing smaller changes/commits to keep track of things.\nCreate a project board in Github to identify tasks in your project (to do, doing, done!). Retain these for future review.\nUse Issues to document discussions, modifications, and workflow. Link Issues to tasks in your Project Board.\nWhen you reach milestones in your work (say a draft for author review), create a Version in Github. This will help future you go back in time to a previous version of your work.\n\nThings to remember as you work:\n\nDocument everything! Assume you are documenting every detail for someone who is absolutely new to your work and needs to follow your methods exactly. Your future self will thank you!\n\nFor additional information:\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here."
   },
   {
-    "objectID": "content/add-content.html#add-your-pages-the-project",
-    "href": "content/add-content.html#add-your-pages-the-project",
-    "title": "Customize",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "objectID": "content/Research-Guide.html#research-guide",
+    "href": "content/Research-Guide.html#research-guide",
+    "title": "Research Guide",
+    "section": "",
+    "text": "The purpose of this guide is to provide an approach to working on a research project that provides an efficient approach to collaborating with yourself (including your future self!) and other researchers. This guide follows our lab philosophy of Open and Reproducible Science.\n\nCreate a Github Repository for your research\n\nCreate Repository\nUse Github Desktop to clone to your local computer (store in Documents-&gt;Github)\nOpen project in RStudio (version 2022.07.2 build576 or later)\n\nCreate a draft manuscript to document your research (see Writing Guide in this lab manual).\nBe sure to document all changes to your research using the ‘commit’ documentation. Be detailed. Consider doing smaller changes/commits to keep track of things.\nCreate a project board in Github to identify tasks in your project (to do, doing, done!). Retain these for future review.\nUse Issues to document discussions, modifications, and workflow. Link Issues to tasks in your Project Board.\nWhen you reach milestones in your work (say a draft for author review), create a Version in Github. This will help future you go back in time to a previous version of your work.\n\nThings to remember as you work:\n\nDocument everything! Assume you are documenting every detail for someone who is absolutely new to your work and needs to follow your methods exactly. Your future self will thank you!\n\nFor additional information:\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here."
+  },
+  {
+    "objectID": "content/Writing-Guide.html",
+    "href": "content/Writing-Guide.html",
+    "title": "Writing Guide",
+    "section": "",
+    "text": "The purpose of this guide is to provide an approach to writing that parallels the path of your research to improve efficiency and allow for reproducible research.\n\nCreate a Github Repository for your research\n\nCreate Repository\nUse Github Desktop to clone to your local computer (store in Documents-&gt;Github)\nOpen project in RStudio (version 2022.07.2 build576 or later)\n\nCreate a draft manuscript using a preferred template in RStudio [This section is in progress-I am currently getting errors!]. Use the appropriate journal template (see here for more info); I will use elsevier for this example.\n\nRStudio –&gt; Terminal (bottom left)\nquarto use template quarto-journals/elsevier\nThis will install the extension and create an example qmd file and bibliography that you can use as a starting place for your paper.\nIn yaml at the top of the document, change the format according to the journal article template you wish to use.\n\n\nFor example:\n---\ntitle: \"My Awesome Paper\"\nauthor: \"Me\"\nformat: \n  pdf: default\n  elsevier-pdf:\n    keep-tex: true\n\neditor: visual\n---\nAs you work on your research, document relevant information in this manuscript (which can later be turned into a report, publication, thesis, etc). If for some reason you drop the project for a few years (ahem!), then you can return to this document to see where you left off.\n\nIntroduction: As you review literature, add relevant information to the appropriate paragraph in your introduction, and add citation to References. From the beginning, write in your own works (they need to be clear, but not necessarily well written yet!). If you copy words verbatim, then put in quotes and provide link to reference to be sure you know these are not your own words. The goal is to start putting down relevant information as you come across it– not to write pretty. You can clean up/edit at a later stage.\nReferences: Use Zotero for references (more later!). As you come across literature, put your references in Zotero and cite in your manuscript.\nMethods (Draft): For your initial draft manuscript, explicitly input your entire methods (in excruciating detail!) for future reference. Keep track of changes (and reasons for changes) using Issues in Github. Note to Self: We may want to create a separate RMarkdown for super-detailed methods (with version control?), and then cherry pick from this for our final paper methods.\nResults: Remember, results are just the facts!\nDiscussion: If results are the facts, the discussion can provide more information as to the WHY behind your results (and context!). There is (mostly) a strict demarcation between the two sections. Discussion is where the juicy bits go.\nAcknowledgements: As your research progresses, be sure to add people, funders, etc to your acknowledgements.\n\nThings to remember as you write:\n\nWriting is hard. Do not try to write the perfect words– instead, get the information down. It is much easier to write ideas and then edit them later to make them sound smart than it is to write it all down perfectly the first time.\nIdentify Co-authors: This can be tricky. Everyone approaches this a little differently, but these guidelines can serve as a reasonably standard approach. Discuss early on with your team and as you work with others on your project. If you use guidelines to make your co-author decisions, then this can help alleviate sticky situations related to co-authorship.\nBe consistent in EVERYTHING, including your approach to topics in the Intro/Methods/Results/Discussion.\nDo not use subheadings for each paragraph. If you use subheadings, make sure they are consistent across sections (methods, results, and possibly discussion).\nFollow the rules! (Authors guidelines for your journal)\nGet Help! Do not wait for the final draft before you share with others. Get help early on to minimize time wasted in re-doing work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here.\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here."
+  },
+  {
+    "objectID": "content/Writing-Guide.html#writing-guide",
+    "href": "content/Writing-Guide.html#writing-guide",
+    "title": "Writing Guide",
+    "section": "",
+    "text": "The purpose of this guide is to provide an approach to writing that parallels the path of your research to improve efficiency and allow for reproducible research.\n\nCreate a Github Repository for your research\n\nCreate Repository\nUse Github Desktop to clone to your local computer (store in Documents-&gt;Github)\nOpen project in RStudio (version 2022.07.2 build576 or later)\n\nCreate a draft manuscript using a preferred template in RStudio [This section is in progress-I am currently getting errors!]. Use the appropriate journal template (see here for more info); I will use elsevier for this example.\n\nRStudio –&gt; Terminal (bottom left)\nquarto use template quarto-journals/elsevier\nThis will install the extension and create an example qmd file and bibliography that you can use as a starting place for your paper.\nIn yaml at the top of the document, change the format according to the journal article template you wish to use.\n\n\nFor example:\n---\ntitle: \"My Awesome Paper\"\nauthor: \"Me\"\nformat: \n  pdf: default\n  elsevier-pdf:\n    keep-tex: true\n\neditor: visual\n---\nAs you work on your research, document relevant information in this manuscript (which can later be turned into a report, publication, thesis, etc). If for some reason you drop the project for a few years (ahem!), then you can return to this document to see where you left off.\n\nIntroduction: As you review literature, add relevant information to the appropriate paragraph in your introduction, and add citation to References. From the beginning, write in your own works (they need to be clear, but not necessarily well written yet!). If you copy words verbatim, then put in quotes and provide link to reference to be sure you know these are not your own words. The goal is to start putting down relevant information as you come across it– not to write pretty. You can clean up/edit at a later stage.\nReferences: Use Zotero for references (more later!). As you come across literature, put your references in Zotero and cite in your manuscript.\nMethods (Draft): For your initial draft manuscript, explicitly input your entire methods (in excruciating detail!) for future reference. Keep track of changes (and reasons for changes) using Issues in Github. Note to Self: We may want to create a separate RMarkdown for super-detailed methods (with version control?), and then cherry pick from this for our final paper methods.\nResults: Remember, results are just the facts!\nDiscussion: If results are the facts, the discussion can provide more information as to the WHY behind your results (and context!). There is (mostly) a strict demarcation between the two sections. Discussion is where the juicy bits go.\nAcknowledgements: As your research progresses, be sure to add people, funders, etc to your acknowledgements.\n\nThings to remember as you write:\n\nWriting is hard. Do not try to write the perfect words– instead, get the information down. It is much easier to write ideas and then edit them later to make them sound smart than it is to write it all down perfectly the first time.\nIdentify Co-authors: This can be tricky. Everyone approaches this a little differently, but these guidelines can serve as a reasonably standard approach. Discuss early on with your team and as you work with others on your project. If you use guidelines to make your co-author decisions, then this can help alleviate sticky situations related to co-authorship.\nBe consistent in EVERYTHING, including your approach to topics in the Intro/Methods/Results/Discussion.\nDo not use subheadings for each paragraph. If you use subheadings, make sure they are consistent across sections (methods, results, and possibly discussion).\nFollow the rules! (Authors guidelines for your journal)\nGet Help! Do not wait for the final draft before you share with others. Get help early on to minimize time wasted in re-doing work.\n\nFor additional information:\nWriting Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). https://doi.org/10.1002/bes2.1800\nDefining the Role of Authors and Contributors (ICMJE). Link here.\nA guide to getting published in Ecology and Evolution (BES). Link here.\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here."
+  },
+  {
+    "objectID": "content/GithubBook.html",
+    "href": "content/GithubBook.html",
+    "title": "Github Book",
+    "section": "",
+    "text": "You can create your own website that looks like a ‘book’ by copying an existing template in Github and editing it in RStudio.\n\nPrepare to do Great Things! Make sure you have gone through all the steps in the ‘Getting Started’ section of the Open Sciences chapter of this manual.\nCopy a template of Great Things!\nCopy an existing template to your own Github account. Go to NOAA Quarto Template and copy template to your Github Repository following the directions on the README.md. Give it an appropriate name and make sure it is PUBLIC.\nCopy to your desktop to make it a Greater Thing!\nUsing Github Desktop, Clone repository using URL (File-&gt; Clone Repository). Copy the URL of your repository site (the URL of your copy of the Great Things Repository on your github account), and save project to your Documents-&gt; Github folder (use defaults). See this Introduction to Git/Github tutorial for more help.\nUse RStudio to Modify Great Thing to make it Greater!\nIn RStudio, in the top right corner, select the project dropdown to Add New R Project from an Existing Project– and browse to select the appropriate folder in Documents-&gt; Github. Examine the documents:\n\nREADME.md\nThis is the README file that will appear on your repository page.\nindex.qmd\nThis will serve as your ‘home’ page for the web-book that is created\ncontents folder\nThis folder will contain the ‘pages’ (chapters) for your web-book\n_quarto.yml\nThis will define the layout of your web-book\n(Insert picture of Layout)\n\nModify README.md\nIf you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nModify and Rename files in Contents Folder\nEach of the existing qmd (Quarto) files in the contents folder have additional instructions to help you format your ‘book’ in Quarto. You may want to keep them, or you can always review the original template web-page for this information. Read the ‘Add Content’ page here to understand the minimal information you need for each of these pages in your contents folder.\nFor each page in your website (or chapter in your book), you will want to have a qmd file in this folder. You can open one of the existing qmd files and File-&gt; Save As and save it as another name. Retain the minimal information needed for your page (see the Add Contents page), and then add your content using either the source code or visual editor. Make sure you SAVE each file when you are finished!\nModify _quarto.yml file\nThe _quarto.yml file identifies the structure of the web-book. Make changes to the website (Title, site & repo URL), the Sidebar (link to your preferred logo, link the globe icon to your website and link the github icon to your github URL and rename both of these). Finally– you will want to identify the contents.\nThe contents are each of your chapters (or web- pages). Each chapter has two lines of information:\n\nhref: refers to the name of the relevant qmd file (located in the contents folder).\ntext: this is the text you will see on the sidebar of the web-book.\nThe first contents page (home page) will link to the index.qmd file (in the main folder). The others will be in the contents folder, and therefore their name should be ‘contents/filename.qmd’ (where filename is the name of that qmd file).\n\nRender & View the Web-book\nYou may want to render and view the web-book locally to be sure it is great.\nTo Render the document, open the index.qmd file (in the main folder) and click on the ‘Render’ icon near the top (to the right of the save button). Look in the Terminal (lower left section of RStudio) for any errors. Most errors may be due to typos or unsaved modifications. If you still have errors, save everything & reopen RStudio & run again. If you still have errors, go through file by file!\nTo view the rendered document, open the _site folder, click on the index.html and select ‘View in Web Browser’. Ensure that everything looks as you would expect. You may need to modify, render, view, repeat until it is good. Be sure your project is saved.\nCommit & Push to Github\nOpen Github Desktop and open your project (if it is not already opened). Github desktop will identify the changes you made. At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out your Great Things!"
+  },
+  {
+    "objectID": "content/GithubBook.html#github-book",
+    "href": "content/GithubBook.html#github-book",
+    "title": "Github Book",
+    "section": "",
+    "text": "You can create your own website that looks like a ‘book’ by copying an existing template in Github and editing it in RStudio.\n\nPrepare to do Great Things! Make sure you have gone through all the steps in the ‘Getting Started’ section of the Open Sciences chapter of this manual.\nCopy a template of Great Things!\nCopy an existing template to your own Github account. Go to NOAA Quarto Template and copy template to your Github Repository following the directions on the README.md. Give it an appropriate name and make sure it is PUBLIC.\nCopy to your desktop to make it a Greater Thing!\nUsing Github Desktop, Clone repository using URL (File-&gt; Clone Repository). Copy the URL of your repository site (the URL of your copy of the Great Things Repository on your github account), and save project to your Documents-&gt; Github folder (use defaults). See this Introduction to Git/Github tutorial for more help.\nUse RStudio to Modify Great Thing to make it Greater!\nIn RStudio, in the top right corner, select the project dropdown to Add New R Project from an Existing Project– and browse to select the appropriate folder in Documents-&gt; Github. Examine the documents:\n\nREADME.md\nThis is the README file that will appear on your repository page.\nindex.qmd\nThis will serve as your ‘home’ page for the web-book that is created\ncontents folder\nThis folder will contain the ‘pages’ (chapters) for your web-book\n_quarto.yml\nThis will define the layout of your web-book\n(Insert picture of Layout)\n\nModify README.md\nIf you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nModify and Rename files in Contents Folder\nEach of the existing qmd (Quarto) files in the contents folder have additional instructions to help you format your ‘book’ in Quarto. You may want to keep them, or you can always review the original template web-page for this information. Read the ‘Add Content’ page here to understand the minimal information you need for each of these pages in your contents folder.\nFor each page in your website (or chapter in your book), you will want to have a qmd file in this folder. You can open one of the existing qmd files and File-&gt; Save As and save it as another name. Retain the minimal information needed for your page (see the Add Contents page), and then add your content using either the source code or visual editor. Make sure you SAVE each file when you are finished!\nModify _quarto.yml file\nThe _quarto.yml file identifies the structure of the web-book. Make changes to the website (Title, site & repo URL), the Sidebar (link to your preferred logo, link the globe icon to your website and link the github icon to your github URL and rename both of these). Finally– you will want to identify the contents.\nThe contents are each of your chapters (or web- pages). Each chapter has two lines of information:\n\nhref: refers to the name of the relevant qmd file (located in the contents folder).\ntext: this is the text you will see on the sidebar of the web-book.\nThe first contents page (home page) will link to the index.qmd file (in the main folder). The others will be in the contents folder, and therefore their name should be ‘contents/filename.qmd’ (where filename is the name of that qmd file).\n\nRender & View the Web-book\nYou may want to render and view the web-book locally to be sure it is great.\nTo Render the document, open the index.qmd file (in the main folder) and click on the ‘Render’ icon near the top (to the right of the save button). Look in the Terminal (lower left section of RStudio) for any errors. Most errors may be due to typos or unsaved modifications. If you still have errors, save everything & reopen RStudio & run again. If you still have errors, go through file by file!\nTo view the rendered document, open the _site folder, click on the index.html and select ‘View in Web Browser’. Ensure that everything looks as you would expect. You may need to modify, render, view, repeat until it is good. Be sure your project is saved.\nCommit & Push to Github\nOpen Github Desktop and open your project (if it is not already opened). Github desktop will identify the changes you made. At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out your Great Things!"
   },
   {
     "objectID": "content/rmarkdown.html",
     "href": "content/rmarkdown.html",
     "title": "R Markdown",
     "section": "",
-    "text": "You can include R Markdown files in your project."
+    "text": "You can include R Markdown files in your project.",
+    "crumbs": [
+      "R Markdown files"
+    ]
   },
   {
     "objectID": "content/rmarkdown.html#r-markdown",
     "href": "content/rmarkdown.html#r-markdown",
     "title": "R Markdown",
     "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
+    "crumbs": [
+      "R Markdown files"
+    ]
   },
   {
     "objectID": "content/rmarkdown.html#including-plots",
     "href": "content/rmarkdown.html#including-plots",
     "title": "R Markdown",
     "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
+    "crumbs": [
+      "R Markdown files"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html",
+    "href": "content/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally.",
+    "crumbs": [
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto.",
+    "crumbs": [
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up.",
+    "crumbs": [
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”.",
+    "crumbs": [
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "content/Stack-Exchange.html",
+    "href": "content/Stack-Exchange.html",
+    "title": "Stack Exchange",
+    "section": "",
+    "text": "Stack Exchange is a publicly available crowd-sourced question and answer platform. Stack Exchange consists of many sites on different topics, including the original Stack Overflow (for programming questions), Biology, and even Bioacoustics. Here we provide you with a very brief introduction to Stack Exchange to help you use the platform effectively.\n\nRegister for Stack Exchange\nJoin relevant sites\nLearn how to search for questions\nLearn how to write a good question\nLearn how to write a good answer\n\nFor more information, see:"
+  },
+  {
+    "objectID": "content/Stack-Exchange.html#stack-exchange",
+    "href": "content/Stack-Exchange.html#stack-exchange",
+    "title": "Stack Exchange",
+    "section": "",
+    "text": "Stack Exchange is a publicly available crowd-sourced question and answer platform. Stack Exchange consists of many sites on different topics, including the original Stack Overflow (for programming questions), Biology, and even Bioacoustics. Here we provide you with a very brief introduction to Stack Exchange to help you use the platform effectively.\n\nRegister for Stack Exchange\nJoin relevant sites\nLearn how to search for questions\nLearn how to write a good question\nLearn how to write a good answer\n\nFor more information, see:"
   }
 ]

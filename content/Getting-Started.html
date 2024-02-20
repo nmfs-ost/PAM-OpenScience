@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Sciences for NOAA Fisheries PAM - R Markdown</title>
+<title>Open Sciences for NOAA Fisheries PAM - Getting Started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -63,8 +29,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/code.html" rel="next">
-<link href="../content/rendering.html" rel="prev">
+<link href="../content/Zotero.html" rel="next">
+<link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -117,7 +83,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/rmarkdown.html">R Markdown files</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Getting-Started.html">Getting Started with Open Science</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -154,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Getting-Started.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Getting-Started.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Getting Started with Open Science</span></a>
   </div>
 </li>
@@ -184,7 +150,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/rmarkdown.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/rmarkdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">R Markdown files</span></a>
   </div>
 </li>
@@ -210,17 +176,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link active" data-scroll-target="#r-markdown">R Markdown</a></li>
-  <li><a href="#including-plots" id="toc-including-plots" class="nav-link" data-scroll-target="#including-plots">Including Plots</a></li>
+  <li><a href="#getting-started-in-open-science" id="toc-getting-started-in-open-science" class="nav-link active" data-scroll-target="#getting-started-in-open-science">Getting Started in Open Science</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/Getting-Started.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/Getting-Started.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Markdown</h1>
+<h1 class="title">Getting Started</h1>
 </div>
 
 
@@ -237,37 +202,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>You can include R Markdown files in your project.</p>
-<section id="r-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="r-markdown">R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  </code></pre>
-</div>
-</div>
-</section>
-<section id="including-plots" class="level2">
-<h2 class="anchored" data-anchor-id="including-plots">Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="rmarkdown_files/figure-html/pressure-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<section id="getting-started-in-open-science" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started-in-open-science">Getting Started in Open Science</h2>
+<p>Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects</p>
+<ol type="1">
+<li><p>Embrace the Open Science Mindset! Learn more about this approach and why it matters at <a href="openscapes.org">Openscapes.org</a> and the <a href="https://openscapes.github.io/approach-guide/approach/">Openscapes Approach Guide</a>.</p></li>
+<li><p>Add Software Tools</p>
+<ol type="1">
+<li><p><a href="https://desktop.github.com/">Github Desktop</a></p></li>
+<li><p><a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio</a> (v2022.07.2 build 576 or later)</p></li>
+<li><p><a href="https://www.r-project.org/">R</a></p></li>
+<li><p>Create a <a href="https://github.com/">Github Login</a></p></li>
+</ol></li>
+<li><p>Create a Test Repository in Github (see help <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo">here</a>)</p></li>
+<li><p>Clone your Test Repository to your local computer using Github Desktop:</p>
+<ol type="1">
+<li><p>File -&gt; Clone Repository -&gt; URL</p></li>
+<li><p>Copy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See <a href="https://rverse-tutorials.github.io/PSAW-2022/">Introduction to Git/Github tutorial</a> for more help.</p></li>
+</ol></li>
+<li><p>Open project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.</p></li>
+<li><p>Modify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.</p></li>
+<li><p>Commit &amp; Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.</p></li>
+<li><p>Open your Github repository and check out the changes on your README at the bottom of the page!</p></li>
+<li><p>Adopt this process as your daily habit of working on your projects locally and saving your data to Github.</p></li>
+</ol>
+<p>For more information, see:</p>
+<p><a href="https://rverse-tutorials.github.io/PSAW-2022/">Introduction to Git/Github Tutorial</a> (Eli Holmes, NMFS)</p>
+<p><a href="https://youtu.be/eWxxfttcMts">Git for Humans</a> (Alice Bartlett)</p>
+<p><a href="https://happygitwithr.com/">Happy Git with R</a> (Jenny Bryan)</p>
 
 
 </section>
@@ -806,13 +768,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/rendering.html" class="pagination-link" aria-label="Rendering">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Rendering</span>
+      <a href="../index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/code.html" class="pagination-link" aria-label="Code in your files">
-        <span class="nav-page-text">Code in your files</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Zotero.html" class="pagination-link" aria-label="Working with Zotero">
+        <span class="nav-page-text">Working with Zotero</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -824,7 +786,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/Getting-Started.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/Getting-Started.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

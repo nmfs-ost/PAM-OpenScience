@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Sciences for NOAA Fisheries PAM - R Markdown</title>
+<title>Open Sciences for NOAA Fisheries PAM - Zotero</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -63,8 +48,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/code.html" rel="next">
-<link href="../content/rendering.html" rel="prev">
+<link href="../content/add-content.html" rel="next">
+<link href="../content/Getting-Started.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -117,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/rmarkdown.html">R Markdown files</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Zotero.html">Working with Zotero</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -160,7 +145,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Zotero.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Zotero.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Working with Zotero</span></a>
   </div>
 </li>
@@ -184,7 +169,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/rmarkdown.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/rmarkdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">R Markdown files</span></a>
   </div>
 </li>
@@ -210,17 +195,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link active" data-scroll-target="#r-markdown">R Markdown</a></li>
-  <li><a href="#including-plots" id="toc-including-plots" class="nav-link" data-scroll-target="#including-plots">Including Plots</a></li>
+  <li><a href="#zotero" id="toc-zotero" class="nav-link active" data-scroll-target="#zotero">Zotero</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/Zotero.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/Zotero.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Markdown</h1>
+<h1 class="title">Zotero</h1>
 </div>
 
 
@@ -237,37 +221,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>You can include R Markdown files in your project.</p>
-<section id="r-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="r-markdown">R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  </code></pre>
-</div>
-</div>
-</section>
-<section id="including-plots" class="level2">
-<h2 class="anchored" data-anchor-id="including-plots">Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="rmarkdown_files/figure-html/pressure-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<section id="zotero" class="level2">
+<h2 class="anchored" data-anchor-id="zotero">Zotero</h2>
+<p>Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.</p>
+<p>Get started:</p>
+<ol type="1">
+<li><p>Load <a href="https://www.zotero.org/">Zotero</a> and create a <a href="https://www.zotero.org/user/login/">login</a>.</p></li>
+<li><p>Create a <a href="https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en">browser plugin</a> so that you can directly save google scholar citations to your online reference list.</p></li>
+<li><p>Link Rstudio to your Zotero library</p></li>
+</ol>
+<p>Add to your Document:</p>
+<ol type="1">
+<li><p>Use Zotero to download the csl file for the journal you want to use.</p>
+<ul>
+<li><p>Go to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).</p></li>
+<li><p>Click on the Cite menu. ...</p></li>
+<li><p>Below the list of pre-installed styles, click the link for Get additional styles...</p></li>
+<li><p>Search for your desired style in the provided search field.</p></li>
+<li><p>Select the style you want to install.</p></li>
+</ul></li>
+<li><p>CSL: <a href="https://citationstyles.org/">Citation Style Language</a></p>
+<ol type="1">
+<li><p>Use Zotero to download the csl file for the journal you want to use.</p>
+<ul>
+<li><p>Go to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).</p></li>
+<li><p>Click on the Cite menu. ...</p></li>
+<li><p>Below the list of pre-installed styles, click the link for Get additional styles...</p></li>
+<li><p>Search for your desired style in the provided search field.</p></li>
+<li><p>Select the style you want to install.</p></li>
+</ul></li>
+<li><p>Add csl to your yaml</p>
+<p>--- title<strong>:</strong> “My Document” bibliography<strong>:</strong> references.bib csl<strong>:</strong> nature.csl ---</p></li>
+</ol></li>
+<li><p>Add your references into the document</p>
+<ol type="1">
+<li><p>Inline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an ‘@’ symbol plus the citation identifier from the database. For example, <span class="citation" data-cites="wickham2015">[@wickham2015]</span></p></li>
+<li><p>Bibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:</p>
+<p>### References</p>
+<div id="refs" role="list">
+
+</div></li>
+<li><p>For more information, see <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html">Quarto Guide</a></p></li>
+</ol></li>
+</ol>
 
 
 </section>
@@ -806,13 +802,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/rendering.html" class="pagination-link" aria-label="Rendering">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Rendering</span>
+      <a href="../content/Getting-Started.html" class="pagination-link" aria-label="Getting Started with Open Science">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Getting Started with Open Science</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/code.html" class="pagination-link" aria-label="Code in your files">
-        <span class="nav-page-text">Code in your files</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/add-content.html" class="pagination-link" aria-label="Add content">
+        <span class="nav-page-text">Add content</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -824,7 +820,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/Zotero.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/Zotero.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
