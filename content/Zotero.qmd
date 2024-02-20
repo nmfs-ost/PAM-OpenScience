@@ -20,9 +20,9 @@ Add to your Document:
 
     -   Go to the Zotero Preferences menu (Zotero \> Preferences on Mac, Edit \> Preferences on PC).
 
-    -   Click on the Cite menu. \...
+    -   Click on the Cite menu. ...
 
-    -   Below the list of pre-installed styles, click the link for Get additional styles\...
+    -   Below the list of pre-installed styles, click the link for Get additional styles...
 
     -   Search for your desired style in the provided search field.
 
@@ -34,9 +34,9 @@ Add to your Document:
 
         -   Go to the Zotero Preferences menu (Zotero \> Preferences on Mac, Edit \> Preferences on PC).
 
-        -   Click on the Cite menu. \...
+        -   Click on the Cite menu. ...
 
-        -   Below the list of pre-installed styles, click the link for Get additional styles\...
+        -   Below the list of pre-installed styles, click the link for Get additional styles...
 
         -   Search for your desired style in the provided search field.
 
@@ -44,11 +44,7 @@ Add to your Document:
 
     2.  Add csl to your yaml
 
-        \-\--
-        title**:** "My Document"
-        bibliography**:** references.bib
-        csl**:** nature.csl
-        \-\--
+        --- title**:** "My Document" bibliography**:** references.bib csl**:** nature.csl ---
 
 3.  Add your references into the document
 

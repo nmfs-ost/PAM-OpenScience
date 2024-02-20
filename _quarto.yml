@@ -4,7 +4,7 @@ project:
 website: 
   page-navigation: true
   title: "Open Sciences for NOAA Fisheries PAM" 
-  # site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
+  site-url: "https://sael-swfsc.github.io/OpenScience/" 
   repo-url: "https://github.com/SAEL-SWFSC/OpenScience"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
@@ -20,9 +20,9 @@ website:
     pinned: true
     align: center
     tools: 
-      # - icon: globe
-      #   href: https://nmfs-opensci.github.io
-        # text: "NMFS Open Science"
+      - icon: globe
+        href: https://sael-swfsc.github.io/OpenScience/
+        text: "PAM Open Science"
       - icon: github
         href: https://github.com/SAEL-SWFSC/OpenScience
         text: "SAEL Open Science"
@@ -33,22 +33,13 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/Getting-Started.qmd
-        text: Getting Started with Open Science
-      - href: content/Zotero.qmd
-        text: Working with Zotero
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
+      - href: content/PAM-SI-Mtg-Prep.qmd
+        text: Prep PAM SI Meeting
+      # - href: content/Zotero.qmd
+      #   text: Working with Zotero
+      # - href:
+      #   text:
+
 
 format:
   html:
