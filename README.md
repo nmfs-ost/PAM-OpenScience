@@ -4,10 +4,14 @@ This book serves as an informational repository on Open Science for scientists u
 
 This books is currently under construction.
 
-To Do:
+To Do:Screenshot of Build Error
 
--   Address build error:
+-   Create Repo for PAM-SI Meeting
 
-    ![Screenshot of Build Error](images/snip-01.JPG)
+    -   With Tech Memo Book Template
 
--   Intro page for Pre-Workshop Preparations (installations and possible how-to videos to watch)![]()
+    -   Add Attendees to Content, with example or two
+
+-   Revise OpenScience -\> Content –\> PAM-SI-Mtg-Prep.qmd document with links & screenshots
+
+-   Add 'Links for More information' page with links to Openscapes, tutorials, etc![]()
