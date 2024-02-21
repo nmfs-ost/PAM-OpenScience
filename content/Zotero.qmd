@@ -6,13 +6,43 @@ title: Zotero
 
 Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.
 
+### Shortcut for PAM-SI Meeting
+
 Get started:
 
 1.  Load [Zotero](https://www.zotero.org/) and create a [login](https://www.zotero.org/user/login/).
 
-2.  Create a [browser plugin](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en) so that you can directly save google scholar citations to your online reference list.
+2.  Join the NMFS-PAM Group
 
-3.  Link Rstudio to your Zotero library
+    ![](images/ZoteroGroups.JPG){width="300"}
+
+3.  Find your favorite publication and add it to the NMFS-PAM library
+
+    1.  Create a [browser plugin](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en) so that you can directly save google scholar citations to your online reference list.
+
+    2.  Add via Google Scholar
+
+        1.  Find article on Google Scholar, click on double quotes at bottom of citation
+
+        2.  Select 'RefMan' and OK to save to Zotero
+
+        3.  Add citation to the NMFS-PAM group
+
+4.  Update Bibliography for Meeting Report
+
+    1.  In Zotero, export library, replace the existing bibliography in the local folder
+
+    2.  Using Github Desktop, push changes back to Github
+
+5.  Insert Citation into text
+
+    1.  Find the appropriate document in the Repository, find the location within the document where you want to add the citation
+
+    2.  Start by writing @ symbol, which should pull up a list of bibliographic references. Search for yours, and select it.
+
+    3.  Using Github Desktop, push changes back to Github.
+
+### More Details...
 
 Add to your Document:
 
