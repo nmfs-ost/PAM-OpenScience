@@ -2,14 +2,16 @@
 title: Stack Exchange
 ---
 
-## Stack Exchange
+## Bioacoustics Stack Exchange
 
-Stack Exchange is a publicly available crowd-sourced question and answer platform. Stack Exchange consists of many sites on different topics, including the original Stack Overflow (for programming questions), Biology, and even Bioacoustics. Here we provide you with a very brief introduction to Stack Exchange to help you use the platform effectively.
+Stack Exchange is a publicly available crowd-sourced question and answer platform. Stack Exchange consists of many sites on different topics, including the original Stack Overflow (for programming questions), Biology, and even Bioacoustics. You can consider Stack Exchange as an Open Science platform for sharing ***knowledge***.
 
-1.  Register for Stack Exchange
-2.  Join relevant sites
-3.  Learn how to search for questions
-4.  Learn how to write a good question
-5.  Learn how to write a good answer
+The Bioacoustics Stack Exchange (BSE) is a question and answer site for people interested in the studies of non-human animal sounds and the impacts of sounds on animals. If you have a question- or if someone asks YOU a question– consider asking these questions here. This information is publicly available and archived– and new, updated information can be added in the future.
 
-For more information, see:
+1.  **Join:** [Register for Stack Exchange and join Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/users/signup?ssrc=hero&returnurl=https%3a%2f%2fbioacoustics.stackexchange.com%2f)
+2.  **Search:** Learn how to search for questions
+    1.  Go to BSE site: <https://bioacoustics.stackexchange.com/>
+    2.  Search for your topic of interest (top search bar), or look at Tags (left menu)
+3.  **Ask a Question:** Learn how to write a good question (see [here](https://stackoverflow.com/help/how-to-ask) and [here](https://stackoverflow.blog/2010/10/04/asking-better-questions/)). Be thoughtful and thorough in your question– provide enough information so that the readers know the context and the specific question (s) you have. Show your research (what did you do to try to answer the question yourself)? Poorly asked questions can lead to confusion and answers that may not be helpful. If you post a question– come back to find the answers. Did you get a complete answer? If so, accept the answer. Are you confused by the answer(s), then comment on those answers to clear that up.
+4.  **Answer a Question:** Learn how to write a good answer (see [here](https://meta.stackexchange.com/help/how-to-answer) and here). Answers should provide Answers. If you have a question or remark about the question– you can post a comment. Comments are considered temporary notes, while Answers are archived.
+5.  **Share what you learn!** Want to share your own knowledge? YES, it is ok to answer your own questions! See more [here](https://stackoverflow.blog/2011/07/01/its-ok-to-ask-and-answer-your-own-questions/).

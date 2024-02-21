@@ -2,7 +2,7 @@
 title: Prep for PAM-SI Meeting
 ---
 
-## Practice with Github for the PAM-SI Meeting
+## Preparation for the PAM-SI Meeting
 
 The tasks outlined below will help us practice working together with a shared Github Repository for the PAM-SI Meeting.
 
