@@ -38,7 +38,7 @@ Get started:
 
     1.  Find the appropriate document in the Repository, find the location within the document where you want to add the citation
 
-    2.  Start by writing @ symbol, which should pull up a list of bibliographic references. Search for yours, and select it.
+    2.  Start by writing \@ symbol, which should pull up a list of bibliographic references. Search for yours, and select it.
 
     3.  Using Github Desktop, push changes back to Github.
 
