@@ -39,7 +39,7 @@ website:
         text: Workshop Exercises
       - href: content/Zotero.qmd
         text: Working with Zotero
-      - href: Content/Stack-Exchange.qmd
+      - href: content/Stack-Exchange.qmd
         text: Bioacoustics Stack Exchange
 
       # - href:

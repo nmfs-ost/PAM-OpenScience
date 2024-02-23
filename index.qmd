@@ -3,8 +3,6 @@ title: "Open Science for NOAA Fisheries PAM"
 page-layout: full
 ---
 
-Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. This repository provides resources to help NOAA Fisheries Passive Acoustic Monitoring groups adopt an **Open Science** approach to their research. 
+Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. This repository provides resources to help NOAA Fisheries Passive Acoustic Monitoring groups adopt an **Open Science** approach to their research.
 
-Please follow the instructions in the PAM-SI Meeting Preparation (see left menu). 
-***These tasks must be completed prior to the meeting to ensure you are able to participate fully. ***
-
+Please follow the instructions in the PAM-SI Meeting Preparation (see left menu). ***These tasks must be completed prior to the meeting to ensure you are able to participate fully.***
