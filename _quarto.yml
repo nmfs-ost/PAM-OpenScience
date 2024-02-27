@@ -33,13 +33,16 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/PAM-SI-Mtg-Prep.qmd
-        text: Prep PAM SI Meeting
-      - href: content/PAM-SI-Mtg-Exercises.qmd
-        text: Workshop Exercises
+      - section: "Pre Meeting Prep"
         contents:
-        - content/PAM-SI-Exercises-IntroText.qmd
-        - content/PAM-SI-Exercises-
+        - content/PAM-SI-Mtg-Prep.qmd
+      - section: "Workshop Exercises"
+        contents:
+        - content/PAM-SI-Mtg-Exercises.qmd
+        - content/exercises/PAM-SI-Exercises-IntroText.qmd
+        - content/exercises/PAM-SI-Exercises-Authors.qmd
+        - content/exercises/PAM-SI-Exercises-Acknowledgements.qmd
+        - content/exercises/PAM-SI-Exercises-ListAttendees.qmd
       - href: content/Zotero.qmd
         text: Working with Zotero
       - href: content/Stack-Exchange.qmd

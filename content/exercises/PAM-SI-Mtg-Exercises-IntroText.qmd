@@ -1,12 +1,10 @@
 ---
-title: Prep for PAM-SI Meeting
+title: Intro Text
 ---
 
 ## Introduction Text
 
-***TO DO: Put copy of PAM-SI Proposal in repo folder, make sure repo formatting is good, expand on details, below (with screenshots)***
-
-***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor as well as adding images and formatting for 508 compliance.
+***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image.
 
 1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
 

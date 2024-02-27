@@ -32,17 +32,17 @@ We will create our Workshop Report using our meeting Github Repository (https://
 
 Exercise: We will all work together on one small part of the report to fill in some of the information we know we will need. Assignments will be posted on the Google Doc. Find your assignment, and follow the instructions, below. Use the Google Doc for notes, and Github to work on your part of the Report.
 
-1.  Introduction \[copy from the proposal as starter for Introduction\]. Then, make image 508 compliant.
+1.  Add Introduction Draft Text & Diagram
 
-2.  Authors
+2.  Add Authors
 
-3.  List of Attendees \[Names, emails, affiliations of everyone in the room– each person do part of the room\]
+3.  Add Acknowledgement Draft Text
 
-4.  Bibliography \[identify software, reports, and other documents we feel we will likely reference in this meeting. Add these to bibliography using Zotero, and update the report bibliography\]
+4.  List of Attendees
 
-5.  Acknowledgements \[Start a list of acknowledgements\]
+5.  Bibliography \[identify software, reports, and other documents we feel we will likely reference in this meeting. Add these to bibliography using Zotero, and update the report bibliography\]
 
-6.  Add new Chapters for our Report \[Make preliminary list from agenda, then give instructions with how to create a new qmd for that chapter, and how to link that to the \_quarto.yaml
+6.  Acknowledgements \[Start a list of acknowledgements\]
 
 7.  508 Compliance
 

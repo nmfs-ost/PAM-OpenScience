@@ -1,0 +1,59 @@
+---
+title: Acknowledgements Text
+---
+
+## Acknowledgement Text
+
+***Exercise:*** Insert preliminary text for the Report Acknowledgements based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor.
+
+1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
+
+    1.  Use Github Desktop to create a local repository
+
+    2.  Create an RStudio Project
+
+2.  View file/folder structure and open Intro file
+
+    1.  Open PAM-SI-Mtg-March2024 project in RStudio
+
+    2.  In lower right hand corner, select 'Files' tab
+
+    3.  Click on the 📁**text** folder to open
+
+    4.  Create a new quarto Document
+
+        1.  Blank File -\> Quarto Doc, Name "**Acknowledgements.qmd**"
+
+        2.  Open Acnkowledgements.qmd and set to Viewer Editor
+
+    5.  Request Information via Github
+
+        1.  Open PAM-SI-Mtg-March2024 repository in Github (online)
+
+        2.  Navigate to 'Discussions' tab, and then click on 🙏Q&A
+
+        3.  Click on 'New Discussion' with title "Request List of Acknowledgements' and ask everyone to list any acknowledgements, including people and institutions who helped make this meeting happen.
+
+    6.  Add draft text for Acknowledgements. Write draft acknowledgements including feedback from everyone. Include names of all participants (we can remove authors at a later time).
+
+    7.  Format **Acknowledgements.qmd**
+
+        1.  Place cursor at top of Intro.qmd page, and navigate to Visual Editor tool bar. Using the drop-down menu, change 'Normal' to 'Header 1'.
+
+        2.  Type 'Acknowledgements' at top of page.
+
+    8.  Link Acknowledgements.qmd to Report
+
+        1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'
+
+        2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
+
+        3.  In this position, write '- text/Acknowledgements.qmd' (be sure there is only one space between the - and the word 'text')
+
+    9.  Commit & Push to Github
+
+        1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
+
+        2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Acknowledgements" and in details, state "Added draft acknowledgements text".
+
+        3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
