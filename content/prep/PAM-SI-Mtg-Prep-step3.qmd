@@ -1,0 +1,26 @@
+---
+title: 3. Create Local Project
+---
+
+Once you have been accepted as a member of the PAM-SI-Mtg-March2024 respository, clone to your local computer and create an RStudio project for local work.
+
+3.  **Clone PAM-SI Meeting Repository to your local computer using Github Desktop:**
+
+    1.  Open Github Desktop on the computer you will be bringing to the workshop
+
+    2.  File -\> Clone Repository -\> URL
+
+    3.  Paste in the URL for the PAM-SI Meeting Repo (provide link here). Save to your Documents -\> Github folder using the defaults. *It is highly recommended that you save Github Repository/RStudio Projects to these default locations (and for these instructions, we assume you will!).* See [Introduction to Git/Github tutorial](https://rverse-tutorials.github.io/PSAW-2022/) for more help.
+
+4.  **Create/Open project in RStudio.**
+
+    1.  Open RStudio
+
+    2.  In the upper right hand corner of RStudio, select 'New Project' in the drop-down menu
+
+        ![](../images/rstudio-newProject.JPG){width="274"}
+
+    3.  Add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-\> Github. *Note: Anytime you want to navigate to this project in RStudio, you can select it from the dropdown in this top right corner. If you want to use a new computer, you will need to repeat the steps of cloning the repository using Github Desktop, then creating a new project in RStudio.*
+
+        ![](../images/Rstudio-CreatefromExistingDir.JPG){width="346"}
+

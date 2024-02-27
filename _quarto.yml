@@ -35,14 +35,21 @@ website:
         text: Home
       - section: "Pre Meeting Prep"
         contents:
-        - content/PAM-SI-Mtg-Prep.qmd
+        # - content/PAM-SI-Mtg-Prep.qmd
+        - content/prep/PAM-SI-Mtg-Prep-step1.qmd
+        - content/prep/PAM-SI-Mtg-Prep-step2.qmd
+        - content/prep/PAM-SI-Mtg-Prep-step3.qmd
+        - content/prep/PAM-SI-Mtg-Prep-step4.qmd
       - section: "Workshop Exercises"
         contents:
         - content/PAM-SI-Mtg-Exercises.qmd
-        - content/exercises/PAM-SI-Exercises-IntroText.qmd
-        - content/exercises/PAM-SI-Exercises-Authors.qmd
-        - content/exercises/PAM-SI-Exercises-Acknowledgements.qmd
-        - content/exercises/PAM-SI-Exercises-ListAttendees.qmd
+        - content/exercises/PAM-SI-Mtg-MeetingNotes.qmd
+        - content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd
+        - content/exercises/PAM-SI-Mtg-Exercises-Authors.qmd
+        - content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.qmd
+        - content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.qmd
+        - content/exercises/PAM-SI-Mtg-Exercises-References.qmd
+  
       - href: content/Zotero.qmd
         text: Working with Zotero
       - href: content/Stack-Exchange.qmd

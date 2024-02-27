@@ -1,30 +1,6 @@
 ---
-title: Prep for PAM-SI Meeting
+title: Workshop Exercises
 ---
-
-## Working Meeting Notes
-
-We will work as a team to work on meeting notes. After the meeting, the final meeting notes will be saved in the PAM-SI Meeting Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024)
-
-**Exercise:** Practice collaborating on meeting notes The purpose of this exercise is to get everyone involved in developing the meeting notes, and to engage in a few tips and tricks to make this process useful.
-
-1.  Open the Meeting Notes in Google Docs (put link here)
-
-2.  Tips for Team Google Docs
-
-    1.  Newer Information on Top! (so we don't have to scroll and scroll to get to new info!)
-
-    2.  If you like someone else's comment, put a +1 next to it (if there's already a +1, add another! +1 +1 +1)!!!
-
-    3.  Add Links, Screenshots, Emojis, etc
-
-    4.  During sessions, write notes, questions, comments in that section.
-
-    5.  Have a question but don't want to interrupt? Ask it there! Have an answer? Provide it! Does it turn into a discussion? Go for it! We want to pay attention, but we also want to engage on several levels. If appropriate, we can stop to bring a written question/discussion into the meeting. These online discussions can be through comment threads related to a specific topic, or can be in the notes. Ultimately– these will be cleaned up so that the relevant information is retained. We all participate in this evolution!
-
-    6.  Ultimately, we ALL share in meeting notes, so that all ideas, questions, comments, etc are included in the notes.
-
-3.  Share something you learned/read recently (include links, comment or +1 others, etc)
 
 ## Github Collaboration
 
@@ -40,9 +16,9 @@ Exercise: We will all work together on one small part of the report to fill in s
 
 4.  List of Attendees
 
-5.  Bibliography \[identify software, reports, and other documents we feel we will likely reference in this meeting. Add these to bibliography using Zotero, and update the report bibliography\]
+5.  Bibliography
 
-6.  Acknowledgements \[Start a list of acknowledgements\]
+6.  Acknowledgements
 
 7.  508 Compliance
 

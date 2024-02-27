@@ -1,0 +1,20 @@
+---
+title: 2. Request to Join Repository
+---
+
+
+
+2.  **Request to join the PAM-SI Meeting Repository**
+
+    1.  Go to the PAM-SI Meeting Github Repository (<https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024>)
+
+    2.  Create an Issue to request to join the repository.
+
+        1.  Select **⊙ Issue** (issue button) at the upper left, below the repository name, and to the right of the **\<\>Code** button
+
+        2.  Select New Issue (green button to right) - Title = "Add me to Repository", and in the Description, give your name, email, and Github name.
+
+        3.  click 'Submit New Issue'. I will add you to the repository as soon as I am able. Please ensure that you have your notifications set so that you will receive an email when you have been added, or when you are tagged in that repository.
+
+    3.  When you have been added to the repository, go to the next step
+
