@@ -37,6 +37,9 @@ website:
         text: Prep PAM SI Meeting
       - href: content/PAM-SI-Mtg-Exercises.qmd
         text: Workshop Exercises
+        contents:
+        - content/PAM-SI-Exercises-IntroText.qmd
+        - content/PAM-SI-Exercises-
       - href: content/Zotero.qmd
         text: Working with Zotero
       - href: content/Stack-Exchange.qmd

@@ -34,12 +34,16 @@ Exercise: We will all work together on one small part of the report to fill in s
 
 1.  Introduction \[copy from the proposal as starter for Introduction\]. Then, make image 508 compliant.
 
-2.  List of Attendees \[Names, emails, affiliations of everyone in the room– each person do part of the room\]
+2.  Authors
 
-3.  Bibliography \[identify software, reports, and other documents we feel we will likely reference in this meeting. Add these to bibliography using Zotero, and update the report bibliography\]
+3.  List of Attendees \[Names, emails, affiliations of everyone in the room– each person do part of the room\]
 
-4.  Acknowledgements \[Start a list of acknowledgements\]
+4.  Bibliography \[identify software, reports, and other documents we feel we will likely reference in this meeting. Add these to bibliography using Zotero, and update the report bibliography\]
 
-5.  Add new Chapters for our Report \[Make preliminary list from agenda, then give instructions with how to create a new qmd for that chapter, and how to link that to the \_quarto.yaml
+5.  Acknowledgements \[Start a list of acknowledgements\]
+
+6.  Add new Chapters for our Report \[Make preliminary list from agenda, then give instructions with how to create a new qmd for that chapter, and how to link that to the \_quarto.yaml
+
+7.  508 Compliance
 
 At end of exercise, make sure everyone pushes their information up to Github, then we will render the output and view results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we may want google docs for notes during any given session, but then one person summarize these notes into Github, and then others can edit/revise.

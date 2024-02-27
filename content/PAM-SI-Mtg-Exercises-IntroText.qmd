@@ -1,0 +1,61 @@
+---
+title: Prep for PAM-SI Meeting
+---
+
+## Introduction Text
+
+***TO DO: Put copy of PAM-SI Proposal in repo folder, make sure repo formatting is good, expand on details, below (with screenshots)***
+
+***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor as well as adding images and formatting for 508 compliance.
+
+1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
+
+    1.  Use Github Desktop to create a local repository
+
+    2.  Create an RStudio Project
+
+2.  View file/folder structure and open Intro file
+
+    1.  Open PAM-SI-Mtg-March2024 project in RStudio
+
+    2.  In lower right hand corner, select 'Files' tab
+
+    3.  Click on the 📁**text** folder to open
+
+    4.  Create a new quarto Document
+
+        1.  Blank File -\> Quarto Doc, Name "**Intro.qmd**"
+
+        2.  Open Intro.qmd and set to Viewer Editor
+
+    5.  Add text to Intro.qmd
+
+        1.  Navigate to 📁**docs** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx* and *PAM SI Vision Statement.docx*
+
+        2.  Copy the 'Background' paragraph from the *PAM SI Vision Statement.docx* and paste into the **Intro.qmd**
+
+        3.  Copy the 2nd sentence from 'Project Tasks & Key Activities' from the *PAM SI Proposal Revised Sept 18, 2023.docx* and paste as 2nd paragraph in **Intro.qmd**.
+
+    6.  Format **Intro.qmd**
+
+        1.  Place cursor at top of Intro.qmd page, and navigate to Visual Editor tool bar. Using the drop-down menu, change 'Normal' to 'Header 1'.
+
+        2.  Type 'Introduction' at top of page.
+
+        3.  Insert Picture below text by clicking on the picture icon on the toolbar. Navigate to the 'images' folder in the repository and select 'Proposal-Intro-Fig.jpg'. Provide the following caption: "Key Activities Identified by the Passive Acoustic Monitoring Strategic Initiative", and under 'Attributes' ID section, put 'Intro-diagram'.
+
+    7.  Link Intro.qmd to Report
+
+        1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'
+
+        2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
+
+        3.  In this position, write '- text/Intro.qmd' (be sure there is only one space between the - and the word 'text')
+
+    8.  Commit & Push to Github
+
+        1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
+
+        2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Intro" and in details, state "Added draft introduction text and diagram based on PAM-SI Vision and Proposal".
+
+        3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.

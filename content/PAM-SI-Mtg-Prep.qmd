@@ -13,7 +13,7 @@ The tasks outlined below will help us practice working together with a shared Gi
     1.  [Github Desktop](https://desktop.github.com/)
 
         -   Sign [User Agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) for more information)
-        - [SEFSC specific user agreement](https://drive.google.com/file/d/1HQBJFCa55inDFNdB-TEYkEw6h0rUPAG0/view)
+        -   [SEFSC specific user agreement](https://drive.google.com/file/d/1HQBJFCa55inDFNdB-TEYkEw6h0rUPAG0/view)
 
     2.  [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (v2022.07.2 build 576 or later)
 
