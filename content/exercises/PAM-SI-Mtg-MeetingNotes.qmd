@@ -4,11 +4,13 @@ title: Meeting Notes
 
 ## Working Meeting Notes
 
-We will work as a team to work on meeting notes. After the meeting, the final meeting notes will be saved in the PAM-SI Meeting Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024)
+We will work as a team to work on meeting notes. After the meeting, the final meeting notes will be saved in the [PAM-SI Meeting Repository](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024)
 
 ***CHANGE TO GITHUB DISCUSSION?***
 
-**Exercise:** Practice collaborating on meeting notes The purpose of this exercise is to get everyone involved in developing the meeting notes, and to engage in a few tips and tricks to make this process useful.
+***Exercise***
+
+Practice collaborating on meeting notes The purpose of this exercise is to get everyone involved in developing the meeting notes, and to engage in a few tips and tricks to make this process useful.
 
 1.  Open the Meeting Notes in Google Docs (put link here)
 
@@ -22,9 +24,8 @@ We will work as a team to work on meeting notes. After the meeting, the final me
 
     4.  During sessions, write notes, questions, comments in that section.
 
-    5.  Have a question but don't want to interrupt? Ask it there! Have an answer? Provide it! Does it turn into a discussion? Go for it! We want to pay attention, but we also want to engage on several levels. If appropriate, we can stop to bring a written question/discussion into the meeting. These online discussions can be through comment threads related to a specific topic, or can be in the notes. Ultimately– these will be cleaned up so that the relevant information is retained. We all participate in this evolution!
+    5.  Have a question but don't want to interrupt? Ask it there! Have an answer? Provide it! Does it turn into a discussion? Go for it! We want to pay attention, but we also want to engage on several levels. If appropriate, we can stop to bring a written question/discussion into the meeting. These online discussions can be through comment threads related to a specific topic, or can be in the notes. Ultimately-- these will be cleaned up so that the relevant information is retained. We all participate in this evolution!
 
     6.  Ultimately, we ALL share in meeting notes, so that all ideas, questions, comments, etc are included in the notes.
 
 3.  Share something you learned/read recently (include links, comment or +1 others, etc)
-

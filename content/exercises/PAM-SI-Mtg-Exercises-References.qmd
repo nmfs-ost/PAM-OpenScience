@@ -2,8 +2,6 @@
 title: References
 ---
 
-## References
-
 ***Exercise:*** Create a bibliography for the Report based on the shared group Zotero bibliography. ***Under Construction***
 
 Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.

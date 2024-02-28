@@ -6,7 +6,9 @@ title: Workshop Exercises
 
 We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024). By all working together, we can have the bulk of the report completed by the end of the workshop. *Many hands make light work.*
 
-Exercise: We will all work together on one small part of the report to fill in some of the information we know we will need. Assignments will be posted on the Google Doc. Find your assignment, and follow the instructions, below. Use the Google Doc for notes, and Github to work on your part of the Report.
+***Exercise:***
+
+We will all work together on one small part of the report to fill in some of the information we know we will need. Assignments will be posted on the Google Doc. Find your assignment, and follow the instructions, below. Use the Google Doc for notes, and Github to work on your part of the Report.
 
 1.  Add Introduction Draft Text & Diagram
 
@@ -22,4 +24,4 @@ Exercise: We will all work together on one small part of the report to fill in s
 
 7.  508 Compliance
 
-At end of exercise, make sure everyone pushes their information up to Github, then we will render the output and view results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we may want google docs for notes during any given session, but then one person summarize these notes into Github, and then others can edit/revise.
+At end of exercise, make sure everyone pushes their information up to Github, then we will render the output and view results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper-- we may want google docs for notes during any given session, but then one person summarize these notes into Github, and then others can edit/revise.

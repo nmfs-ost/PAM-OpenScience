@@ -4,50 +4,50 @@ title: Add Authors
 
 ***Exercise:*** Add preliminary authors to the report document. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor, and learning to work with yaml documents.
 
-1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
+### 1. Create a local project for the PAM-SI-Mtg-March2024 Github repository.
 
-    1.  Use Github Desktop to create a local repository
+1.  Use Github Desktop to create a local repository
 
-    2.  Create an RStudio Project
+2.  Create an RStudio Project
 
-2.  Find list of Authors
+### 2. Find list of Authors
 
-    1.  Navigate to 📁**info** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx*
+1.  Navigate to 📁**info** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx*
 
-    2.  The list of Primary authors is at the top of this document.
+2.  The list of Primary authors is at the top of this document.
 
-3.  Add Authors to yaml
+### 3. Add Authors to yaml
 
-    1.  Navigate to root directory (PAM-SI-Mtg-March2024 folder)
+1.  Navigate to root directory (PAM-SI-Mtg-March2024 folder)
 
-    2.  Open \_quarto.yaml file
+2.  Open \_quarto.yaml file
 
-    3.  Add Authors
+3.  Add Authors
 
-        1.  scroll down to section with 'author:' and look at the formatting. YAML files are extremely picky about formatting, including exact spacing of elements. It is best to copy a complete section and paste so that all indentations are exact. Do NOT use tab (only spaces) to move items.
+    1.  scroll down to section with 'author:' and look at the formatting. YAML files are extremely picky about formatting, including exact spacing of elements. It is best to copy a complete section and paste so that all indentations are exact. Do NOT use tab (only spaces) to move items.
 
-        2.  Add Authors. For each author, do the following:
+    2.  Add Authors. For each author, do the following:
 
-            1.  Add name (First Last, as in example on yaml)
+        1.  Add name (First Last, as in example on yaml)
 
-            2.  Add email (lookup or ask them)
+        2.  Add email (lookup or ask them)
 
-            3.  Add Affiliation info (lookup or ask them).
+        3.  Add Affiliation info (lookup or ask them).
 
-        3.  Check yaml formatting
+    3.  Check yaml formatting
 
-            1.  Open an online yaml checker ([yamlchecker.com](https://yamlchecker.com/) or [onlineyamltools.com](https://onlineyamltools.com/validate-yaml))
+        1.  Open an online yaml checker ([yamlchecker.com](https://yamlchecker.com/) or [onlineyamltools.com](https://onlineyamltools.com/validate-yaml))
 
-            2.  Copy/paste the yaml you wrote into the checker
+        2.  Copy/paste the yaml you wrote into the checker
 
-            3.  Identify/Address any errors
+        3.  Identify/Address any errors
 
-            4.  Repeat until yaml checker does not return any errors.
+        4.  Repeat until yaml checker does not return any errors.
 
-        4.  Commit & Push to Github
+    4.  Commit & Push to Github
 
-            1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
+        1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
 
-            2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Authors" and in details, state "Added authors and affiliations into the \_quarto.yml".
+        2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Authors" and in details, state "Added authors and affiliations into the \_quarto.yml".
 
-            3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
+        3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
