@@ -7,6 +7,8 @@ Open Science is a movement to make scientific research (including publications, 
 
 During the NOAA Fisheries PAM Strategic Meeting, we will work together using Open Science Methods. To prepare for a successful meeting, we request that you complete all "Pre Meeting Prep" Tasks prior to the meeting.
 
+## *Pre Meeting Tasks*
+
 ***These tasks must be completed prior to the meeting to ensure you are able to participate fully.***
 
 To Start:
@@ -23,7 +25,7 @@ To Start:
 
 -   Tasks 3 and 4 can be completed once you have permission. *See left menu for more info.*
 
-***IF YOU NEED HELP:***
+## *IF YOU NEED HELP*
 
 Submit an Issue on THIS repository requesting help:
 

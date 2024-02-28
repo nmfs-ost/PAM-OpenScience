@@ -4,15 +4,17 @@ title: 4. Update your Bio
 
 You can now test working on this project on your local computer and pushing changes to the shared repository. As an example, we'll ask everyone to add information about YOU.
 
-
-
 5.  **Modify Document *(Under Construction)***
 
-    1.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio (insert Screenshot)
+    1.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio
 
-    2.  In the newer RStudio, you can use the Quarto Visual Editor to modify documents. Please navigate to the 'Visual' editor (insert screenshot) to make modifications.
+        ![](/images/openingAttendeesDoc.png){width="536"}
 
-    3.  Add your name in BOLD, your affiliation in Italics, with a link to your lab or personal website, insert a picture of you, give a one sentence explanation of the work you do with NOAA Fisheries.
+    2.  In newer RStudio versions, you can use the Quarto Visual Editor to modify documents. Please navigate to the 'Visual' editor to make modifications.
+
+        ![](/images/visualEditor.png){width="539"}
+
+    3.  Add your name in BOLD, your affiliation in Italics, with a link to your lab or personal website, insert a picture of you, and give a one sentence explanation of the work you do with NOAA Fisheries.
 
     4.  Save the document
 
@@ -25,4 +27,3 @@ You can now test working on this project on your local computer and pushing chan
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
     ***We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!***
-
