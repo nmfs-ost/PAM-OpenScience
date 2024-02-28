@@ -225,13 +225,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction-text" id="toc-introduction-text" class="nav-link active" data-scroll-target="#introduction-text">Introduction Text</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -255,9 +249,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction-text" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-text">Introduction Text</h2>
-<p><strong><em>Exercise:</em></strong> Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image.</p>
+<p><strong><em>Exercise:</em></strong> Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image. Practice committing changes and pushing up to Github.</p>
 <ol type="1">
 <li><p>Create a local project for the PAM-SI-Mtg-March2024 Github repository.</p>
 <ol type="1">
@@ -268,15 +260,15 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Open PAM-SI-Mtg-March2024 project in RStudio</p></li>
 <li><p>In lower right hand corner, select ‘Files’ tab</p></li>
-<li><p>Click on the 📁<strong>text</strong> folder to open</p></li>
+<li><p>Click on the 📁<strong>content</strong> folder to open</p></li>
 <li><p>Create a new quarto Document</p>
 <ol type="1">
-<li><p>Blank File -&gt; Quarto Doc, Name “<strong>Intro.qmd</strong>”</p></li>
+<li><p>In ‘Files’ tab, select New Blank File -&gt; Quarto Doc, Name “<strong>Intro.qmd</strong>”</p></li>
 <li><p>Open Intro.qmd and set to Viewer Editor</p></li>
 </ol></li>
 <li><p>Add text to Intro.qmd</p>
 <ol type="1">
-<li><p>Navigate to 📁<strong>docs</strong> folder and Open <em>PAM SI Proposal Revised Sept 18, 2023.docx</em> and <em>PAM SI Vision Statement.docx</em></p></li>
+<li><p>Navigate to 📁<strong>info</strong> folder and Open <em>PAM SI Proposal Revised Sept 18, 2023.docx</em> and <em>PAM SI Vision Statement.docx</em></p></li>
 <li><p>Copy the ‘Background’ paragraph from the <em>PAM SI Vision Statement.docx</em> and paste into the <strong>Intro.qmd</strong></p></li>
 <li><p>Copy the 2nd sentence from ‘Project Tasks &amp; Key Activities’ from the <em>PAM SI Proposal Revised Sept 18, 2023.docx</em> and paste as 2nd paragraph in <strong>Intro.qmd</strong>.</p></li>
 </ol></li>
@@ -284,13 +276,16 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Place cursor at top of Intro.qmd page, and navigate to Visual Editor tool bar. Using the drop-down menu, change ‘Normal’ to ‘Header 1’.</p></li>
 <li><p>Type ‘Introduction’ at top of page.</p></li>
-<li><p>Insert Picture below text by clicking on the picture icon on the toolbar. Navigate to the ‘images’ folder in the repository and select ‘Proposal-Intro-Fig.jpg’. Provide the following caption: “Key Activities Identified by the Passive Acoustic Monitoring Strategic Initiative”, and under ‘Attributes’ ID section, put ‘Intro-diagram’.</p></li>
+<li><p>Insert Picture below text by clicking on the picture icon on the toolbar.</p>
+<ol type="1">
+<li>Navigate to the ‘images’ folder in the repository and select ‘Proposal-Intro-Fig.jpg’. Provide the following caption: “Key Activities Identified by the Passive Acoustic Monitoring Strategic Initiative”, and under ‘Attributes’ ID section, put ‘Intro-diagram’.</li>
+</ol></li>
 </ol></li>
 <li><p>Link Intro.qmd to Report</p>
 <ol type="1">
-<li><p>Open the _quarto.yaml in the root directory and scroll down to the ‘chapters’</p></li>
+<li><p>Open the _quarto.yaml in the root directory and scroll down to the ‘chapters’. Here you’ll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are <em>very</em> fussy about specific formatting.</p></li>
 <li><p>Put the cursor after the index.qmd and hit ‘enter’ (this will increase the chances that your entry is properly aligned).</p></li>
-<li><p>In this position, write ‘- text/Intro.qmd’ (be sure there is only one space between the - and the word ‘text’)</p></li>
+<li><p>In this position, write ‘- content/Intro.qmd’ (be sure there is only one space between the - and the word ‘content’)</p></li>
 </ol></li>
 <li><p>Commit &amp; Push to Github</p>
 <ol type="1">
@@ -302,7 +297,6 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -856,7 +850,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
