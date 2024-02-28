@@ -2,8 +2,6 @@
 title: List Attendees
 ---
 
-## List of Attendees Table
-
 ***Exercise:*** Insert List of Attendees Table for the Report. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add a table.
 
 1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
@@ -18,11 +16,11 @@ title: List Attendees
 
     2.  In lower right hand corner, select 'Files' tab
 
-    3.  Click on the 📁**text** folder to open
+    3.  Click on the 📁**content** folder to open
 
     4.  Create a new quarto Document
 
-        1.  Blank File -\> Quarto Doc, Name "**ListAttendees.qmd**"
+        1.  In 'Files' tab, select New Blank File -\> Quarto Doc, Name "**ListAttendees.qmd**"
 
         2.  Open ListAttendees.qmd and set to Viewer Editor
 
@@ -50,7 +48,7 @@ title: List Attendees
 
         2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
 
-        3.  In this position, write '- text/ListAttendees.qmd' (be sure there is only one space between the - and the word 'text')
+        3.  In this position, write '- content/ListAttendees.qmd' (be sure there is only one space between the - and the word 'content')
 
     8.  Commit & Push to Github
 

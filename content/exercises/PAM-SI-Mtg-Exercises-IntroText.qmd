@@ -2,9 +2,7 @@
 title: Intro Text
 ---
 
-## Introduction Text
-
-***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image.
+***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image. Practice committing changes and pushing up to Github.
 
 1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
 
@@ -18,17 +16,17 @@ title: Intro Text
 
     2.  In lower right hand corner, select 'Files' tab
 
-    3.  Click on the 📁**text** folder to open
+    3.  Click on the 📁**content** folder to open
 
     4.  Create a new quarto Document
 
-        1.  Blank File -\> Quarto Doc, Name "**Intro.qmd**"
+        1.  In 'Files' tab, select New Blank File -\> Quarto Doc, Name "**Intro.qmd**"
 
         2.  Open Intro.qmd and set to Viewer Editor
 
     5.  Add text to Intro.qmd
 
-        1.  Navigate to 📁**docs** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx* and *PAM SI Vision Statement.docx*
+        1.  Navigate to 📁**info** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx* and *PAM SI Vision Statement.docx*
 
         2.  Copy the 'Background' paragraph from the *PAM SI Vision Statement.docx* and paste into the **Intro.qmd**
 
@@ -40,15 +38,17 @@ title: Intro Text
 
         2.  Type 'Introduction' at top of page.
 
-        3.  Insert Picture below text by clicking on the picture icon on the toolbar. Navigate to the 'images' folder in the repository and select 'Proposal-Intro-Fig.jpg'. Provide the following caption: "Key Activities Identified by the Passive Acoustic Monitoring Strategic Initiative", and under 'Attributes' ID section, put 'Intro-diagram'.
+        3.  Insert Picture below text by clicking on the picture icon on the toolbar.
+
+            1.  Navigate to the 'images' folder in the repository and select 'Proposal-Intro-Fig.jpg'. Provide the following caption: "Key Activities Identified by the Passive Acoustic Monitoring Strategic Initiative", and under 'Attributes' ID section, put 'Intro-diagram'.
 
     7.  Link Intro.qmd to Report
 
-        1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'
+        1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
 
         2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
 
-        3.  In this position, write '- text/Intro.qmd' (be sure there is only one space between the - and the word 'text')
+        3.  In this position, write '- content/Intro.qmd' (be sure there is only one space between the - and the word 'content')
 
     8.  Commit & Push to Github
 

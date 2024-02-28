@@ -2,9 +2,7 @@
 title: Acknowledgements Text
 ---
 
-## Acknowledgement Text
-
-***Exercise:*** Insert preliminary text for the Report Acknowledgements based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor.
+***Exercise:*** Insert preliminary text for the Report Acknowledgements based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor. You'll also learn to use Github Discussions to query the workshop attendees. Practice committing changes and pushing up to Github.
 
 1.  Create a local project for the PAM-SI-Mtg-March2024 Github repository.
 
@@ -18,15 +16,15 @@ title: Acknowledgements Text
 
     2.  In lower right hand corner, select 'Files' tab
 
-    3.  Click on the 📁**text** folder to open
+    3.  Click on the 📁**content** folder to open
 
     4.  Create a new quarto Document
 
-        1.  Blank File -\> Quarto Doc, Name "**Acknowledgements.qmd**"
+        1.  In 'Files' tab, select New Blank File -\> Quarto Doc, Name "**Acknowledgements.qmd**"
 
         2.  Open Acnkowledgements.qmd and set to Viewer Editor
 
-    5.  Request Information via Github
+    5.  Request Information from team via Github
 
         1.  Open PAM-SI-Mtg-March2024 repository in Github (online)
 
@@ -34,7 +32,7 @@ title: Acknowledgements Text
 
         3.  Click on 'New Discussion' with title "Request List of Acknowledgements' and ask everyone to list any acknowledgements, including people and institutions who helped make this meeting happen.
 
-    6.  Add draft text for Acknowledgements. Write draft acknowledgements including feedback from everyone. Include names of all participants (we can remove authors at a later time).
+    6.  Add draft text for Acknowledgements. Write draft acknowledgements including feedback from everyone. Include names of ***all*** participants (we can remove authors at a later time).
 
     7.  Format **Acknowledgements.qmd**
 
@@ -44,11 +42,11 @@ title: Acknowledgements Text
 
     8.  Link Acknowledgements.qmd to Report
 
-        1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'
+        1.  Open the \_quarto.yml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
 
         2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
 
-        3.  In this position, write '- text/Acknowledgements.qmd' (be sure there is only one space between the - and the word 'text')
+        3.  In this position, write '- content/Acknowledgements.qmd' (be sure there is only one space between the - and the word 'content')
 
     9.  Commit & Push to Github
 

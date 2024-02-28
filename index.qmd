@@ -13,9 +13,8 @@ To Start:
 
 -   Click on the Pre Meeting Prep dropdown menu on the left Menu Bar.
 
-```{=html}
 <!-- -->
-```
+
 -   Tasks 1 and 2 can be completed first.
 
     -   Task 1 LOAD Software- Please load software onto the computer that you will be bringing with you to the meeting! *See left menu for more info.*
