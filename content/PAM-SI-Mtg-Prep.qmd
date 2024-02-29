@@ -59,7 +59,7 @@ The tasks outlined below will help us practice working together with a shared Gi
 
 5.  **Modify Document *(Under Construction)***
 
-    1.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio (insert Screenshot)
+    1.  In the lower right section of RStudio, navigate to 'Files' and open the 'Content' folder. Find and Open the 'AttendeeIntros.qmd' file in RStudio (insert Screenshot)
 
     2.  In the newer RStudio, you can use the Quarto Visual Editor to modify documents. Please navigate to the 'Visual' editor (insert screenshot) to make modifications.
 
