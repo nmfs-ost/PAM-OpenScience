@@ -76,11 +76,3 @@ The tasks outlined below will help us practice working together with a shared Gi
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
     ***We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!***
-
-For more information, see:
-
-[Introduction to Git/Github Tutorial](https://rverse-tutorials.github.io/PSAW-2022/) (Eli Holmes, NMFS)
-
-[Git for Humans](https://youtu.be/eWxxfttcMts) (Alice Bartlett)
-
-[Happy Git with R](https://happygitwithr.com/) (Jenny Bryan)

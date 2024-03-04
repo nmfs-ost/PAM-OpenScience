@@ -27,3 +27,5 @@ You can now test working on this project on your local computer and pushing chan
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
     ***We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!***
+    
+    *Note: In case you are wondering why this does not render to html– note that it is currently set to render to docx (in docs folder), and we are working on rendering to html.*

@@ -54,7 +54,8 @@ website:
         text: Working with Zotero
       - href: content/Stack-Exchange.qmd
         text: Bioacoustics Stack Exchange
-
+      - href: content/resources.qmd
+        text: Resources
       # - href:
       #   text:
 
