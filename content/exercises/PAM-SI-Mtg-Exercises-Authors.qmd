@@ -2,21 +2,17 @@
 title: Add Authors
 ---
 
-***Exercise:*** Add preliminary authors to the report document. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor, and learning to work with yaml documents.
+***Exercise:*** Add preliminary authors to the report document.
 
-### 1. Create a local project for the PAM-SI-Mtg-March2024 Github repository.
+#### Before you start.... do you have a local RStudio project for PAM-SI-Mtg-March2024? If not, follow instructions in Pre-Meeting Tasks [here](https://sael-swfsc.github.io/OpenScience/).
 
-1.  Use Github Desktop to create a local repository
-
-2.  Create an RStudio Project
-
-### 2. Find list of Authors
+### Find list of Authors
 
 1.  Navigate to 📁**info** folder and Open *PAM SI Proposal Revised Sept 18, 2023.docx*
 
 2.  The list of Primary authors is at the top of this document.
 
-### 3. Add Authors to yaml
+### Add Authors to yaml
 
 1.  Navigate to root directory (PAM-SI-Mtg-March2024 folder)
 
@@ -51,3 +47,5 @@ title: Add Authors
         2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Authors" and in details, state "Added authors and affiliations into the \_quarto.yml".
 
         3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
+
+    5.  Open associated Github Issue [here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/10), and make sure you've completed all tasks

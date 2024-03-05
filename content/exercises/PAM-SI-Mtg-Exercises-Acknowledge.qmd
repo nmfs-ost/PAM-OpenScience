@@ -2,21 +2,23 @@
 title: Acknowledgements Text
 ---
 
-***Exercise:*** Insert preliminary text for the Report Acknowledgements based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor. You'll also learn to use Github Discussions to query the workshop attendees. Practice committing changes and pushing up to Github.
+***Exercise:*** Insert preliminary text for the Report Acknowledgements.
 
-### 1. Create a local project for the PAM-SI-Mtg-March2024 Github repository
+### Before you start.... do you have a local RStudio project for PAM-SI-Mtg-March2024? If not, follow instructions in Pre-Meeting Tasks [here](https://sael-swfsc.github.io/OpenScience/).
 
-1.  Use Github Desktop to create a local repository
+### Query Attendees using Github Discussions
 
-2.  Create an RStudio Project
+1.  Go to PAM-SI-Mtg-March2024 Github Repository and Navigate to Discussions ([here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/discussions)).
 
-### 2. Create Acknowledgements file 
+2.  Click on 🙏Q&A, click on 'New Discussion' with title "Request List of Acknowledgements' and ask everyone to list any acknowledgements, including people and institutions who helped make this meeting happen.
+
+### Create Acknowledgements file
 
 1.  Open PAM-SI-Mtg-March2024 project in RStudio
 
 2.  In lower right hand corner, select 'Files' tab
 
-3.  Click on the 📁**content** folder to open
+3.  Click on the 📁**text** folder to open
 
 4.  Create a new quarto Document
 
@@ -24,17 +26,11 @@ title: Acknowledgements Text
 
     2.  Open Acknowledgements.qmd and set to Visual Editor
 
-### 2. Edit Acknowledgements file 
+### Edit Acknowledgements file
 
-1.  Request Information from team via Github
+1.  Add draft text for Acknowledgements based on feedback from everyone.
 
-    1.  Open PAM-SI-Mtg-March2024 repository in Github (online)
-
-    2.  Navigate to 'Discussions' tab, and then click on 🙏Q&A
-
-    3.  Click on 'New Discussion' with title "Request List of Acknowledgements' and ask everyone to list any acknowledgements, including people and institutions who helped make this meeting happen.
-
-2.  Add draft text for Acknowledgements. Write draft acknowledgements including feedback from everyone. Include names of ***all*** participants (we can remove authors at a later time).
+2.  Include names of ***all*** participants (we can remove authors at a later time).
 
 3.  Format **Acknowledgements.qmd**
 
@@ -57,3 +53,5 @@ title: Acknowledgements Text
     2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Acknowledgements" and in details, state "Added draft acknowledgements text".
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
+
+6.  Open associated Github Issue [here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/11), and make sure you've completed all tasks
