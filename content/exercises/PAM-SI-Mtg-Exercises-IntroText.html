@@ -235,8 +235,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#create-a-local-project-for-the-pam-si-mtg-march2024-github-repository" id="toc-create-a-local-project-for-the-pam-si-mtg-march2024-github-repository" class="nav-link active" data-scroll-target="#create-a-local-project-for-the-pam-si-mtg-march2024-github-repository">1. Create a local project for the PAM-SI-Mtg-March2024 Github repository</a></li>
-  <li><a href="#create-and-edit-intro-file" id="toc-create-and-edit-intro-file" class="nav-link" data-scroll-target="#create-and-edit-intro-file">2. Create and edit intro file</a></li>
+  <li><a href="#create-and-edit-intro-file" id="toc-create-and-edit-intro-file" class="nav-link active" data-scroll-target="#create-and-edit-intro-file">Create and edit intro file</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -262,24 +261,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong><em>Exercise:</em></strong> Insert preliminary text for the Report Introduction based on the PAM-SI Proposal. Skills include navigating the Meeting Repository (files/folders), working with Quarto visual editor to add text and an image. Practice committing changes and pushing up to Github.</p>
-<section id="create-a-local-project-for-the-pam-si-mtg-march2024-github-repository" class="level3">
-<h3 class="anchored" data-anchor-id="create-a-local-project-for-the-pam-si-mtg-march2024-github-repository">1. Create a local project for the PAM-SI-Mtg-March2024 Github repository</h3>
-<ol type="1">
-<li>Use Github Desktop to create a local repository</li>
-<li>Create an RStudio Project</li>
-</ol>
+<p><strong><em>Exercise:</em></strong> Insert preliminary text for the Report Introduction based on the PAM-SI Proposal.</p>
+<section id="before-you-start.-do-you-have-a-local-rstudio-project-for-pam-si-mtg-march2024-if-not-follow-instructions-in-pre-meeting-tasks-here." class="level4">
+<h4 class="anchored" data-anchor-id="before-you-start.-do-you-have-a-local-rstudio-project-for-pam-si-mtg-march2024-if-not-follow-instructions-in-pre-meeting-tasks-here.">Before you start…. do you have a local RStudio project for PAM-SI-Mtg-March2024? If not, follow instructions in Pre-Meeting Tasks <a href="https://sael-swfsc.github.io/OpenScience/">here</a>.</h4>
 </section>
 <section id="create-and-edit-intro-file" class="level3">
-<h3 class="anchored" data-anchor-id="create-and-edit-intro-file">2. Create and edit intro file</h3>
+<h3 class="anchored" data-anchor-id="create-and-edit-intro-file">Create and edit intro file</h3>
 <ol type="1">
 <li><p>Open PAM-SI-Mtg-March2024 project in RStudio</p></li>
 <li><p>In lower right hand corner, select ‘Files’ tab</p></li>
-<li><p>Click on the 📁<strong>content</strong> folder to open</p></li>
+<li><p>Click on the 📁<strong>text</strong> folder to open</p></li>
 <li><p>Create a new quarto Document</p>
 <ol type="1">
 <li><p>In ‘Files’ tab, select New Blank File -&gt; Quarto Doc, Name “<strong>Intro.qmd</strong>”</p></li>
-<li><p>Open Intro.qmd and set to Visual Editor</p></li>
+<li><p>Open Intro.qmd and view using the Visual Editor</p></li>
 </ol></li>
 <li><p>Add text to Intro.qmd</p>
 <ol type="1">
@@ -300,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Open the _quarto.yaml in the root directory and scroll down to the ‘chapters’. Here you’ll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are <em>very</em> fussy about specific formatting.</p></li>
 <li><p>Put the cursor after the index.qmd and hit ‘enter’ (this will increase the chances that your entry is properly aligned).</p></li>
-<li><p>In this position, write ‘- content/Intro.qmd’ (be sure there is only one space between the - and the word ‘content’)</p></li>
+<li><p>In this position, write ‘- text/Intro.qmd’ (be sure there is only one space between the - and the word ‘content’)</p></li>
 </ol></li>
 <li><p>Commit &amp; Push to Github</p>
 <ol type="1">
@@ -308,6 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>At the bottom left, describe the modifications you made to the document, and then select ‘commit’. For example, you may want to write “Add Intro” and in details, state “Added draft introduction text and diagram based on PAM-SI Vision and Proposal”.</p></li>
 <li><p>Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.</p></li>
 </ol></li>
+<li><p>Open associated Github Issue <a href="https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/9">here</a>, and make sure you’ve completed all tasks</p></li>
 </ol>
 
 
