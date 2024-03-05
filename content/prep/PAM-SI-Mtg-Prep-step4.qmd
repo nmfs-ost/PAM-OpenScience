@@ -6,7 +6,7 @@ You can now test working on this project on your local computer and pushing chan
 
 5.  **Modify Document *(Under Construction)***
 
-    1.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'Attendees.qmd' file in RStudio
+    1.  In the lower right section of RStudio, navigate to 'Files' and 'Content'. Find and Open the 'AttendeeIntros.qmd' file in RStudio
 
         ![](/images/openingAttendeesDoc.png){width="536"}
 
@@ -14,18 +14,32 @@ You can now test working on this project on your local computer and pushing chan
 
         ![](/images/visualEditor.png){width="539"}
 
-    3.  Add your name in BOLD, your affiliation in Italics, with a link to your lab or personal website, insert a picture of you, and give a one sentence explanation of the work you do with NOAA Fisheries.
+    3.  Select a picture of yourself to insert. You can either save the URL of an online image, or save a copy of the image to the following folder: PAM-SI-Mtg-March2024/text/images.
 
-    4.  Save the document
+        1.  Click on the Picture Icon in the Visual Editor Toolbar
+
+            ![](images/addPic.png){width="413"}
+
+        2.  Provide the URL or browse to your saved image
+
+    4.  Select ***'Header 3'*** in Toolbar dropdown (default is 'Normal'), then Type your Name and Institution and put your Institution in Italics (select and use the Italics button in toolbar). Put a link to your Institution or personal website using the 🔗 link button in the toolbar.
+
+    5.  On the next line, type a few sentences about yourself.
+
+    6.  Save the document
 
 6.  **Commit & Push to Github.**
 
     1.  Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).
 
-    2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Bio" with details "Added my bio to Attendees.qmd for pre-meeting preparation"
+    2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Bio" with details "Added my bio to AttendeeIntros.qmd for pre-meeting preparation"
+
+        ![](images/commit.JPG)
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
+        ![](images/PushOrigin.JPG)
+
     ***We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!***
-    
+
     *Note: In case you are wondering why this does not render to html– note that it is currently set to render to docx (in docs folder), and we are working on rendering to html.*
