@@ -2,122 +2,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/index.html</loc>
-    <lastmod>2024-03-06T14:49:15.965Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.946Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/CoWorking.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/PAM-SI-Mtg-Prep.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
   </url>
   <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-StockAssess.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
   </url>
   <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-IntroText.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-MeetingNotes.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step3.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step4.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/Writing-Guide.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/Research-Guide.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/acknowledgements.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/Getting-Started.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/rmarkdown.html</loc>
-    <lastmod>2024-03-06T14:49:15.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/customizing.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/publishing.html</loc>
-    <lastmod>2024-03-06T14:49:15.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/resources.html</loc>
-    <lastmod>2024-03-06T14:49:15.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/Zotero.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/PAM-SI-Mtg-Exercises.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/code.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/add-content.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/rendering.html</loc>
-    <lastmod>2024-03-06T14:49:15.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step2.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step1.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Authors.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Soundscape.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-References.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Github.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Climate.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-MeetingNotes.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-NCEI.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-template.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step1.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step2.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/rendering.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/add-content.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/code.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/PAM-SI-Mtg-Exercises.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/Zotero.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/resources.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/publishing.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/customizing.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/rmarkdown.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/Getting-Started.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/acknowledgements.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/Research-Guide.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/Writing-Guide.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step4.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step3.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Management.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Authors.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Detection.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.html</loc>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-IntroText.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Cloud.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.html</loc>
+    <lastmod>2024-03-06T19:30:45.942Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/GithubBook.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/Writers-Workshop.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/OpenScience/content/Presentations.html</loc>
-    <lastmod>2024-03-06T14:49:15.961Z</lastmod>
+    <lastmod>2024-03-06T19:30:45.938Z</lastmod>
   </url>
 </urlset>
