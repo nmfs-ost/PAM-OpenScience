@@ -14,7 +14,7 @@
     "href": "index.html#pre-meeting-tasks",
     "title": "Open Science for NOAA Fisheries PAM",
     "section": "Pre Meeting Tasks",
-    "text": "Pre Meeting Tasks\nThese tasks must be completed prior to the meeting to ensure you are able to participate fully.\nTo Start:\n\nClick on the Pre Meeting Prep dropdown menu on the left Menu Bar.\n\n\n\nTasks 1 and 2 can be completed first.\n\nTask 1 LOAD Software- Please load software onto the computer that you will be bringing with you to the meeting! See left menu for more info.\nTask 2 Create a Github Account and request permission to join our Meeting Repository. See left menu for more info.\n\nTasks 3 and 4 can be completed once you have permission. See left menu for more info.",
+    "text": "Pre Meeting Tasks\nThese tasks must be completed prior to the meeting to ensure you are able to participate fully.\nTo Start:\n\nClick on the Pre Meeting Prep dropdown menu on the left Menu Bar.\n\n\n\nTasks 1 and 2 can be completed first.\n\nTask 1 Load Software - Please load software onto the computer that you will be bringing with you to the meeting! See left menu for more info.\nTask 2 Request to Join Repository - Create a Github Account and request permission to join our Meeting Repository. See left menu for more info.\n\nTasks 3 and 4 can be completed once you have permission.\n\nTask 3 Create Local Project - Clone the PAM-SI meeting repository to your local computer and open a project in RStudio. See left menu for more info.\nTask 4 Update Your Bio - Add an introduction to the Attendees file and commit/push your changes to GitHub. See left menu for more info.",
     "crumbs": [
       "Home"
     ]
