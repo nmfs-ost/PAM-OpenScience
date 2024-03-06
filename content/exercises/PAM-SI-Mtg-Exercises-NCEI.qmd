@@ -1,0 +1,39 @@
+---
+title: NCEI Section
+---
+
+***Exercise:*** Insert preliminary text for the Report Introduction based on the PAM-SI Proposal.
+
+#### Before you start.... do you have a local RStudio project for PAM-SI-Mtg-March2024? If not, follow instructions in Pre-Meeting Tasks [here](https://sael-swfsc.github.io/OpenScience/).
+
+### Create and edit intro file
+
+1.  Open PAM-SI-Mtg-March2024 project in RStudio
+
+2.  In lower right hand corner, select 'Files' tab
+
+3.  Click on the 📁**text** folder to open
+
+4.  Create a new quarto Document
+
+    1.  In 'Files' tab, click on box to left of "**PAM-SI-Mtg-Exercises-template.qmd**"
+
+    2.  Click on ⚙️**More** dropdown, then select **Copy** and save as "**PAM-SI-Mtg-Exercises-NCEI.qmd**"
+
+5.  Link **PAM-SI-Mtg-Exercises-NCEI.qmd** to Report
+
+    1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
+
+    2.  Put the cursor after the index.qmd and hit 'enter' (this will increase the chances that your entry is properly aligned).
+
+    3.  In this position, write '- text/PAM-SI-Mtg-Exercises-NCEI.qmd' (be sure there is only one space between the - and the word 'content')
+
+6.  Commit & Push to Github
+
+    1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
+
+    2.  At the bottom left, describe the modifications you made to the document, and then select 'commit'. For example, you may want to write "Add Intro" and in details, state "Added draft introduction text and diagram based on PAM-SI Vision and Proposal".
+
+    3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
+
+7.  Open associated Github Issue [here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/9), and make sure you've completed all tasks
