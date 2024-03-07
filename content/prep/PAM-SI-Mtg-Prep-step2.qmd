@@ -10,20 +10,10 @@ title: 2. Request to Join Repository
 
         1.  Select **⊙ Issue** (issue button) at the upper left, below the repository name, and to the right of the **\<\>Code** button
 
-        2.  Select New Issue (green button to right) - Title = "Add me to Repository", and in the Description, give your name, email, and Github name.
+        2.  Select New Issue (green button to right) - Title = "Add me to Repository", and in the Description, give your name, email, Github name, and add '\@shannonrankin, @rebecca-vanhoeck, and @Kourtney-Burger' to notify one of us to add you
 
-        3.  On the right hand side, click on the gear icon next to Assignees and assign Shannon Rankin (shannonrankin), Kourtney Burger (Kourtney-Burger), and Rebecca Van Hoeck (rebecca-vanhoeck)
+        3.  Click 'Submit New Issue'
 
-            ![](images/IssueAssignees.png)
-
-        4.  Click on the gear icon next to Projects and select 'PAM-SI-Mtg-March2024'
-
-            ![](images/pickProject.png)
-
-        5.  Click 'Submit New Issue'
-
-        6.  On the right hand side under Projects set the Status to Todo
-
-        7.  I will add you to the repository as soon as I am able. Please ensure that you have your notifications set so that you will receive an email when you have been added, or when you are tagged in that repository.
+        4.  I will add you to the repository as soon as I am able. Please ensure that you have your notifications set so that you will receive an email when you have been added, or when you are tagged in that repository.
 
     3.  When you have been added to the repository, go to the next step
