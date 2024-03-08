@@ -29,7 +29,7 @@ title: List Attendees
     2.  Fill out the table with the names, Affiliations, and Emails for all attendees, like the example below. You can find this information in the 'AttendeesIntros.qmd' file created during the pre-meeting preparation (PAM-SI-Mtg-March2024/AttendeesIntros.qmd)
 
         | Name           | Affiliation                        | Email                    |
-        |------------------|-------------------------------|-----------------------|
+        |----------------|------------------------------------|--------------------------|
         | Shannon Rankin | Southwest Fisheries Science Center | shannon.rankin\@noaa.gov |
         |                |                                    |                          |
         |                |                                    |                          |

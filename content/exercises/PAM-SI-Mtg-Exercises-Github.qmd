@@ -20,7 +20,13 @@ title: Github Section
 
     2.  Click on ⚙️**More** dropdown, then select **Copy** and save as "**PAM-SI-Mtg-Exercises-Github.qmd**"
 
-5.  Modify document
+5.  Insert Table for Tools/Software/Detectors to consider
+
+    1.  Insert Table: In Visual Editor, select the Table dropdown menu to insert a table with 10 rows and 3 columns. Enter "List of Potential Github Uses for PAM' in the Caption.
+
+    2.  Fill out the first column of the table with the preliminary list identified in the Template Workshop Report- PAM SI Workshop google document, under PAM Github Section (link [here](https://docs.google.com/document/d/1sv0Yk1U-63M_oGOWg4sMN2VRqc9ymg9okhcNdoAUNKk/edit?usp=sharing)). Add more rows if necessary.
+
+6.  Modify document
 
     1.  At top, where it says 'Chapter Template', replace with "PAM Github"
 
@@ -28,7 +34,7 @@ title: Github Section
 
     3.  Save the document
 
-6.  Link **PAM-SI-Mtg-Exercises-Github.qmd** to Report
+7.  Link **PAM-SI-Mtg-Exercises-Github.qmd** to Report
 
     1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
 
@@ -36,7 +42,7 @@ title: Github Section
 
     3.  In this position, write '- text/PAM-SI-Mtg-Exercises-Github.qmd' (be sure there is only one space between the - and the word 'content')
 
-7.  Commit & Push to Github
+8.  Commit & Push to Github
 
     1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
 
@@ -44,4 +50,4 @@ title: Github Section
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
-8.  Open associated Github Issue [**here**](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/28), and make sure you've completed all tasks
+9.  Open associated Github Issue [**here**](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/28), and make sure you've completed all tasks
