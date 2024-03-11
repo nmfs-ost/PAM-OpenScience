@@ -10,7 +10,7 @@ After the meeting, the final meeting notes will be saved in the [PAM-SI Meeting 
 
 Practice collaborating on meeting notes The purpose of this exercise is to get everyone involved in developing the meeting notes, and to engage in a few tips and tricks to make this process useful.
 
-1.  Open the Meeting Notes in Google Docs (put link here)
+1.  Open the [Meeting Notes in Google Docs](https://docs.google.com/document/d/17LR4afSfSn0ChqedIEqsEhJ8r-H_nwMozHPHiBUQ_4I/edit?usp=sharing)
 
 2.  Tips for Team Google Docs
 

@@ -20,7 +20,21 @@ title: NCEI Section
 
     2.  Click on ⚙️**More** dropdown, then select **Copy** and save as "**PAM-SI-Mtg-Exercises-NCEI.qmd**"
 
-5.  Link **PAM-SI-Mtg-Exercises-NCEI.qmd** to Report
+5.  Insert Table for PAM Projects/Data Sets intended to be provided to NCEI
+
+    1.  Insert Table: In Visual Editor, select the Table dropdown menu to insert a table with 11 rows and 6 columns. Enter "List of PAM Projects to be provided to NCEI' in the Caption.
+
+    2.  Fill out the table with the preliminary list identified in the Template Workshop Report- PAM SI Workshop google document, under NCEI Archiving Section (link [here](https://docs.google.com/document/d/1sv0Yk1U-63M_oGOWg4sMN2VRqc9ymg9okhcNdoAUNKk/edit?usp=sharing)). Add more rows if necessary.
+
+6.  Modify document
+
+    1.  At top, where it says 'Chapter Template', replace with "NCEI Archiving"
+
+    2.  In Project Team Table, add in names of Section Leads in the 'Name of Lead' cells (you can get the name of the section leads from the Agenda)
+
+    3.  Save the document
+
+7.  Link **PAM-SI-Mtg-Exercises-NCEI.qmd** to Report
 
     1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
 
@@ -28,7 +42,7 @@ title: NCEI Section
 
     3.  In this position, write '- text/PAM-SI-Mtg-Exercises-NCEI.qmd' (be sure there is only one space between the - and the word 'content')
 
-6.  Commit & Push to Github
+8.  Commit & Push to Github
 
     1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
 
@@ -36,4 +50,4 @@ title: NCEI Section
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
-7.  Open associated Github Issue [here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/9), and make sure you've completed all tasks
+9.  Open associated Github Issue [here](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/9), and make sure you've completed all tasks
