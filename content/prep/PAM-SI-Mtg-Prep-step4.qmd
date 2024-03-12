@@ -40,8 +40,8 @@ You can now test working on this project on your local computer and pushing chan
 
         ![](images/PushOrigin.JPG)
 
-7.  Render Fail Email– if you get an email that looks like the image below, and says that your Render and Publish failed– do not fret!!! There is an issue unrelated to your updates and we will resolve this issue at a future time. If you want to double-check your work, you can go to Github Repository, select "Fetch Origin" (top right), and then open the project in RStudio, navigate to the docs folder and open the file named "First-Passive-Acoustic-Monitoring-Strategic-Initiative-Workshop-Report.docx"
+7.  **Render Fail Email–** if you get an email that looks like the image below, and says that your Render and Publish failed– do not fret!!! There is an issue unrelated to your updates and we will resolve this issue at a future time. If you want to double-check your work, you can go to Github Repository, select "Fetch Origin" (top right), and then open the project in RStudio, navigate to the docs folder and open the file named "First-Passive-Acoustic-Monitoring-Strategic-Initiative-Workshop-Report.docx"
 
     ![](images/renderFail.JPG){width="388"}
 
-8.  ***We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!***
+8.  **Make it a Habit!** We will adopt this process as our daily habit of working on your projects locally and saving your data to Github. We will go through this process to actively work on the Meeting Report together, during the meeting. Our goal is to have it almost entirely finished by the end of the meeting!
