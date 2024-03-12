@@ -20,7 +20,13 @@ title: Soundscape Section
 
     2.  Click on ⚙️**More** dropdown, then select **Copy** and save as "**PAM-SI-Mtg-Exercises-Soundscape.qmd**"
 
-5.  Modify document
+5.  Insert Table for Data types and Availability
+
+    1.  Insert Table: In Visual Editor, select the Table dropdown menu to insert a table with 5 rows and 3 columns. Enter "List of data types needed to expand sound metric research questions' in the Caption.
+
+    2.  Add "Data type", "Additional Questions", and "Data Availability" as the three column headers.
+
+6.  Modify document
 
     1.  At top, where it says 'Chapter Template', replace with "Soundscape Tools, Metrics, Analyses"
 
@@ -28,7 +34,7 @@ title: Soundscape Section
 
     3.  Save the document
 
-6.  Link **PAM-SI-Mtg-Exercises-Soundscape.qmd** to Report
+7.  Link **PAM-SI-Mtg-Exercises-Soundscape.qmd** to Report
 
     1.  Open the \_quarto.yaml in the root directory and scroll down to the 'chapters'. Here you'll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are *very* fussy about specific formatting.
 
@@ -36,7 +42,7 @@ title: Soundscape Section
 
     3.  In this position, write '- text/PAM-SI-Mtg-Exercises-Soundscape.qmd' (be sure there is only one space between the - and the word 'content')
 
-7.  Commit & Push to Github
+8.  Commit & Push to Github
 
     1.  Open Github Desktop, and in top left corner, use drop-down menu to select 'PAM-SI-Mtg-March2024' repository. Github desktop will identify the changes you made to the document.
 
@@ -44,4 +50,4 @@ title: Soundscape Section
 
     3.  Once the commit goes through-- select 'Push to Origin' at the top. This will push changes to your Github repository.
 
-8.  Open associated Github Issue [**here**](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/30), and make sure you've completed all tasks
+9.  Open associated Github Issue [**here**](https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024/issues/30), and make sure you've completed all tasks

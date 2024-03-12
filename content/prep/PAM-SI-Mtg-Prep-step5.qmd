@@ -1,0 +1,17 @@
+---
+title: 5. Github enterprise login
+---
+
+If you have a Github Enterprise license there is one additional login step before you will be able to push or pull changes to and from Github.
+
+6.  **Login to Github desktop through Github.com**
+
+    1.  Open Github desktop, navigate to "File", and select "Options"
+
+        ![](images/GithubEnterpriseLogin.PNG)
+
+    2.  Select "Sign into GitHub.com" and navigate to the browser window that is opened.
+
+        ![](images/signIntoGitHub.PNG)
+
+    3.  Sign into Github.com as usual and provide any two-step authentication required. Once you have logged in, you can close browser and continue with Github desktop.

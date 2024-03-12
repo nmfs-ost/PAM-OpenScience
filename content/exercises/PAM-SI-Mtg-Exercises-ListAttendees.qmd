@@ -26,10 +26,10 @@ title: List Attendees
 
     1.  Insert Table: In Visual Editor, select the Table dropdown menu to insert a table with as many rows as there are attendees, and with 3 columns. Enter "List of Attendees' in the Caption.
 
-    2.  Fill out the table with the names, Affiliations, and Emails for all attendees, like the example below. You can find this information in the 'AttendeesIntros.qmd' file created during the pre-meeting preparation (PAM-SI-Mtg-March2024/AttendeesIntros.qmd)
+    2.  Fill out the table with the names, Affiliations, and Emails for all attendees, like the example below. You can find this information in the 'AttendeesIntros.qmd' file created during the pre-meeting preparation (PAM-SI-Mtg-March2024/AttendeesIntros.qmd) or on [this google sheet](https://docs.google.com/spreadsheets/d/1Vp8UTtnA5z1SvG1O_qr_4qNWKwvLeUeGoI4q7peZCfw/edit?usp=sharing).
 
         | Name           | Affiliation                        | Email                    |
-        |----------------|------------------------------------|--------------------------|
+        |-----------------|--------------------------------|-----------------------|
         | Shannon Rankin | Southwest Fisheries Science Center | shannon.rankin\@noaa.gov |
         |                |                                    |                          |
         |                |                                    |                          |
