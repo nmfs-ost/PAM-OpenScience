@@ -14,25 +14,31 @@ To ensure that you are working with the most up to date repository, select "Fetc
 
 The exercises are:
 
-1.  Add Introduction Draft Text & Diagram
+1.  [Add Introduction Draft Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-IntroText.html)
 
-2.  Add Authors
+2.  [Github section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Github.html)
 
-3.  List of Attendees
+3.  [Add Authors](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Authors.html)
 
-4.  Github section
+4.  [List of Attendees](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.html)
 
-5.  NCEI Section
+5.  [Acknowledgements Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.html)
 
-6.  Cloud Section
+6.  [References](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-References.html)
 
-7.  Climate Section
+7.  [NCEI Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-NCEI.html)
 
-8.  Soundscape Section
+8.  [Cloud Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Cloud.html)
 
-9.  Stock Assessment Section
+9.  [Climate Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Climate.html)
 
-10. Management Section
+10. [Soundscape Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Soundscape.html)
+
+11. [Stock Assessment Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-StockAssess.html)
+
+12. [Management Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Management.html)
+
+13. [Detection Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Detection.html)
 
 If you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.
 
