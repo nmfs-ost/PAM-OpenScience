@@ -5,29 +5,9 @@ page-layout: full
 
 Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. This repository provides resources to help NOAA Fisheries Passive Acoustic Monitoring groups adopt an **Open Science** approach to their research.
 
-During the NOAA Fisheries PAM Strategic Meeting, we will work together using Open Science Methods. To prepare for a successful meeting, we request that you complete all "Pre Meeting Prep" Tasks prior to the meeting.
 
-## *Pre Meeting Tasks*
 
-***These tasks must be completed prior to the meeting to ensure you are able to participate fully.***
 
-To Start:
-
--   Click on the Pre Meeting Prep dropdown menu on the left Menu Bar.
-
-<!-- -->
-
--   Tasks 1 and 2 can be completed first.
-
-    -   [Task 1 Load Software](https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step1.html) - Please load software onto the computer that you will be bringing with you to the meeting! *See left menu for more info.*
-
-    -   [Task 2 Request to Join Repository](https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step2.html) - Create a Github Account and request permission to join our Meeting Repository. *See left menu for more info.*
-
--   Tasks 3 and 4 can be completed once you have permission.
-
-    -   [Task 3 Create Local Project](https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step3.html) - Clone the PAM-SI meeting repository to your local computer and open a project in RStudio. *See left menu for more info.*
-
-    -   [Task 4 Update Your Bio](https://sael-swfsc.github.io/OpenScience/content/prep/PAM-SI-Mtg-Prep-step4.html) - Add an introduction to the Attendees file and commit/push your changes to GitHub. *See left menu for more info.*
 
 ## *IF YOU NEED HELP*
 

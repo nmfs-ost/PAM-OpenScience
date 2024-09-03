@@ -1,0 +1,10 @@
+When building a repo where a website is the primary output, we recommend building from a template to ensure you are starting with a functional site to build on.
+
+# Use NOAA Website Template
+Go to Website Repository on Github: https://github.com/nmfs-opensci/NOAA-quarto-simple
+
+Follow directions to use this as a template: https://nmfs-opensci.github.io/NOAA-quarto-simple/
+
+--> Be sure to check the box to Include All Branches!
+
+--> Save to your account (or to one of your organizations)
