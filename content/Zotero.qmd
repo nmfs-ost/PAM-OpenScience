@@ -2,94 +2,159 @@
 title: Zotero
 ---
 
-## Zotero
+## About Zotero
 
-Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.
+[Zotero](https://www.zotero.org/) is an open-source online reference
+manager, where references can be readily saved from Google scholar using
+a browser plugin.
 
-## Getting Started
+## Getting started
 
-1.  Load [Zotero](https://www.zotero.org/) and create a [login](https://www.zotero.org/user/login/).
+1.  Load [Zotero](https://www.zotero.org/) and create a
+    [login](https://www.zotero.org/user/login/)
 
-2. Create a [browser plugin](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en) so that you can directly save google scholar citations to your online reference list.
+2.  [Download Zotero](https://www.zotero.org/) to your computer
 
+3.  Install [Zotero
+    Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en)
+    to create a browser plugin so that you can directly save google
+    scholar citations to your online reference list
 
-## Zotero Group Libraries
-Group libraries are a means of crowd-sourcing literature on specific topics. Here we suggest how to create a new group library, and how to join/participate in an existing group library.
-
-1. Find and join an existing group library
-To find an existing group library, you can search on Zotero or on 'reference' tag within [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/questions/tagged/references){target="_blank"}.
-
-2. Create a new Zotero group library
-   1. Once Zotero is installed on your computer and you have a Zotero account, navigate to the [Zotero Groups](https://www.zotero.org/groups){target="_blank"} and select "Create New Group".
-   2. If you intend to make this a publicly accessible Zotero Group, select the following settings:
-   Group Type = "Public Open"
-   Library Reading = "Anyone on the internet"
-   Library Editing = "Any group members"
-   File Editing = "No group file storage"
-   
-   Then save settings
-   
-3. Post in Bioacoustics Stack Exchange as a Question/Answer and tag as 'reference' (in addition to other relevant tags) so that this information is searchable on the web and accessible to the public. 
-   1. Log into [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com){target="_blank} or follow these instructions to create an account: [join bioacoustics stack exchange](https://bioacoustics.stackexchange.com){target="_blank}
-   2. Post a question (or have a colleague post a question), similar to these examples, and be sure to select the tag 'references' and any additional tag references.  You can either answer your own question, or work with a colleague such that one of you asks the question, and then the other answers the question. Be sure to accept the answer once posted. Here are two examples to follow:
-   [Soundscape Zotero Group Library](https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature)
-   PAM-Glider Group Library[TBD]
-
+4.  Link Rstudio to your Zotero library
 
 ## Adding Citations to Zotero
 
-1.  Add via Google Scholar
--  Find article on Google Scholar, click on double quotes at bottom of citation
+### Add via Google Scholar
 
--  Select 'RefMan' and OK to save to Zotero
+1.  Find article on Google Scholar, click on double quotes at bottom of
+    citation
 
--  Add citation to the NMFS-PAM group
+2.  Select \'RefMan\' and OK to save to Zotero
 
-2. Add via Browser Plug-in
--  Open Zotero on your computer
+3.  Add citation to the NMFS-PAM group
 
-- Go to Publication website
+### Add via Browser Plug-In
 
-- Click on Browser Icon (top right of browser), save to selected Zotero folde
+1.  Open Zotero on your coputer
+2.  Go to publication website
+3.  Click on the Zotero browser icon (top right of browser) and save to
+    selected Zotero folder
 
+## Zotero Group Libraries
 
-### Zotero and RStudio
-You can integrate Zotero directly to your Quarto/RMarkdown document in RStudio, or to your Microsoft Word document. Here are some basics for using in Quarto/RMarkdown:
+Group libraries are a means of crowd-sourcing literature on specific
+topics. Here we suggest how to create a new group library, and how to
+join/participate in an existing group library.
 
-1.  Export Zotero library to your R Project
+### How to Join Existing Group Libraray
 
-In Zotero, export library, and save as a *.bib file in your project folder
+To find an existing group library, you can search on Zotero.
 
+If you are interested in Acoustics specific libraries, you can use the
+'reference' tag within [Bioacoustics Stack
+Exchange](https://bioacoustics.stackexchange.com/questions/tagged/references){target="_blank"}.
 
-2.  Insert Citation into text
-- Start by writing @ symbol, which should pull up a list of bibliographic references. Search for yours, and select it.
+Click the red 'Join' button to add the library to your account
 
-3. Select your preferred reference format CSL: [Citation Style Language](https://citationstyles.org/)
-    a. Use Zotero to download the csl file for the journal you want to use.
+### Create a New Zotero Group Library
 
-        -   Go to the Zotero Preferences menu (Zotero \> Preferences on Mac, Edit \> Preferences on PC).
+1.  Once Zotero is installed on your computer and you have a Zotero
+    account, navigate to the [Zotero
+    Groups](https://www.zotero.org/groups){target="_blank"} and select
+    "Create New Group"
 
-        -   Click on the Cite menu. ...
+2.  If you intend to make this a publicly accessible Zotero Group,
+    select and save the following settings
 
-        -   Below the list of pre-installed styles, click the link for Get additional styles...
+    -   Group Type = "Public Open"
 
-        -   Search for your desired style in the provided search field.
+    -   Library Reading = "Anyone on the internet"
 
-        -   Select the style you want to install.
+    -   Library Editing = "Any group members"
 
-    b.  Add csl to your yaml
+    -   File Editing = "No group file storage"
 
-        --- title**:** "My Document" bibliography**:** references.bib csl**:** nature.csl ---
+### Share Your Group Library
 
-3.  Add your references into the document
+Post in Bioacoustics Stack Exchange as a Question/Answer and tag as
+'reference' (in addition to other relevant tags) so that this
+information is searchable on the web and accessible to the public.
 
-    1.  Inline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an '\@' symbol plus the citation identifier from the database. For example, [@wickham2015]
+1.  Log into [Bioacoustics Stack
+    Exchange](https://bioacoustics.stackexchange.com) or follow these
+    instructions to create an account: [join bioacoustics stack
+    exchange](https://bioacoustics.stackexchange.com){target="\"_blank"}
+2.  Post a question (or have a colleague post a question), similar to
+    the examples below, and be sure to select the tag 'references' and
+    any additional tag references. You can either answer your own
+    question, or work with a colleague such that one of you asks the
+    question, and then the other answers the question. Be sure to accept
+    the answer once posted.
+3.  Here are two examples to follow: [Soundscape Zotero Group
+    Library](https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature)
+    and [PAM-Glider Group
+    Library](https://www.zotero.org/groups/5642642/pam-gliders)
 
-    2.  Bibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:
+## Zotero and RStudio
 
-        \### References
+You can integrate Zotero directly to your Quarto/RMarkdown document in
+RStudio, or to your Microsoft Word document. Here are some basics for
+using in Quarto/RMarkdown
 
-        ::: {#refs}
-        :::
+### Choose CSL: [Citation Style Language](https://citationstyles.org/)
 
-    3.  For more information, see [Quarto Guide](https://quarto.org/docs/authoring/footnotes-and-citations.html)
+Use Zotero to download the csl file for the journal you want to use.
+
+1.  Go to the Zotero Preferences menu (Zotero \> Preferences on Mac,
+    Edit \> Preferences on PC)
+
+2.  Click on the 'Cite' menu
+
+3.  Below the list of pre-installed styles, click the link for 'Get
+    additional styles'
+
+4.  Search for your desired style in the provided search field
+
+5.  Select the style you want to install
+
+### Add CSL to Your yaml
+
+``` R
+title: "My Document" 
+bibliography: references.bib 
+csl: nature.csl
+```
+
+### Export Zotero Library to Your R Project
+
+1.  Open Zotero and select a folder/library
+2.  Click File \> Export Library...
+3.  Select Format \> BibText and save the \*.bib file in your R project
+    folder
+
+### Add Your References Into the Document
+
+#### Inline Citation: 
+
+Citations are inserted into your document using square brackets and are
+separated by semicolons. Each citation must have a key, composed of an
+'\@' symbol plus the citation identifier from the database. For example;
+
+``` r
+[@wickham2015]
+```
+
+#### Bibliography: 
+
+A list of works cited will be automatically generated and placed in the
+document if the style calls for it. You may insert divs such as this;
+
+``` r
+### References
+```
+
+::: callout-note
+## For more information, see Quarto [Citations Guide](https://quarto.org/docs/authoring/citations.html) and [Zotero Citations](https://quarto.org/docs/visual-editor/vscode/index.html#zotero-citations)
+:::
+
+## 
