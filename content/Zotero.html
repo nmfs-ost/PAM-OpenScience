@@ -20,26 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -172,13 +187,27 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#zotero" id="toc-zotero" class="nav-link active" data-scroll-target="#zotero">Zotero</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#zotero-group-libraries" id="toc-zotero-group-libraries" class="nav-link" data-scroll-target="#zotero-group-libraries">Zotero Group Libraries</a></li>
+  <li><a href="#about-zotero" id="toc-about-zotero" class="nav-link active" data-scroll-target="#about-zotero">About Zotero</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a></li>
   <li><a href="#adding-citations-to-zotero" id="toc-adding-citations-to-zotero" class="nav-link" data-scroll-target="#adding-citations-to-zotero">Adding Citations to Zotero</a>
   <ul class="collapse">
-  <li><a href="#zotero-and-rstudio" id="toc-zotero-and-rstudio" class="nav-link" data-scroll-target="#zotero-and-rstudio">Zotero and RStudio</a></li>
+  <li><a href="#add-via-google-scholar" id="toc-add-via-google-scholar" class="nav-link" data-scroll-target="#add-via-google-scholar">Add via Google Scholar</a></li>
+  <li><a href="#add-via-browser-plug-in" id="toc-add-via-browser-plug-in" class="nav-link" data-scroll-target="#add-via-browser-plug-in">Add via Browser Plug-In</a></li>
   </ul></li>
+  <li><a href="#zotero-group-libraries" id="toc-zotero-group-libraries" class="nav-link" data-scroll-target="#zotero-group-libraries">Zotero Group Libraries</a>
+  <ul class="collapse">
+  <li><a href="#how-to-join-existing-group-libraray" id="toc-how-to-join-existing-group-libraray" class="nav-link" data-scroll-target="#how-to-join-existing-group-libraray">How to Join Existing Group Libraray</a></li>
+  <li><a href="#create-a-new-zotero-group-library" id="toc-create-a-new-zotero-group-library" class="nav-link" data-scroll-target="#create-a-new-zotero-group-library">Create a New Zotero Group Library</a></li>
+  <li><a href="#share-your-group-library" id="toc-share-your-group-library" class="nav-link" data-scroll-target="#share-your-group-library">Share Your Group Library</a></li>
+  </ul></li>
+  <li><a href="#zotero-and-rstudio" id="toc-zotero-and-rstudio" class="nav-link" data-scroll-target="#zotero-and-rstudio">Zotero and RStudio</a>
+  <ul class="collapse">
+  <li><a href="#choose-csl-citation-style-language" id="toc-choose-csl-citation-style-language" class="nav-link" data-scroll-target="#choose-csl-citation-style-language">Choose CSL: Citation Style Language</a></li>
+  <li><a href="#add-csl-to-your-yaml" id="toc-add-csl-to-your-yaml" class="nav-link" data-scroll-target="#add-csl-to-your-yaml">Add CSL to Your yaml</a></li>
+  <li><a href="#export-zotero-library-to-your-r-project" id="toc-export-zotero-library-to-your-r-project" class="nav-link" data-scroll-target="#export-zotero-library-to-your-r-project">Export Zotero Library to Your R Project</a></li>
+  <li><a href="#add-your-references-into-the-document" id="toc-add-your-references-into-the-document" class="nav-link" data-scroll-target="#add-your-references-into-the-document">Add Your References Into the Document</a></li>
+  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/Zotero.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/Zotero.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -204,94 +233,129 @@ div.csl-indent {
 </header>
 
 
-<section id="zotero" class="level2">
-<h2 class="anchored" data-anchor-id="zotero">Zotero</h2>
-<p>Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.</p>
+<section id="about-zotero" class="level2">
+<h2 class="anchored" data-anchor-id="about-zotero">About Zotero</h2>
+<p><a href="https://www.zotero.org/">Zotero</a> is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.</p>
 </section>
 <section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
 <ol type="1">
-<li><p>Load <a href="https://www.zotero.org/">Zotero</a> and create a <a href="https://www.zotero.org/user/login/">login</a>.</p></li>
-<li><p>Create a <a href="https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en">browser plugin</a> so that you can directly save google scholar citations to your online reference list.</p></li>
-</ol>
-</section>
-<section id="zotero-group-libraries" class="level2">
-<h2 class="anchored" data-anchor-id="zotero-group-libraries">Zotero Group Libraries</h2>
-<p>Group libraries are a means of crowd-sourcing literature on specific topics. Here we suggest how to create a new group library, and how to join/participate in an existing group library.</p>
-<ol type="1">
-<li><p>Find and join an existing group library To find an existing group library, you can search on Zotero or on ‘reference’ tag within <a href="https://bioacoustics.stackexchange.com/questions/tagged/references" target="_blank">Bioacoustics Stack Exchange</a>.</p></li>
-<li><p>Create a new Zotero group library</p>
-<ol type="1">
-<li>Once Zotero is installed on your computer and you have a Zotero account, navigate to the <a href="https://www.zotero.org/groups" target="_blank">Zotero Groups</a> and select “Create New Group”.</li>
-<li>If you intend to make this a publicly accessible Zotero Group, select the following settings: Group Type = “Public Open” Library Reading = “Anyone on the internet” Library Editing = “Any group members” File Editing = “No group file storage”</li>
-</ol>
-<p>Then save settings</p></li>
-<li><p>Post in Bioacoustics Stack Exchange as a Question/Answer and tag as ‘reference’ (in addition to other relevant tags) so that this information is searchable on the web and accessible to the public.</p>
-<ol type="1">
-<li>Log into <a href="https://bioacoustics.stackexchange.com">Bioacoustics Stack Exchange</a>{target=“_blank} or follow these instructions to create an account: <a href="https://bioacoustics.stackexchange.com" target="&quot;_blank">join bioacoustics stack exchange</a></li>
-<li>Post a question (or have a colleague post a question), similar to these examples, and be sure to select the tag ‘references’ and any additional tag references. You can either answer your own question, or work with a colleague such that one of you asks the question, and then the other answers the question. Be sure to accept the answer once posted. Here are two examples to follow: <a href="https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature">Soundscape Zotero Group Library</a> PAM-Glider Group Library[TBD]</li>
-</ol></li>
+<li><p>Load <a href="https://www.zotero.org/">Zotero</a> and create a <a href="https://www.zotero.org/user/login/">login</a></p></li>
+<li><p><a href="https://www.zotero.org/">Download Zotero</a> to your computer</p></li>
+<li><p>Install <a href="https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en">Zotero Connector</a> to create a browser plugin so that you can directly save google scholar citations to your online reference list</p></li>
+<li><p>Link Rstudio to your Zotero library</p></li>
 </ol>
 </section>
 <section id="adding-citations-to-zotero" class="level2">
 <h2 class="anchored" data-anchor-id="adding-citations-to-zotero">Adding Citations to Zotero</h2>
+<section id="add-via-google-scholar" class="level3">
+<h3 class="anchored" data-anchor-id="add-via-google-scholar">Add via Google Scholar</h3>
 <ol type="1">
-<li>Add via Google Scholar</li>
-</ol>
-<ul>
 <li><p>Find article on Google Scholar, click on double quotes at bottom of citation</p></li>
-<li><p>Select ‘RefMan’ and OK to save to Zotero</p></li>
+<li><p>Select 'RefMan' and OK to save to Zotero</p></li>
 <li><p>Add citation to the NMFS-PAM group</p></li>
-</ul>
-<ol start="2" type="1">
-<li>Add via Browser Plug-in</li>
 </ol>
-<ul>
-<li><p>Open Zotero on your computer</p></li>
-<li><p>Go to Publication website</p></li>
-<li><p>Click on Browser Icon (top right of browser), save to selected Zotero folde</p></li>
-</ul>
-<section id="zotero-and-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-and-rstudio">Zotero and RStudio</h3>
-<p>You can integrate Zotero directly to your Quarto/RMarkdown document in RStudio, or to your Microsoft Word document. Here are some basics for using in Quarto/RMarkdown:</p>
-<ol type="1">
-<li>Export Zotero library to your R Project</li>
-</ol>
-<p>In Zotero, export library, and save as a *.bib file in your project folder</p>
-<ol start="2" type="1">
-<li>Insert Citation into text</li>
-</ol>
-<ul>
-<li>Start by writing @ symbol, which should pull up a list of bibliographic references. Search for yours, and select it.</li>
-</ul>
-<ol start="3" type="1">
-<li><p>Select your preferred reference format CSL: <a href="https://citationstyles.org/">Citation Style Language</a></p>
-<ol type="a">
-<li><p>Use Zotero to download the csl file for the journal you want to use.</p>
-<ul>
-<li><p>Go to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC).</p></li>
-<li><p>Click on the Cite menu. …</p></li>
-<li><p>Below the list of pre-installed styles, click the link for Get additional styles…</p></li>
-<li><p>Search for your desired style in the provided search field.</p></li>
-<li><p>Select the style you want to install.</p></li>
-</ul></li>
-<li><p>Add csl to your yaml</p>
-<p>— title<strong>:</strong> “My Document” bibliography<strong>:</strong> references.bib csl<strong>:</strong> nature.csl —</p></li>
-</ol></li>
-<li><p>Add your references into the document</p>
-<ol type="1">
-<li><p>Inline Citation: Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an ‘@’ symbol plus the citation identifier from the database. For example, <span class="citation" data-cites="wickham2015">[@wickham2015]</span></p></li>
-<li><p>Bibliography: A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this:</p>
-<p>### References</p>
-<div id="refs" role="list">
-
-</div></li>
-<li><p>For more information, see <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html">Quarto Guide</a></p></li>
-</ol></li>
-</ol>
-
-
 </section>
+<section id="add-via-browser-plug-in" class="level3">
+<h3 class="anchored" data-anchor-id="add-via-browser-plug-in">Add via Browser Plug-In</h3>
+<ol type="1">
+<li>Open Zotero on your coputer</li>
+<li>Go to publication website</li>
+<li>Click on the Zotero browser icon (top right of browser) and save to selected Zotero folder</li>
+</ol>
+</section>
+</section>
+<section id="zotero-group-libraries" class="level2">
+<h2 class="anchored" data-anchor-id="zotero-group-libraries">Zotero Group Libraries</h2>
+<p>Group libraries are a means of crowd-sourcing literature on specific topics. Here we suggest how to create a new group library, and how to join/participate in an existing group library.</p>
+<section id="how-to-join-existing-group-libraray" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-join-existing-group-libraray">How to Join Existing Group Libraray</h3>
+<p>To find an existing group library, you can search on Zotero.</p>
+<p>If you are interested in Acoustics specific libraries, you can use the ‘reference’ tag within <a href="https://bioacoustics.stackexchange.com/questions/tagged/references" target="_blank">Bioacoustics Stack Exchange</a>.</p>
+<p>Click the red ‘Join’ button to add the library to your account</p>
+</section>
+<section id="create-a-new-zotero-group-library" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-new-zotero-group-library">Create a New Zotero Group Library</h3>
+<ol type="1">
+<li><p>Once Zotero is installed on your computer and you have a Zotero account, navigate to the <a href="https://www.zotero.org/groups" target="_blank">Zotero Groups</a> and select “Create New Group”</p></li>
+<li><p>If you intend to make this a publicly accessible Zotero Group, select and save the following settings</p>
+<ul>
+<li><p>Group Type = “Public Open”</p></li>
+<li><p>Library Reading = “Anyone on the internet”</p></li>
+<li><p>Library Editing = “Any group members”</p></li>
+<li><p>File Editing = “No group file storage”</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="share-your-group-library" class="level3">
+<h3 class="anchored" data-anchor-id="share-your-group-library">Share Your Group Library</h3>
+<p>Post in Bioacoustics Stack Exchange as a Question/Answer and tag as ‘reference’ (in addition to other relevant tags) so that this information is searchable on the web and accessible to the public.</p>
+<ol type="1">
+<li>Log into <a href="https://bioacoustics.stackexchange.com">Bioacoustics Stack Exchange</a> or follow these instructions to create an account: <a href="https://bioacoustics.stackexchange.com" target="&quot;_blank">join bioacoustics stack exchange</a></li>
+<li>Post a question (or have a colleague post a question), similar to the examples below, and be sure to select the tag ‘references’ and any additional tag references. You can either answer your own question, or work with a colleague such that one of you asks the question, and then the other answers the question. Be sure to accept the answer once posted.</li>
+<li>Here are two examples to follow: <a href="https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature">Soundscape Zotero Group Library</a> and <a href="https://www.zotero.org/groups/5642642/pam-gliders">PAM-Glider Group Library</a></li>
+</ol>
+</section>
+</section>
+<section id="zotero-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="zotero-and-rstudio">Zotero and RStudio</h2>
+<p>You can integrate Zotero directly to your Quarto/RMarkdown document in RStudio, or to your Microsoft Word document. Here are some basics for using in Quarto/RMarkdown</p>
+<section id="choose-csl-citation-style-language" class="level3">
+<h3 class="anchored" data-anchor-id="choose-csl-citation-style-language">Choose CSL: <a href="https://citationstyles.org/">Citation Style Language</a></h3>
+<p>Use Zotero to download the csl file for the journal you want to use.</p>
+<ol type="1">
+<li><p>Go to the Zotero Preferences menu (Zotero &gt; Preferences on Mac, Edit &gt; Preferences on PC)</p></li>
+<li><p>Click on the ‘Cite’ menu</p></li>
+<li><p>Below the list of pre-installed styles, click the link for ‘Get additional styles’</p></li>
+<li><p>Search for your desired style in the provided search field</p></li>
+<li><p>Select the style you want to install</p></li>
+</ol>
+</section>
+<section id="add-csl-to-your-yaml" class="level3">
+<h3 class="anchored" data-anchor-id="add-csl-to-your-yaml">Add CSL to Your yaml</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"My Document"</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> references.bib </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> nature.csl</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="export-zotero-library-to-your-r-project" class="level3">
+<h3 class="anchored" data-anchor-id="export-zotero-library-to-your-r-project">Export Zotero Library to Your R Project</h3>
+<ol type="1">
+<li>Open Zotero and select a folder/library</li>
+<li>Click File &gt; Export Library…</li>
+<li>Select Format &gt; BibText and save the *.bib file in your R project folder</li>
+</ol>
+</section>
+<section id="add-your-references-into-the-document" class="level3">
+<h3 class="anchored" data-anchor-id="add-your-references-into-the-document">Add Your References Into the Document</h3>
+<section id="inline-citation" class="level4">
+<h4 class="anchored" data-anchor-id="inline-citation">Inline Citation:</h4>
+<p>Citations are inserted into your document using square brackets and are separated by semicolons. Each citation must have a key, composed of an ‘@’ symbol plus the citation identifier from the database. For example;</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>[<span class="sc">@</span>wickham2015]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="bibliography" class="level4">
+<h4 class="anchored" data-anchor-id="bibliography">Bibliography:</h4>
+<p>A list of works cited will be automatically generated and placed in the document if the style calls for it. You may insert divs such as this;</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">### References</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+For more information, see Quarto <a href="https://quarto.org/docs/authoring/citations.html">Citations Guide</a> and <a href="https://quarto.org/docs/visual-editor/vscode/index.html#zotero-citations">Zotero Citations</a>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+
+
 </section>
 
 </main> <!-- /main -->
