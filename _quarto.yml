@@ -41,6 +41,8 @@ website:
         text: Resources
       - href: content/websiteBuild.qmd
         text: Build a Website
+      - href: content/GithubDesktop.qmd
+        text: Github Desktop
       # - href:
       #   text:
       
