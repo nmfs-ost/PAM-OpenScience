@@ -188,24 +188,74 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="getting-started-in-open-science">Getting Started in Open Science</h2>
 <p>Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects</p>
 <ol type="1">
-<li><p>Embrace the Open Science Mindset! Learn more about this approach and why it matters at <a href="openscapes.org">Openscapes.org</a> and the <a href="https://openscapes.github.io/approach-guide/approach/">Openscapes Approach Guide</a>.</p></li>
+<li><p>Embrace the Open Science Mindset! Learn more about this approach and why it matters at <a href="https://openscapes.org/">Openscapes.org</a> and the <a href="https://openscapes.github.io/approach-guide/approach/">Openscapes Approach Guide</a>.</p></li>
 <li><p>Add Software Tools</p>
-<ol type="1">
+<ul>
 <li><p><a href="https://desktop.github.com/">Github Desktop</a></p></li>
 <li><p><a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio</a> (v2022.07.2 build 576 or later)</p></li>
 <li><p><a href="https://www.r-project.org/">R</a></p></li>
 <li><p>Create a <a href="https://github.com/">Github Login</a></p></li>
-</ol></li>
+</ul></li>
+<li><p>Identify the Github Repository you will use:</p>
+<ul>
+<li><p>Go to your repository on Github</p></li>
 <li><p>Create a Test Repository in Github (see help <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo">here</a>)</p></li>
+</ul></li>
 <li><p>Clone your Test Repository to your local computer using Github Desktop:</p>
 <ol type="1">
 <li><p>File -&gt; Clone Repository -&gt; URL</p></li>
-<li><p>Copy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See <a href="https://rverse-tutorials.github.io/PSAW-2022/">Introduction to Git/Github tutorial</a> for more help.</p></li>
+<li><p>Copy URL of your chosen Repository on Github, then save to your Documents -&gt; Github folder using the defaults. See <a href="https://rverse-tutorials.github.io/PSAW-2022/">Introduction to Git/Github tutorial</a> for more help.</p></li>
 </ol></li>
-<li><p>Open project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.</p></li>
-<li><p>Modify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.</p></li>
-<li><p>Commit &amp; Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.</p></li>
-<li><p>Open your Github repository and check out the changes on your README at the bottom of the page!</p></li>
+<li><p>Create a new project in RStudio.</p>
+<ul>
+<li><p>Open RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project.</p>
+<p><img src="../images/rstudio_newProject.JPG" class="img-fluid" width="275"></p></li>
+<li><p>Browse to find the appropriate folder in Documents-&gt; Github.</p></li>
+</ul></li>
+<li><p>Modify the README.md file.</p>
+<ol type="1">
+<li><p>In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.</p>
+<p><img src="../images/findReadMeFile.JPG" class="img-fluid" width="291"></p></li>
+<li><p>Open this file and edit using either Source Code or Visual Editor <img src="../images/quartoEditors.JPG" class="img-fluid" width="211"></p>
+<ul>
+<li><p>Add the title of your repository (using # Title in Source Code or Heading 1 in Visual Editor)</p></li>
+<li><p>Add text below the title describing the contents/purpose of this repository</p></li>
+<li><p>Add the following Disclaimer and License (### Disclaimer if using Source Code):</p>
+<h3 id="disclaimer" class="anchored">Disclaimer</h3>
+<p>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</p>
+<h3 id="license" class="anchored">License</h3>
+<p>This content was created by U.S. Government employees as part of their official duties. This content is not subject to copyright in the United States (17 U.S.C. §105) and is in the public domain within the United States of America. Additionally, copyright is waived worldwide through the CC0 1.0 Universal public domain dedication.</p>
+<p><img src="../images/modifyReadMe.JPG" class="img-fluid" width="373"></p></li>
+</ul></li>
+<li><p>Save! This Readme will show up at the bottom of our Github Repository</p></li>
+</ol></li>
+<li><p>Modify the index.qmd file (home page)</p>
+<ol type="1">
+<li><p>Open the index.qmd file</p></li>
+<li><p><img src="../images/findIndexFile.JPG" class="img-fluid" width="338"></p></li>
+<li><p>Modify using Source Editor to add a title and introductory text for the home page (for website). Title will need to be written in this format:</p>
+<hr>
+<p>title: “This is my title”</p>
+<hr>
+<p><img src="../images/modifyIndexforWebHomePage.JPG" class="img-fluid" width="554"></p></li>
+</ol></li>
+<li><p>Commit &amp; Push to Github.</p>
+<ul>
+<li><p>Save project in RStudio</p></li>
+<li><p>Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).</p>
+<ul>
+<li><p>At the bottom left, describe the modifications you made to the document, and then select ‘commit’.</p></li>
+<li><p>Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.</p></li>
+</ul></li>
+</ul></li>
+<li><p>Check the updates on Github</p>
+<ol type="1">
+<li><p>Open your Github repository</p></li>
+<li><p>Go to Actions Tab- is it rendering? did it go through (green) or fail (red)?</p>
+<p><img src="../images/githubActionsSuccess.JPG" class="img-fluid" width="367"></p></li>
+<li><p>View the updated Github Repo ReadMe</p></li>
+<li><p>View the updated Website Homepage</p></li>
+</ol></li>
 <li><p>Adopt this process as your daily habit of working on your projects locally and saving your data to Github.</p></li>
 </ol>
 <p>For more information, see:</p>
