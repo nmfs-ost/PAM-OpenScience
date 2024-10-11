@@ -9,7 +9,7 @@ One way to insert a table is using the Child option (where this file is the 'Par
 
 Example:
 
-```{r bwTbl, child= "../data/bwTbl.Rmd"}
+```{r bwTbl, child= "../data/bwTbl.r"}
 
 
 ```

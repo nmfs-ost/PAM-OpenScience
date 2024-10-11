@@ -2,10 +2,10 @@
 #Load packages and background data/functions
 library(here)
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
-source(here::here("R/_commonR.r"))
-source(here::here("R/reportPlotFunctions.r"))
+source(here::here("data/_commonR.r"))
+# source(here::here("R/reportPlotFunctions.r"))
 
-load(here("data", "bw", "bwBin_adrift.rdata"))
+load(here("data", "bwBin_adrift.rdata"))
 bin39<-bwBin39_adrift %>%
   mutate (Season = markSeason(bwBin39_adrift$UTC),
           Region = map_chr(bwBin39_adrift$Latitude, find_region),
