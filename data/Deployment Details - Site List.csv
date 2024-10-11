@@ -1,0 +1,20 @@
+Region Code,Region,Description,Lat_min,Lat_max,Vulnerability Zone,VZone Name,Adrift.Regions,
+WAS,Washington,WA/Canada border to N of Columbia River,47.1,48.5,5,N-WA,Washington,
+COL,Columbia River,N to S of Columbia River ,45,47.1,4,CRR,Oregon,
+ORE,Oregon,S of Columbia River to OR/CA border,42,45,3,S-OR,Oregon,
+HUM,Humboldt,Oregon Border to Cape Mendocino,40.44,42,2,N-CA,Humboldt,New Site to include CRC & TRI
+MND,Mendocino,Cape Mendocino to Point Arena,38.9,40.44,2,N-CA,Humboldt,
+PTA,Point Arena,Point Arena to Bodega Bay,38.33,38.9,2,N-CA,San Francisco,
+SFB,SF Bay,Bodega Bay to Half Moon Bay,37.46,38.33,1,C-CA,San Francisco,
+HMB,Half Moon Bay,Half Moon Bay to Santa Cruz,36.96,37.46,1,C-CA,San Francisco,
+MBY,Monterey Bay,Santa Cruz to Cambria,35.56,36.96,1,C-CA,Morro Bay,Cambria chosen as S Boundary for MBNMS
+MOB,Morro Bay,Cambria to Point Conception,34.5,35.56,1,C-CA,Morro Bay,
+CHI,Channel Islands,Point Conception to Malibu,34,34.5,SCB,SCB,S California,
+LAB,Los Angeles Basin,Malibu to Dana Point/Catalina,33.45,34,SCB,SCB,S California,
+SND,San Diego,Dana Point/Catalina to Tijuana,32.53,33.45,SCB,SCB,S California,
+BCN,Baja California Norte,Tijuana To Cedros,28.19,32.53,BCN,BCN,Baja California Norte,
+BCS,Baja California Sur,Cedros to Cabo San Lucas,22.9,28.19,BCS,BCS,Baja California Sur,
+,,,,,,,,
+,,,,,,,,
+CRC,Crescent City,Oregon Border to Trinidad,NA,NA,NA,,,Old Site
+TRI,Trinidad,Trinidad to Cape Mendocino,NA,NA,NA,,,Old Site

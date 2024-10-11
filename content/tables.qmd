@@ -1,0 +1,22 @@
+---
+title: Tables
+subtitle: Working with Tables in Quarto
+---
+
+Tables can be tricky to work with in quarto, this page (temporarily) serves as a testing space for inserting tables. Data for tables will be stored in OpenScience/data folder.
+
+One way to insert a table is using the Child option (where this file is the 'Parent', and the code to create the table is in a separate 'child' R or Rmd file).
+
+Example:
+
+```{r bwTbl, child= "../data/bwTbl.Rmd"}
+
+
+```
+
+
+Resources for working with Tables in Quarto:
+
+-   [Quarto Tables](https://quarto.org/docs/authoring/tables.html) (quarto.org)
+
+-   [Quarto Report with Dynamic Tables](https://www.youtube.com/watch?v=Uay6X65Ukvk)(video tutorial by Eli Holmes)

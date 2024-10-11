@@ -72,11 +72,11 @@ Open Science is a movement to make scientific research (including publications, 
 
     3.  Modify using Source Editor to add a title and introductory text for the home page (for website). Title will need to be written in this format:
 
-        ---
+        ------------------------------------------------------------------------
 
         title: "This is my title"
 
-        ---
+        ------------------------------------------------------------------------
 
         ![](/images/modifyIndexforWebHomePage.JPG){width="554"}
 

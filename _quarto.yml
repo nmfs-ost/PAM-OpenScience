@@ -37,12 +37,16 @@ website:
         text: Working with Zotero
       - href: content/Stack-Exchange.qmd
         text: Bioacoustics Stack Exchange
-      - href: content/resources.qmd
-        text: Resources
-      - href: content/websiteBuild.qmd
-        text: Build a Website
       - href: content/GithubDesktop.qmd
         text: Github Desktop
+      - href: content/resources.qmd
+        text: Resources
+      - section: "Working with Quarto"
+        contents:
+        - content/websiteBuild.qmd
+        - content/tables.qmd
+
+
       # - href:
       #   text:
       
