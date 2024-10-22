@@ -1,0 +1,7 @@
+---
+title: Research Compendium
+---
+
+*Under Construction*
+
+Goal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.

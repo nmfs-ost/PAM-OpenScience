@@ -1,0 +1,6 @@
+---
+title: Github Organization
+---
+*Under Construction*
+
+Goals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.

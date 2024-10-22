@@ -1,0 +1,45 @@
+---
+title: Organize with Yaml
+---
+
+## How to Organize your Quarto Book
+
+Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the [PAM_template_lab_manual](https://nmfs-ost.github.io/PAM_template_lab_manual/):
+
+**index.qmd**- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.
+
+**\_quarto.yml**- the \_quarto.yml is the configuration file for your project, and is also located in the root directory. The \_quarto.yml provides information regarding overall formatting and structure of pages within the larger document.
+
+**README.md**- Markdown file that serves as the readme for the github repository.
+
+**content folder**- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term 'content' is less confusing that frequently used alternatives. Here we recommend using this for consistency.
+
+### What is a YAML?
+
+YAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a [yaml checker](https://yamlchecker.com/) to be sure your yaml does not have errors.
+
+Quarto books/websites contain a \_quarto.yml file, which is the website's configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:
+
+![](images/quarto-yml-site-side-by-side3.png)
+
+Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.html).
+
+## Modify YAML
+
+1.  Edit URLs- The website and repository links for the template need to be modified to point towards YOUR web/repo URLs
+
+    ![](images/ymlChangeURL.JPG){width="265"}
+
+2.  Change name and structure of Chapters. Does the chapter organization and naming fit your needs? Modify the contents component of the yaml to suit your needs, using 'sections' to identify identify sections with related chapters. Indentation and spacing are critical for yaml, so once you are ready, double-check your yaml by copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/).
+
+    ![](images/ymlChangeChapters.JPG){width="240"}
+
+3.  You are now ready to create and modify your chapters/pages! Go to 'Create Content'!
+
+## Resources
+
+-   [Yaml Checker](https://yamlchecker.com/)
+
+-   [Quarto Yaml Options (HTML)](https://quarto.org/docs/reference/formats/html.html)
+
+-   [Quarto Book Structure](https://quarto.org/docs/books/book-structure.html)

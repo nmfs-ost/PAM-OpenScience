@@ -1,0 +1,11 @@
+---
+title: Sharing Knowledge
+---
+
+Open sharing of knowledge is a fundamental component of Open Science.
+
+-   Bioacoustics Stack Exchange
+
+-   Zotero Libraries
+
+-   Research Compendium

@@ -1,0 +1,7 @@
+---
+title: Github Discussions
+---
+
+*Under Construction*
+
+Goal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.

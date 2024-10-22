@@ -1,0 +1,66 @@
+---
+title: Create Content
+---
+
+You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual).
+
+## Modify Existing Content
+
+Here are basic instructions for modifying existing content, such as the example pages provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual): 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
+
+1)  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). As an example, we will change the "/content/Hardware.qmd" file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.
+
+2)  Identify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: "PAM Gliders", "Drifting Recorders", "Towed Arrays", and "Handheld Hydrophones".
+
+    -   Using the **Source** editor, use \# to indicate Heading 1 style, \## for Heading 2 Style, etc.
+
+    -   Using the **Visual** editor, use the dropdown menu to select the Heading Style
+
+3)  Add Content using either the **Source** or **Visual** editor in RStudio. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:
+
+    POC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.
+
+4)  Once your outline is developed, fill in the content. IF someone else will collate the content– they can create it in a separate document to be copied/pasted here, or they can directly modify this page.
+
+5)  If you find you need separate pages for each sub-heading (instead of one long subheading), then create New Content, and link the new content to the \_quarto.yml.
+
+## Create New Content
+
+Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual): 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
+
+1.  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). Select **New Blank File**, and in the drop-down, select **Quarto Document**. Then give your file a logical and descriptive name.
+
+    ![](images/newQuartoDoc.JPG){width="348"}
+
+2.  Using the **Source** editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).
+
+    ![](images/newPageTitle.JPG){width="222"}
+
+    Add Content using either the **Source** or **Visual** editor in RStudio.. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:
+
+    POC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.
+
+## Render and Save
+
+To ensure your project will be saved correctly, you will need to double-check that your yaml is correct, render locally, then push to github.
+
+1.  Check YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click **Command+Shift+C**). Then, copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/) to ensure proper indentation/spacing.
+
+2.  Render Locally. In RStudio, click on the 'Render' button. Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the "Background Jobs" to identify the errors.
+
+    ![](images/render.JPG){width="185"}
+
+3.  Once you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.
+
+## Examples
+
+Looking at other people's Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.
+
+-   [Quarto gallery](https://quarto.org/docs/gallery/)
+-   [nmfs-openscapes](https://nmfs-openscapes.github.io/)
+-   [Faye lab manual](https://thefaylab.github.io/lab-manual/)
+-   [quarto-titlepages](https://nmfs-opensci.github.io/quarto_titlepages/) Note the link to edit is broken. Go to repo and look in `documentation` directory.
+
+## Resources
+
+-   [Quarto documentation](https://quarto.org/docs/guide/).

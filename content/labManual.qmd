@@ -1,0 +1,5 @@
+---
+title: Lab Manual
+---
+
+During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.

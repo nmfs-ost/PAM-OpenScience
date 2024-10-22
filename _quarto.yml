@@ -33,67 +33,33 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/Zotero.qmd
-        text: Working with Zotero
-      - href: content/Stack-Exchange.qmd
-        text: Bioacoustics Stack Exchange
-      - href: content/GithubDesktop.qmd
-        text: Github Desktop
+      - section: content/knowledge.qmd
+        text: Sharing Knowledge
+        contents:
+         - content/Stack-Exchange.qmd
+         - content/Zotero.qmd
+      - section: content/openscapes.qmd
+        text: Openscapes
+        contents:
+        - section: content/labManual.qmd
+          text: Lab Manual
+          contents:
+          - content/gettingStarted.qmd
+          - content/organizeYml.qmd
+          - content/createContent.qmd
+        - section: content/organization.qmd
+          text: Team Organization
+          contents:
+          - content/gitOrgs.qmd
+          - content/gitProject.qmd
+          - content/gitDiscussions.qmd
+        - section: content/researchCompendium.qmd
+          text: Research Compendium
+          contents:
+          - content/createCompendium.qmd
+      # - section: "Working with Quarto"
+      #   contents:
+      #   - content/websiteBuild.qmd
+      #   - content/tables.qmd
       - href: content/resources.qmd
         text: Resources
-      - section: "Working with Quarto"
-        contents:
-        - content/websiteBuild.qmd
-        - content/tables.qmd
-
-
-      # - href:
-      #   text:
-      
-      
-#FOR BELOW-- Modify all this material to create a Beginners Tutorial
-#Moved All of This to Folder "Mtg-Old"
-      # - section: "Pre Meeting Prep"
-      #   contents:
-      #   # - content/PAM-SI-Mtg-Prep.qmd
-      #   - content/prep/PAM-SI-Mtg-Prep-step1.qmd
-      #   - content/prep/PAM-SI-Mtg-Prep-step2.qmd
-      #   - content/prep/PAM-SI-Mtg-Prep-step3.qmd
-      #   - content/prep/PAM-SI-Mtg-Prep-step4.qmd
-      # - section: "Workshop Exercises"
-      #   contents:
-      #   - content/PAM-SI-Mtg-Exercises.qmd
-      #   - content/exercises/PAM-SI-Mtg-MeetingNotes.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-IntroText.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Github.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Authors.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-References.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-NCEI.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Cloud.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Climate.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Soundscape.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-StockAssess.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Management.qmd
-      #   - content/exercises/PAM-SI-Mtg-Exercises-Detection.qmd
-
-  
-
-
-
-format:
-  html:
-    theme:
-      light: [cosmo, theme.scss] 
-      dark: [cosmo, theme-dark.scss]
-    code-copy: true
-    code-overflow: wrap
-    toc: true
-
-
-filters:
-  - include-files.lua
-  - quarto
-
-  
