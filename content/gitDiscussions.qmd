@@ -1,8 +1,13 @@
----
-title: Github Discussions ![](content/images/githubDiscussionsLogo.png){width=2in}
+::: columns
+::: {.column width="40%"}
+title: Github Discussions
+:::
 
----
+::: {.column width="60%"}
+![](images/githubDiscussionsLogo.png)
+:::
+:::
 
-*Under Construction*
+*Under Construction* ![](content/images/workInProgress.jpg)
 
 Goal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.

@@ -1,7 +1,17 @@
----
-title: Github Projects ![](content/images/githubProjects.png){width=2in}
----
+::: columns
+::: {.column width="40%"}
+
+# Github Projects 
+
+::: columns
+::: {.column width="60%"}
+
+![](content/images/githubProjects.png){width=2in}
+
+:::
+:::
 
 *Under Construction*
+
 
 Goal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.

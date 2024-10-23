@@ -1,7 +1,13 @@
----
-title: Github Organizations ![](content/images/githubTeamsLogo.png){width=2in}
----
+::: columns
+::: {.column width="40%"}
+# Github Organizations
+:::
+
+::: {.column width="60%"}
+![](images/githubTeamLogo.jpg)
+:::
+:::
 
 *Under Construction*
 
-Goal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with 'owners' and a 'lab manual' to serve as the primary go-to point for all components of the PAM-SI Team. 
+Goal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with 'owners' and a 'lab manual' to serve as the primary go-to point for all components of the PAM-SI Team.

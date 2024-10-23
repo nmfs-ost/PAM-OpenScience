@@ -6,7 +6,7 @@
 :::
 ::: {.column width="60%"}
 
-![](images/stackExchangeLogo.png)
+![](images/stackExchangeLogo.png){width="1in"}
 
 :::
 :::

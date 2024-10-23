@@ -12,7 +12,6 @@
 :::
 :::
 
-## About Zotero
 
 [Zotero](https://www.zotero.org/) is an open-source online reference
 manager, where references can be readily saved from Google scholar using

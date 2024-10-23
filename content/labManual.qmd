@@ -12,3 +12,8 @@
 :::
 
 During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.
+
+1. Getting Started
+2. Organize with Yaml
+3. Create Content
+4. Collaborate with Github Issues, Projects, and Discussion
