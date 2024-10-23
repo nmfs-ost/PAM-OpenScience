@@ -1,10 +1,10 @@
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 
 # Github Projects 
 
-::: columns
-::: {.column width="60%"}
+::: 
+::: {.column width="50%"}
 
 ![](images/githubProjects.png){width=1in}
 

@@ -1,10 +1,13 @@
 ::: columns
 ::: {.column width="50%"}
+
 # Github Organizations
+
 :::
 
 ::: {.column width="50%"}
-![](images/githubTeamLogo.jpg){width=1in}
+
+![](images/githubTeamLogo.jpg){width=2in}
 :::
 :::
 

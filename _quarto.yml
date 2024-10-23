@@ -68,3 +68,16 @@ website:
       #   - content/tables.qmd
       - href: content/resources.qmd
         text: Resources
+        
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss] 
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: true 
+    
+filters:
+  - include-files.lua
+  - quarto
