@@ -1,0 +1,17 @@
+---
+subtitle: Issues, Projects, and Discussions
+---
+::: columns
+::: {.column width="50%"}
+# Collaborate with Github
+
+:::
+
+::: {.column width="50%"}
+![](images/githubTeamLogo.jpg){width=1in}
+:::
+:::
+
+1. Issues
+2. Projects
+3. Discussions

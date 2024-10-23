@@ -51,6 +51,7 @@ website:
           - content/gettingStarted.qmd
           - content/organizeYml.qmd
           - content/createContent.qmd
+          - content/gitCollaborate.qmd
         - section: content/organization.qmd
           text: Team Organization
           contents:

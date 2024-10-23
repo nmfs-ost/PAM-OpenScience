@@ -1,10 +1,10 @@
 ::: columns
-::: {.column width="40%"}
-title: Github Discussions
+::: {.column width="60%"}
+# Github Discussions
 :::
 
-::: {.column width="60%"}
-![](images/githubDiscussionsLogo.png)
+::: {.column width="40%"}
+![](images/githubDiscussionsLogo.png){width=1in}
 :::
 :::
 

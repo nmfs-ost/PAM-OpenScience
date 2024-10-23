@@ -1,10 +1,10 @@
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 # Github Organizations
 :::
 
-::: {.column width="60%"}
-![](images/githubTeamLogo.jpg)
+::: {.column width="50%"}
+![](images/githubTeamLogo.jpg){width=1in}
 :::
 :::
 

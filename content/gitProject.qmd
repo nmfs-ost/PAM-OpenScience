@@ -6,7 +6,7 @@
 ::: columns
 ::: {.column width="60%"}
 
-![](content/images/githubProjects.png){width=2in}
+![](images/githubProjects.png){width=1in}
 
 :::
 :::
