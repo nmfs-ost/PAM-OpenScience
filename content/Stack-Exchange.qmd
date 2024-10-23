@@ -1,6 +1,15 @@
----
-title: Stack Exchange
----
+::: columns
+::: {.column width="40%"}
+
+# Stack Exchange
+
+:::
+::: {.column width="60%"}
+
+![](images/stackExchangeLogo.png)
+
+:::
+:::
 
 ## Bioacoustics Stack Exchange
 

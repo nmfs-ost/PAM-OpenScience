@@ -1,6 +1,15 @@
----
-title: Sharing Knowledge
----
+::: columns
+:::{.column width="40%"}
+
+# Sharing Knowledge
+
+:::
+:::{.column width="60%"}
+
+![](images/shareKnowledgeLogo.png){width=1in} 
+
+:::
+:::
 
 Open sharing of knowledge is a fundamental component of Open Science.
 

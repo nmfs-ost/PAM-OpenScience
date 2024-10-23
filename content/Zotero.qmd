@@ -1,6 +1,16 @@
----
-title: Zotero
----
+
+::: columns
+::: {.column width="40%"}
+
+# Zotero
+
+:::
+::: {.column width="60%"}
+
+![](images/zoteroLogo.png){width="1in"}
+
+:::
+:::
 
 ## About Zotero
 
@@ -29,7 +39,7 @@ a browser plugin.
 1.  Find article on Google Scholar, click on double quotes at bottom of
     citation
 
-2.  Select \'RefMan\' and OK to save to Zotero
+2.  Select 'RefMan' and OK to save to Zotero
 
 3.  Add citation to the NMFS-PAM group
 
@@ -119,7 +129,7 @@ Use Zotero to download the csl file for the journal you want to use.
 
 ### Add CSL to Your yaml
 
-``` R
+``` r
 title: "My Document" 
 bibliography: references.bib 
 csl: nature.csl
@@ -134,7 +144,7 @@ csl: nature.csl
 
 ### Add Your References Into the Document
 
-#### Inline Citation: 
+#### Inline Citation:
 
 Citations are inserted into your document using square brackets and are
 separated by semicolons. Each citation must have a key, composed of an
@@ -144,7 +154,7 @@ separated by semicolons. Each citation must have a key, composed of an
 [@wickham2015]
 ```
 
-#### Bibliography: 
+#### Bibliography:
 
 A list of works cited will be automatically generated and placed in the
 document if the style calls for it. You may insert divs such as this;

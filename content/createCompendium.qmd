@@ -5,3 +5,12 @@ title: Create Research Compendium
 *Under Construction*
 
 Goals: Create a template and present step by step instructions to create the compendium. May need alternatives based on primary output (NOAA report, website, etc)
+
+
+## Resources
+
+Research Compendium Templates:
+  * [emdelponte Website Based](https://github.com/emdelponte/research-compendium-website) 
+  * 
+[rrrpkg](https://github.com/ropensci/rrrpkg)- R package, and more info [here](https://annakrystalli.me/rrresearchACCE20/creating-a-research-compendium-with-rrtools.html)
+[rcompendium](https://frbcesab.github.io/rcompendium/)- R package 

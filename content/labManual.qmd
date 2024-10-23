@@ -1,5 +1,14 @@
----
-title: Lab Manual
----
+::: columns
+:::{.column width="40%"}
+
+# Lab Manual 
+
+::: 
+:::{.column width="60%"}
+
+![](images/labManualLogo.png){width=1in}
+
+:::
+:::
 
 During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.

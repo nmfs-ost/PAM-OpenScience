@@ -9,10 +9,10 @@ One way to insert a table is using the Child option (where this file is the 'Par
 
 Example:
 
-```{r bwTbl, child= "../data/bwTbl.r"}
+{r bwTbl, child= "../data/bwTbl.r"}
 
 
-```
+
 
 
 Resources for working with Tables in Quarto:

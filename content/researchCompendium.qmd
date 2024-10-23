@@ -5,3 +5,10 @@ title: Research Compendium
 *Under Construction*
 
 Goal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.
+
+## What is a Research Compendium?
+
+A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). 
+
+## Conventions
+By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. 

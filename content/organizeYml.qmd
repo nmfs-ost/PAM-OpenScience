@@ -32,6 +32,12 @@ Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.
 
 2.  Change name and structure of Chapters. Does the chapter organization and naming fit your needs? Modify the contents component of the yaml to suit your needs, using 'sections' to identify identify sections with related chapters. Indentation and spacing are critical for yaml, so once you are ready, double-check your yaml by copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/).
 
+    **href:** refers to the name of the relevant qmd file (located in the contents folder).
+
+    **text:** this is the text you will see on the sidebar of the web-book.
+
+    **section:** to identify sections that contain more than one chapter/pages within it. If you want the high level of the 'section' to contain information (when you click on it, a summary page appears), then point directly to a qmd file within the content folder. Otherwise, simply title the section.
+
     ![](images/ymlChangeChapters.JPG){width="240"}
 
 3.  You are now ready to create and modify your chapters/pages! Go to 'Create Content'!

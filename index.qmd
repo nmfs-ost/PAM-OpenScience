@@ -1,15 +1,71 @@
 ---
 title: "Open Science for NOAA Fisheries PAM"
 page-layout: full
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. This repository provides resources to help NOAA Fisheries Passive Acoustic Monitoring groups adopt an **Open Science** approach to their research.
+Open Science is a movement to make scientific research (including
+publications, data, software) transparent and accessible so that
+knowledge is shared. This repository provides resources to help NOAA
+Fisheries Passive Acoustic Monitoring groups adopt an **Open Science**
+approach to their research.
 
+::: columns
+::: {.column width="20%"}
+## Sharing Knowledge
+:::
 
+::: {.column width="80%"}
+![](content/images/shareKnowledgeLogo.png){width="100"}
+:::
+:::
 
+Public access to knowledge is a fundamental component of Open Science
+that often takes a back seat to open access to methods and data. The
+open sharing of knowledge not only helps our future selves, it also
+helps serves to lessen the inequities inherent in scientific research.
+When we learn something new, we should consider how we can share this
+information. Here we give advice on sharing knowledge through
+BioAcoustics Stack Exchange (a public Q & A platform) and with Zotero
+Libraries (shared public libraries to identify reports and
+publications).
 
+::: columns
+::: {.column width="20%"}
+## Co-Working
+:::
 
-## *IF YOU NEED HELP*
+::: {.column width="80%"}
+![](content/images/coWorkingLogo.png){width="100"}
+:::
+:::
+
+Co-working allows researchers to work together in time and/or space to
+provide motivation, accountability, and assistance. There are any number
+of ways to co-work, and here we provide a few suggestions to conduct
+co-working sprints or writers workshops.
+
+::: columns
+::: {.column width="20%"}
+## OpenScapes
+:::
+
+::: {.column width="80%"}
+![](content/images/openscapes_hex.png){width="99"}
+:::
+:::
+
+This section contains methods for adopting an Open Science broken up
+into specific goals, including: Creating a Lab Manual, Developing a
+Github Organization, and creating a Research Compendium.
+
+*In the spirit of collaborative open science, if you have an idea or
+suggestion for expanding or improving this set of Open Science
+materials, please follow the instructions below to submit and issue.*
+
+## *IF YOU NEED HELP* or *IF YOU HAVE SUGGESTIONS*
 
 Submit an Issue on THIS repository requesting help:
 
@@ -19,11 +75,10 @@ Submit an Issue on THIS repository requesting help:
 
 -   At right, click on green NEW ISSUES button
 
--   Give a descriptive title, and add a description of the specific help you need. At the right, under Assignees, choose all three:
+-   Give a descriptive title, and add a description of the specific help
+    you need. At the right, under Assignees, choose all three:
 
     -   shannonrankin
-
-    -   rebecca-vanhoeck
 
     -   Kourtney-Burger
 

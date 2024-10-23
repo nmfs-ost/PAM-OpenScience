@@ -38,6 +38,10 @@ website:
         contents:
          - content/Stack-Exchange.qmd
          - content/Zotero.qmd
+      - section: content/coworking.qmd
+        text: Co-Working
+        contents:
+          - content/writersWorkshop.qmd
       - section: content/openscapes.qmd
         text: Openscapes
         contents:

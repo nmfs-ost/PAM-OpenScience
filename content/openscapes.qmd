@@ -1,7 +1,16 @@
----
-title: Openscapes
+::: columns
+:::{.column width="40%"}
+
+# Openscapes 
+
+::: 
+:::{.column width="60%"}
+
+![](images/openscapes_hex.png){width=1in}
 subtitle: Journeys into Open Science
----
+
+:::
+:::
 
 Openscapes is an open source approach and movement, and [Openscapes](https://openscapes.org/) is also an organization that facilitates adopting an open science way of working. Below we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the [NMFS Openscapes Champions Program](https://nmfs-openscapes.github.io/).
 

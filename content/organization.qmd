@@ -1,6 +1,16 @@
----
-title: Github Organization
----
+::: columns
+:::{.column width="40%"}
+
+# Github Organization 
+
+::: columns
+:::{.column width="60%"}
+
+![](images/githubTeamLogo.png){width=1in}
+
+:::
+:::
+  
 *Under Construction*
 
 Goals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.

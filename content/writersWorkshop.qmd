@@ -1,8 +1,16 @@
----
-title: Writers Workshop
----
+::: columns
+:::{.column width="40%"}
 
-## Writers Workshop
+# Writer's Workshop
+
+::: 
+:::{.column width="60%"}
+
+![](images/writersWorkshopLogo.png){width=1in}
+
+:::
+:::
+
 
 Writers Workshop is a weekly co-working meeting where we work on our individual projects *together*. It is especially difficult to stay focused while writing, and these workshops provide a level of accountability that helps us move our writing forward.
 
@@ -24,10 +32,12 @@ Meetings are virtual and typically 2-3 hours in length. You should have your mat
 
 6.  Everyone give a brief update on what they accomplished, how they feel about their work.
 
-***For additional information:***
+## Resources
 
 Writing Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). [**https://doi.org/10.1002/bes2.1800**](https://doi.org/10.1002/bes2.1800)
 
 Defining the Role of Authors and Contributors (ICMJE). Link [here](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
 A guide to getting published in Ecology and Evolution (BES). Link [here](https://www.britishecologicalsociety.org/wp-content/uploads/BES-Guide-to-Getting-Published.pdf).
+
+Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY).

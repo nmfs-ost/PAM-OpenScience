@@ -1,5 +1,6 @@
 ---
-title: Github Discussions
+title: Github Discussions ![](content/images/githubDiscussionsLogo.png){width=2in}
+
 ---
 
 *Under Construction*

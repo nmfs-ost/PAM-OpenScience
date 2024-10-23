@@ -46,9 +46,13 @@ To ensure your project will be saved correctly, you will need to double-check th
 
 1.  Check YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click **Command+Shift+C**). Then, copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/) to ensure proper indentation/spacing.
 
-2.  Render Locally. In RStudio, click on the 'Render' button. Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the "Background Jobs" to identify the errors.
+2.  Render Locally. In RStudio, go to the index.qmd and click on the 'Render' button (alternatively, in the Terminal window (bottom left), type 'quarto render'). Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the "Background Jobs" to identify the errors.
 
     ![](images/render.JPG){width="185"}
+    
+            ::: callout-important
+        ## Note: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.
+        :::
 
 3.  Once you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.
 

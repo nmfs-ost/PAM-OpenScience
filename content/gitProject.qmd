@@ -1,5 +1,5 @@
 ---
-title: Github Projects
+title: Github Projects ![](content/images/githubProjects.png){width=2in}
 ---
 
 *Under Construction*
