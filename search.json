@@ -52,13 +52,13 @@
   {
     "objectID": "content/gitProject.html",
     "href": "content/gitProject.html",
-    "title": "Github Projects ",
+    "title": "Github Projects",
     "section": "",
-    "text": "Under Construction\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.",
+    "text": "Github Projects\n\n\n\n\n\nUnder Construction\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.",
     "crumbs": [
       "Openscapes",
       "Team Organization",
-      "Github Projects ![](content/images/githubProjects.png){width=2in}"
+      "Github Projects"
     ]
   },
   {
@@ -122,7 +122,7 @@
     "href": "content/labManual.html",
     "title": "Lab Manual",
     "section": "",
-    "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.",
+    "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nCollaborate with Github Issues, Projects, and Discussion",
     "crumbs": [
       "Openscapes",
       "Lab Manual"
@@ -662,11 +662,11 @@
     "text": "Exercise: Insert preliminary text for the Report Introduction based on the PAM-SI Proposal.\n\nBefore you start…. do you have a local RStudio project for PAM-SI-Mtg-March2024? If not, follow instructions in Pre-Meeting Tasks here.\n\n\nCreate and Edit File\n\nOpen PAM-SI-Mtg-March2024 project in RStudio\nIn lower right hand corner, select ‘Files’ tab\nClick on the 📁text folder to open\nCreate a new quarto Document\n\nIn ‘Files’ tab, click on box to left of “PAM-SI-Mtg-Exercises-template.qmd”\nClick on ⚙️More dropdown, then select Copy and save as “PAM-SI-Mtg-Exercises-Management.qmd”\n\nModify document\n\nAt top, where it says ‘Chapter Template’, replace with “Management Outcomes and Tools”\nIn Project Team Table, add in names of Section Leads in the ‘Name of Lead’ cells (you can get the name of the section leads from the Agenda)\nSave the document\n\nLink PAM-SI-Mtg-Exercises-Management.qmd to Report\n\nOpen the _quarto.yaml in the root directory and scroll down to the ‘chapters’. Here you’ll see a list of documents in the content folder that are serving as pages for the Report. Yaml documents are very fussy about specific formatting.\nPut the cursor after the index.qmd and hit ‘enter’ (this will increase the chances that your entry is properly aligned).\nIn this position, write ‘- text/PAM-SI-Mtg-Exercises-Management.qmd’ (be sure there is only one space between the - and the word ‘content’)\n\nCommit & Push to Github\n\nOpen Github Desktop, and in top left corner, use drop-down menu to select ‘PAM-SI-Mtg-March2024’ repository. Github desktop will identify the changes you made to the document.\nAt the bottom left, describe the modifications you made to the document, and then select ‘commit’. For example, you may want to write “Add Management Section” and in details, state “Added draft summary for Management Workshop Section”.\nOnce the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\n\nOpen associated Github Issue here, and make sure you’ve completed all tasks"
   },
   {
-    "objectID": "content/Zotero.html#about-zotero",
-    "href": "content/Zotero.html#about-zotero",
+    "objectID": "content/Zotero.html",
+    "href": "content/Zotero.html",
     "title": "Zotero",
-    "section": "About Zotero",
-    "text": "About Zotero\nZotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.",
+    "section": "",
+    "text": "Zotero is an open-source online reference manager, where references can be readily saved from Google scholar using a browser plugin.",
     "crumbs": [
       "Sharing Knowledge",
       "Zotero"
@@ -833,13 +833,13 @@
   {
     "objectID": "content/gitOrgs.html",
     "href": "content/gitOrgs.html",
-    "title": "Github Organizations ",
+    "title": "Github Organizations",
     "section": "",
-    "text": "Under Construction\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.",
+    "text": "Github Organizations\n\n\n\n\n\nUnder Construction\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.",
     "crumbs": [
       "Openscapes",
       "Team Organization",
-      "Github Organizations ![](content/images/githubTeamsLogo.png){width=2in}"
+      "Github Organizations"
     ]
   },
   {
@@ -867,13 +867,13 @@
   {
     "objectID": "content/gitDiscussions.html",
     "href": "content/gitDiscussions.html",
-    "title": "Github Discussions ",
+    "title": "Open Sciences for NOAA Fisheries PAM",
     "section": "",
-    "text": "Under Construction\nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.",
+    "text": "title: Github Discussions\n\n\n\n\nUnder Construction \nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.",
     "crumbs": [
       "Openscapes",
       "Team Organization",
-      "Github Discussions ![](content/images/githubDiscussionsLogo.png){width=2in}"
+      "gitDiscussions.html"
     ]
   }
 ]
