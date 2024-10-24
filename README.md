@@ -11,6 +11,10 @@ View html output here:
 
 To Do:
 - compile information for gitProjects, gitOrgs, gitDiscussions
+- compendium template (consider pre-registration)
 - troubleshooting (rendering, ?)
 - custom issues
 - insert Discussions as a webpage
+- Links to Publications (open source)
+- doi's
+- Version Control

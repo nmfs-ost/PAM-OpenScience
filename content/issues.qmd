@@ -1,0 +1,33 @@
+## subtitle: Using Issues to Track Tasks, Problems, Decisions
+
+::: columns
+::: {.column width="50%"}
+# Github Issues
+:::
+
+::: {.column width="50%"}
+![](images/githubIssuesLogo.png){width=2in}
+:::
+:::
+
+# Do It Yourself!
+
+
+For this example, we will create a custom issue template for requesting that someone add information to a Github Repository
+
+1.  In Github, navigate to the main page of the repository. Under your repository name, click the *Settings*. If you cannot see the "Settings" tab, select the ... dropdown menu, then click *Settings*.
+
+
+2.  In the "Features" section, under *Issues*, click *Set up templates*. You may need to enable *Issues* and refresh the page before you can see the button. 
+
+3.  Use the *Add Template* dropdown menu, and click on the type of template you'd like to create. 
+
+4.  
+
+5.  
+
+## Resources
+
+[NMFS Open Science Github Project Boards (examples)](https://nmfs-opensci.github.io/ResourceBook/content/project_management/github_project_boards.html)
+
+[Creating Custom Github Issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms)
