@@ -10,6 +10,8 @@ Resources for learning more about Open Science
 
 [NMFS Open Science](https://nmfs-opensci.github.io/) - Landing page for NMFS Open Science information and resources, including a [Resource Book](https://nmfs-opensci.github.io/ResourceBook/)
 
+[Easing into Open Science](https://online.ucpress.edu/collabra/article/7/1/18684/115927/Easing-Into-Open-Science-A-Guide-for-Graduate)
+
 ### Github
 
 [NMFS Github Guide](https://nmfs-opensci.github.io/ResourceBook/)- Information, Best Practices, etc.

@@ -8,7 +8,11 @@
 :::
 :::
 
-*Under Construction* 
+**Goal:** Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.
+
+***Under Construction*** 
+
+
 ![](images/workInProgress.jpg)
 
-Goal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.
+
