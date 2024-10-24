@@ -54,7 +54,7 @@
     "href": "content/gitProject.html",
     "title": "Github Projects",
     "section": "",
-    "text": "Github Projects\n\n\n\n\n\nUnder Construction\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.",
+    "text": "Github Projects\n\n\n\n\n\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.\nUnder Construction",
     "crumbs": [
       "Openscapes",
       "Team Organization",
@@ -250,7 +250,7 @@
     "href": "content/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Resources for learning more about Open Science\n\nOpen Science\nOpenScapes- An organization to facilitate embracing the Open Science movement, including: resources, blog, and Openscapes Approach Guide (among other things).\nNMFS Open Science - Landing page for NMFS Open Science information and resources, including a Resource Book\n\n\nGithub\nNMFS Github Guide- Information, Best Practices, etc.\nIntro to Github- PSAW presentation by Eli Holmes\nGithub Strategies (Openscapes)\nGit for Humans Intro to Github for non-coders\nInstalling GitHub Desktop will install a platform for interacting with GitHub and also Git.\n\nVideo 1. Setting GitHub Desktop Preferences (2.5 mins) https://youtu.be/0PVOPL6i3MQ\nVideo 2. Cloning a repository (2 mins) https://youtu.be/acIwQO1eOtw\nVideo 3. Pulling and pushing changes to GitHub (3.5 mins) https://youtu.be/cQgn3_w27_8\n\n\n\nQuarto\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here.\nQuarto Keynote Presentation at RStudio Conference.\nQuarto Tutorial (Openscapes)\n\n\nR and Tidyverse\n“You shouldn’t feel ashamed about your code- if it solves the problem, it’s perfect just the way it is. But also, it could always be better” Hadley Wickham\nWhy Tidy Data?(Openscapes)\nNMFS R User Group\nBig Book of R\nHappy Git with R (Jenny Bryan)\nCoding Strategies (Openscapes)\nName things deliberately (see 3 Rules for Naming Things)",
+    "text": "Resources for learning more about Open Science\n\nOpen Science\nOpenScapes- An organization to facilitate embracing the Open Science movement, including: resources, blog, and Openscapes Approach Guide (among other things).\nNMFS Open Science - Landing page for NMFS Open Science information and resources, including a Resource Book\nEasing into Open Science\n\n\nGithub\nNMFS Github Guide- Information, Best Practices, etc.\nIntro to Github- PSAW presentation by Eli Holmes\nGithub Strategies (Openscapes)\nGit for Humans Intro to Github for non-coders\nInstalling GitHub Desktop will install a platform for interacting with GitHub and also Git.\n\nVideo 1. Setting GitHub Desktop Preferences (2.5 mins) https://youtu.be/0PVOPL6i3MQ\nVideo 2. Cloning a repository (2 mins) https://youtu.be/acIwQO1eOtw\nVideo 3. Pulling and pushing changes to GitHub (3.5 mins) https://youtu.be/cQgn3_w27_8\n\n\n\nQuarto\nVideo Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link here.\nQuarto Keynote Presentation at RStudio Conference.\nQuarto Tutorial (Openscapes)\n\n\nR and Tidyverse\n“You shouldn’t feel ashamed about your code- if it solves the problem, it’s perfect just the way it is. But also, it could always be better” Hadley Wickham\nWhy Tidy Data?(Openscapes)\nNMFS R User Group\nBig Book of R\nHappy Git with R (Jenny Bryan)\nCoding Strategies (Openscapes)\nName things deliberately (see 3 Rules for Naming Things)",
     "crumbs": [
       "Resources"
     ]
@@ -858,7 +858,7 @@
     "href": "content/gitOrgs.html",
     "title": "Github Organizations",
     "section": "",
-    "text": "Github Organizations\n\n\n\n\n\nUnder Construction\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.",
+    "text": "Github Organizations\n\n\n\n\n\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.\nUnder Construction",
     "crumbs": [
       "Openscapes",
       "Team Organization",
@@ -892,7 +892,7 @@
     "href": "content/gitDiscussions.html",
     "title": "Github Discussions",
     "section": "",
-    "text": "Github Discussions\n\n\n\n\n\nUnder Construction \nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.",
+    "text": "Github Discussions\n\n\n\n\n\nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.\nUnder Construction",
     "crumbs": [
       "Openscapes",
       "Team Organization",
