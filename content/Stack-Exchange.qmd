@@ -1,10 +1,10 @@
 ::: columns
-::: {.column width="40%"}
+::: {.column width="30%"}
 
 # Stack Exchange
 
 :::
-::: {.column width="60%"}
+::: {.column width="70%"}
 
 ![](images/stackExchangeLogo.png){width="1in"}
 

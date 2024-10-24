@@ -6,7 +6,7 @@
 ::: 
 ::: {.column width="50%"}
 
-![](images/githubProjects.png){width=1in}
+![](images/githubProjects.png){width=2in}
 
 :::
 :::

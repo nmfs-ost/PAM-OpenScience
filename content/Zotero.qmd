@@ -1,11 +1,11 @@
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="20%"}
 
 # Zotero
 
 :::
-::: {.column width="60%"}
+::: {.column width="80%"}
 
 ![](images/zoteroLogo.png){width="1in"}
 

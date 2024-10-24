@@ -29,7 +29,7 @@ website:
 
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - href: index.qmd
         text: Home
@@ -42,6 +42,7 @@ website:
         text: Co-Working
         contents:
           - content/writersWorkshop.qmd
+          - content/journalClub.qmd
       - section: content/openscapes.qmd
         text: Openscapes
         contents:
