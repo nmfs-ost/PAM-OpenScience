@@ -39,7 +39,7 @@ website:
          - content/Stack-Exchange.qmd
          - content/Zotero.qmd
       - section: content/coworking.qmd
-        text: Co Working
+        text: Co-Working
         contents:
           - content/writersWorkshop.qmd
           - content/journalClub.qmd
