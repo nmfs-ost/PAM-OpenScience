@@ -1,0 +1,56 @@
+---
+title: Github Branches
+---
+## Github Collaboration: Working with Branches
+
+### **Problem:**
+
+Multiple people working on Github Repository and we want to insure that (1) we are editing the most recent version and (2) we do not have any conflicts when we upload our updates to the main repo.
+
+### **Good Habits:**
+
+-   All work done in branches (not the main!)
+
+-   Work in small chunks (1 session, \< 1 day)
+
+-   At start of session, make sure your branch is updated!
+
+-   At end of session, push your updates to Github using Pull Request
+
+-   Start clean at your next work session!
+
+### Step by Step
+
+1.  **Create a Branch**
+
+    1.  Github Desktop, create and name your branch. You can use the same name everytime, or you can create new branches at intervals. If you create many branches, you will want to delete them when they are no longer being used. When asked, publish Pull Request.
+
+        ![Using Github Desktop, create your own working branch in Github.](images/createBranch.jpg)
+
+<!-- -->
+
+2.  **Update your Branch**
+
+    1.  If your branch is not new, make sure to update your branch so that it includes all updates on the main branch.  See [this video](https://youtu.be/uu92kFnp7iw?si=PLJqB4LM2v7u7ncT) by Eli Holmes (30sec through 6 min) to update your personal branch. ***NOTE:*** *We Will Use Different Methods To Update The Main Branch With The Modifications On Your Branch!*
+
+    2.  You can also update mid-session, if that is important to the work you are doing.
+
+<!-- -->
+
+3.  **Do Good Work!** 
+
+    1.  Do good work. Add information to your topic in your branch.
+
+    2.  Commit your changes, providing detailed explanations of changes made. If you suspect your work will create a conflict, explain this and provide information on how to address this conflict. 
+
+4.  **Push Updates to Github using Pull Request.**
+
+    At the end of a session, push your changes to Github using a Pull Request. This will allow us to review all changes to the main before they are accepted (this serves as a double-check to ensure there are no conflicts). 
+
+    -   Push to Origin
+
+        ![Using Github Desktop, push your changes to Origin (Github).](images/Push2Origin.jpg)
+
+    -   Open and Publish Pull Request. This will lead you to Github Online– Go ahead and add pull request, but do not merge. Shannon will periodically review pull requests and merge them (this will allow her to keep updated on changes).
+
+        ![Using Github Desktop, Publish your Pull Request.](images/PublishPullRequest.jpg)
