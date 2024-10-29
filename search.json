@@ -56,8 +56,8 @@
     "section": "",
     "text": "Github Projects\n\n\n\n\n\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.\nUnder Construction",
     "crumbs": [
-      "Openscapes",
-      "Team Organization",
+      "Lab Manual",
+      "Github Collaboration",
       "Github Projects"
     ]
   },
@@ -124,7 +124,6 @@
     "section": "",
     "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\n[Collaborate with Github Issues, Projects, and Discussion]",
     "crumbs": [
-      "Openscapes",
       "Lab Manual"
     ]
   },
@@ -135,7 +134,6 @@
     "section": "",
     "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -147,7 +145,6 @@
     "section": "",
     "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -159,7 +156,6 @@
     "section": "Add Software Tools",
     "text": "Add Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -171,7 +167,6 @@
     "section": "Create a NEW Repository from a template:",
     "text": "Create a NEW Repository from a template:\n\nGo to the Github Repository for the PAM Lab Manual Template\nClick on the ‘Use this template’ button in the top right, select ‘Create new repository’\n\nEdit repository settings\n\nSelect the ‘Include all branches’ option\nSelect your lab organization or yourself as the owner and set the repository name to ‘Lab name Lab Manual’\nMake description “Lab manual for ‘insert lab name and FMC’”\nMake the repo public\n\n\nClick create repository\nTurn on GitHub pages under Settings-&gt;Pages. You will set pages to be made from the gh-pages branch and root directory\n\nUpdate ‘Actions’ settings\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Actions permissions select ‘Allow all actions and reusable workflows’. Select save\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Workflow permissions select ‘Read and write permissions’\n\n\n\n\n\n\n\nNote: Both of these settings may already be selected but you have to click save for both\n\n\n\n\n\n\n\nReturn to the main page of the repo to edit your website\n\nClick on ‘Code’ in the top left\nClick on the settings button next to the ‘About’ section on the right side of the repository\nSelect ‘Use your GitHub Pages website’. This should autopopulate the website\nSelect ‘Save Changes’",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -183,7 +178,6 @@
     "section": "Clone Repository to Local Computer",
     "text": "Clone Repository to Local Computer\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your chosen Repository on Github, then save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -195,7 +189,6 @@
     "section": "Create a New Rstudio Project",
     "text": "Create a New Rstudio Project\n\nCreate a new project in RStudio.\n\nOpen RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project.\n\nBrowse to find the appropriate folder in Documents-&gt; Github.\n\nModify the README.md file.\n\nIn the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\n\nOpen this file and edit using either Source Code or Visual Editor\n\n\nAdd the title of your repository (using # Title in Source Code or Heading 1 in Visual Editor)\nAdd text below the title describing the contents/purpose of this repository\nAdd the following Disclaimer and License (### Disclaimer if using Source Code):\nDisclaimer\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.\nLicense\nThis content was created by U.S. Government employees as part of their official duties. This content is not subject to copyright in the United States (17 U.S.C. §105) and is in the public domain within the United States of America. Additionally, copyright is waived worldwide through the CC0 1.0 Universal public domain dedication.\n\n\nSave! This Readme will show up at the bottom of our Github Repository\n\nModify the index.qmd file (home page)\n\nOpen the index.qmd file\n\n\n\nModify using Source Editor to add a title and introductory text for the home page (for website). Title will need to be written in this format:\n\ntitle: “This is my title”",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -207,7 +200,6 @@
     "section": "Commit & Push to Github",
     "text": "Commit & Push to Github\n\nCommit & Push to Github.\n\nSave project in RStudio\nOpen your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).\n\nAt the bottom left, describe the modifications you made to the document, and then select ‘commit’.\nOnce the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\n\n\nCheck the updates on Github\n\nOpen your Github repository\nGo to Actions Tab- is it rendering? did it go through (green) or fail (red)?\n\nView the updated Github Repo ReadMe\nView the updated Website Homepage\n\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -219,7 +211,6 @@
     "section": "Additional Resources",
     "text": "Additional Resources\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Getting Started"
     ]
@@ -288,11 +279,10 @@
     "href": "content/gitCollaborate.html",
     "title": "Collaborate with Github",
     "section": "",
-    "text": "Collaborate with Github\n\n\n\n\n\n\nIssues\nProjects\nDiscussions",
+    "text": "Collaborate with Github\n\n\n\n\n\nGithub has a number of tools that facilitate collaboration, including:\n\nIssues- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.\nProjects\nDiscussions",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
-      "Collaborate with Github"
+      "Github Collaboration"
     ]
   },
   {
@@ -386,7 +376,6 @@
     "section": "",
     "text": "You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the PAM Template Lab Manual.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -398,7 +387,6 @@
     "section": "Modify Existing Content",
     "text": "Modify Existing Content\nHere are basic instructions for modifying existing content, such as the example pages provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). As an example, we will change the “/content/Hardware.qmd” file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.\nIdentify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: “PAM Gliders”, “Drifting Recorders”, “Towed Arrays”, and “Handheld Hydrophones”.\n\nUsing the Source editor, use # to indicate Heading 1 style, ## for Heading 2 Style, etc.\nUsing the Visual editor, use the dropdown menu to select the Heading Style\n\nAdd Content using either the Source or Visual editor in RStudio. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.\nOnce your outline is developed, fill in the content. IF someone else will collate the content– they can create it in a separate document to be copied/pasted here, or they can directly modify this page.\nIf you find you need separate pages for each sub-heading (instead of one long subheading), then create New Content, and link the new content to the _quarto.yml.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -410,7 +398,6 @@
     "section": "Create New Content",
     "text": "Create New Content\nAgain, assuming you have an RStudio project for your Github Repository, such as the example provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). Select New Blank File, and in the drop-down, select Quarto Document. Then give your file a logical and descriptive name.\n\nUsing the Source editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).\n\nAdd Content using either the Source or Visual editor in RStudio.. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -422,7 +409,6 @@
     "section": "Render and Save",
     "text": "Render and Save\nTo ensure your project will be saved correctly, you will need to double-check that your yaml is correct, render locally, then push to github.\n\nCheck YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click Command+Shift+C). Then, copy/paste entire yaml into a yamlchecker to ensure proper indentation/spacing.\nRender Locally. In RStudio, go to the index.qmd and click on the ‘Render’ button (alternatively, in the Terminal window (bottom left), type ‘quarto render’). Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the “Background Jobs” to identify the errors.\n\n    ::: callout-important\n## Note: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.\n:::\nOnce you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -434,7 +420,6 @@
     "section": "Examples",
     "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -446,7 +431,6 @@
     "section": "Resources",
     "text": "Resources\n\nQuarto documentation.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Create Content"
     ]
@@ -469,7 +453,6 @@
     "section": "",
     "text": "Under Construction\nGoals: Create a template and present step by step instructions to create the compendium. May need alternatives based on primary output (NOAA report, website, etc)",
     "crumbs": [
-      "Openscapes",
       "Research Compendium",
       "Create Research Compendium"
     ]
@@ -481,7 +464,6 @@
     "section": "Resources",
     "text": "Resources\nResearch Compendium Templates: * emdelponte Website Based * rrrpkg- R package, and more info here rcompendium- R package",
     "crumbs": [
-      "Openscapes",
       "Research Compendium",
       "Create Research Compendium"
     ]
@@ -518,11 +500,28 @@
     "text": "When building a repo where a website is the primary output, we recommend building from a template to ensure you are starting with a functional site to build on.\n\nUse NOAA Website Template\nGo to Website Repository on Github: https://github.com/nmfs-opensci/NOAA-quarto-simple\nFollow directions to use this as a template: https://nmfs-opensci.github.io/NOAA-quarto-simple/\n–&gt; Be sure to check the box to Include All Branches!\n–&gt; Save to your account (or to one of your organizations)"
   },
   {
+    "objectID": "content/issues.html",
+    "href": "content/issues.html",
+    "title": "Github Issues",
+    "section": "",
+    "text": "Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository. You can also break down your work into sub-issues and browse the full hierarchy of work to be done. Issues can have labels and milestones, there can be one or more people assigned to an issue, and you can work with issues within projects. You can also create custom issues for repeated tasks.\nHere we will work with issues independently and within Projects to coordinate development of our Lab Manual.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
+  },
+  {
     "objectID": "content/issues.html#resources",
     "href": "content/issues.html#resources",
     "title": "Github Issues",
     "section": "Resources",
-    "text": "Resources\nNMFS Open Science Github Project Boards (examples)\nCreating Custom Github Issues"
+    "text": "Resources\nNMFS Open Science Github Project Boards (examples)\nCreating Custom Github Issues",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
   },
   {
     "objectID": "content/Stack-Exchange.html#bioacoustics-stack-exchange",
@@ -584,7 +583,6 @@
     "section": "",
     "text": "Under Construction\nGoal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.",
     "crumbs": [
-      "Openscapes",
       "Research Compendium"
     ]
   },
@@ -595,7 +593,6 @@
     "section": "What is a Research Compendium?",
     "text": "What is a Research Compendium?\nA research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).",
     "crumbs": [
-      "Openscapes",
       "Research Compendium"
     ]
   },
@@ -606,7 +603,6 @@
     "section": "Conventions",
     "text": "Conventions\nBy following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions.",
     "crumbs": [
-      "Openscapes",
       "Research Compendium"
     ]
   },
@@ -617,7 +613,6 @@
     "section": "",
     "text": "Github Organization\n\n\n\n\n\nUnder Construction\nGoals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.",
     "crumbs": [
-      "Openscapes",
       "Team Organization"
     ]
   },
@@ -819,7 +814,6 @@
     "section": "",
     "text": "Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the PAM_template_lab_manual:\nindex.qmd- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.\n_quarto.yml- the _quarto.yml is the configuration file for your project, and is also located in the root directory. The _quarto.yml provides information regarding overall formatting and structure of pages within the larger document.\nREADME.md- Markdown file that serves as the readme for the github repository.\ncontent folder- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term ‘content’ is less confusing that frequently used alternatives. Here we recommend using this for consistency.\n\n\nYAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a yaml checker to be sure your yaml does not have errors.\nQuarto books/websites contain a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:\n\nLearn more, here.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Organize with Yaml"
     ]
@@ -831,7 +825,6 @@
     "section": "",
     "text": "Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the PAM_template_lab_manual:\nindex.qmd- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.\n_quarto.yml- the _quarto.yml is the configuration file for your project, and is also located in the root directory. The _quarto.yml provides information regarding overall formatting and structure of pages within the larger document.\nREADME.md- Markdown file that serves as the readme for the github repository.\ncontent folder- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term ‘content’ is less confusing that frequently used alternatives. Here we recommend using this for consistency.\n\n\nYAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a yaml checker to be sure your yaml does not have errors.\nQuarto books/websites contain a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:\n\nLearn more, here.",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Organize with Yaml"
     ]
@@ -843,7 +836,6 @@
     "section": "Modify YAML",
     "text": "Modify YAML\n\nEdit URLs- The website and repository links for the template need to be modified to point towards YOUR web/repo URLs\n\nChange name and structure of Chapters. Does the chapter organization and naming fit your needs? Modify the contents component of the yaml to suit your needs, using ‘sections’ to identify identify sections with related chapters. Indentation and spacing are critical for yaml, so once you are ready, double-check your yaml by copy/paste entire yaml into a yamlchecker.\nhref: refers to the name of the relevant qmd file (located in the contents folder).\ntext: this is the text you will see on the sidebar of the web-book.\nsection: to identify sections that contain more than one chapter/pages within it. If you want the high level of the ‘section’ to contain information (when you click on it, a summary page appears), then point directly to a qmd file within the content folder. Otherwise, simply title the section.\n\nYou are now ready to create and modify your chapters/pages! Go to ‘Create Content’!",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Organize with Yaml"
     ]
@@ -855,7 +847,6 @@
     "section": "Resources",
     "text": "Resources\n\nYaml Checker\nQuarto Yaml Options (HTML)\nQuarto Book Structure",
     "crumbs": [
-      "Openscapes",
       "Lab Manual",
       "Organize with Yaml"
     ]
@@ -900,8 +891,9 @@
     "href": "content/openscapes.html",
     "title": "Openscapes",
     "section": "",
-    "text": "Openscapes\n\n\n\n\n\nOpenscapes is an open source approach and movement, and Openscapes is also an organization that facilitates adopting an open science way of working. Below we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the NMFS Openscapes Champions Program.\n\nLab Manual - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual.\nTeam Organization - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects.\nResearch Compendium - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the ‘Team Organization’ journey.",
+    "text": "Openscapes\n\n\n\n\n\nOpenscapes is an open source approach and movement, and Openscapes is also an organization that facilitates adopting an open science way of working. We have identified a number of common projects that can serve as Openscapes Journeys.\nBelow we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the NMFS Openscapes Champions Program. These journeys are outlined in subsequent sections on this website.\n\nLab Manual - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual. In Progress\nTeam Organization - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects. Stay Tuned!\nResearch Compendium - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the ‘Team Organization’ journey. Stay Tuned!",
     "crumbs": [
+      "Co-Working",
       "Openscapes"
     ]
   },
@@ -912,7 +904,6 @@
     "section": "",
     "text": "Github Organizations\n\n\n\n\n\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.\nUnder Construction",
     "crumbs": [
-      "Openscapes",
       "Team Organization",
       "Github Organizations"
     ]
@@ -946,8 +937,8 @@
     "section": "",
     "text": "Github Discussions\n\n\n\n\n\nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.\nUnder Construction",
     "crumbs": [
-      "Openscapes",
-      "Team Organization",
+      "Lab Manual",
+      "Github Collaboration",
       "Github Discussions"
     ]
   }
