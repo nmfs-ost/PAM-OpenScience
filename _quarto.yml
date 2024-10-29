@@ -29,46 +29,95 @@ website:
 
     style: "docked"
     search: true
-    collapse-level: 2
+    collapse-level: 3
     contents:
       - href: index.qmd
         text: Home
+        
       - section: content/knowledge.qmd
         text: Sharing Knowledge
         contents:
-         - content/Stack-Exchange.qmd
-         - content/Zotero.qmd
+          - content/Stack-Exchange.qmd
+          - content/Zotero.qmd
+          
       - section: content/coworking.qmd
         text: Co-Working
         contents:
           - content/writersWorkshop.qmd
           - content/journalClub.qmd
-      - section: content/openscapes.qmd
-        text: Openscapes
+          - content/openscapes.qmd
+          
+      - section: content/labManual.qmd
+        text: Lab Manual
         contents:
-        - section: content/labManual.qmd
-          text: Lab Manual
-          contents:
           - content/gettingStarted.qmd
           - content/organizeYml.qmd
           - content/createContent.qmd
-          - content/gitCollaborate.qmd
-        - section: content/organization.qmd
-          text: Team Organization
-          contents:
-          - content/gitOrgs.qmd
-          - content/gitProject.qmd
-          - content/gitDiscussions.qmd
-        - section: content/researchCompendium.qmd
-          text: Research Compendium
-          contents:
-          - content/createCompendium.qmd
+          - section: content/gitCollaborate.qmd
+            text: Github Collaboration
+            contents:
+             - content/issues.qmd
+             - content/gitProject.qmd
+             - content/gitDiscussions.qmd
+      - section: content/organization.qmd
+        text: Team Organization
+        contents:
+         - content/gitOrgs.qmd
+         - content/gitProject.qmd
+         - content/gitDiscussions.qmd
+           
+      - section: content/researchCompendium.qmd
+        text: Research Compendium
+        contents:
+         - content/createCompendium.qmd
       # - section: "Working with Quarto"
       #   contents:
       #   - content/websiteBuild.qmd
       #   - content/tables.qmd
       - href: content/resources.qmd
         text: Resources
+        
+        
+      #        - section: content/knowledge.qmd
+      #   text: Sharing Knowledge
+      #   contents:
+      #    - content/Stack-Exchange.qmd
+      #    - content/Zotero.qmd
+      # - section: content/coworking.qmd
+      #   text: Co-Working
+      #   contents:
+      #     - content/writersWorkshop.qmd
+      #     - content/journalClub.qmd
+      # - section: content/openscapes.qmd
+      #   text: Openscapes
+      #   contents:
+      #   - section: content/labManual.qmd
+      #     text: Lab Manual
+      #     contents:
+      #     - content/gettingStarted.qmd
+      #     - content/organizeYml.qmd
+      #     - content/createContent.qmd
+      #     - content/gitCollaborate.qmd
+      #        # - content/issues.qmd
+      #        # - content/gitProject.qmd
+      #        # - content/gitDiscussions.qmd
+      #   - section: content/organization.qmd
+      #     text: Team Organization
+      #     contents:
+      #     - content/gitOrgs.qmd
+      #     - content/gitProject.qmd
+      #     - content/gitDiscussions.qmd
+      #   - section: content/researchCompendium.qmd
+      #     text: Research Compendium
+      #     contents:
+      #     - content/createCompendium.qmd
+      # # - section: "Working with Quarto"
+      # #   contents:
+      # #   - content/websiteBuild.qmd
+      # #   - content/tables.qmd
+      # - href: content/resources.qmd
+      #   text: Resources
+
         
 format:
   html:

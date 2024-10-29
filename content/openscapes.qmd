@@ -15,10 +15,12 @@ subtitle: Journeys into Open Science
 :::
 :::
 
-Openscapes is an open source approach and movement, and [Openscapes](https://openscapes.org/) is also an organization that facilitates adopting an open science way of working. Below we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the [NMFS Openscapes Champions Program](https://nmfs-openscapes.github.io/).
+Openscapes is an open source approach and movement, and [Openscapes](https://openscapes.org/) is also an organization that facilitates adopting an open science way of working. We have identified a number of common projects that can serve as Openscapes Journeys. 
 
--   [Lab Manual](https://sael-swfsc.github.io/OpenScience/content/labManual.html) - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual.
+Below we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the [NMFS Openscapes Champions Program](https://nmfs-openscapes.github.io/). These journeys are outlined in subsequent sections on this website.
 
--   [Team Organization](https://sael-swfsc.github.io/OpenScience/content/organization.html) - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects.
+-   [Lab Manual](https://sael-swfsc.github.io/OpenScience/content/labManual.html) - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual. *In Progress*
 
--   [Research Compendium](https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html) - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the 'Team Organization' journey.
+-   [Team Organization](https://sael-swfsc.github.io/OpenScience/content/organization.html) - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects. *Stay Tuned!*
+
+-   [Research Compendium](https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html) - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the 'Team Organization' journey. *Stay Tuned!*

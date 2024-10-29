@@ -1,10 +1,10 @@
 ::: columns
-:::{.column width="40%"}
+:::{.column width="60%"}
 
 # Lab Manual 
 
 ::: 
-:::{.column width="60%"}
+:::{.column width="40%"}
 
 ![](images/labManualLogo.png){width=1in}
 

@@ -1,4 +1,6 @@
+---
 ## subtitle: Using Issues to Track Tasks, Problems, Decisions
+---
 
 ::: columns
 ::: {.column width="50%"}
@@ -10,7 +12,38 @@
 :::
 :::
 
-# Do It Yourself!
+Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository. You can also break down your work into sub-issues and browse the full hierarchy of work to be done. Issues can have labels and milestones, there can be one or more people assigned to an issue, and you can work with issues within projects. You can also create custom issues for repeated tasks.
+
+Here we will work with issues independently and within Projects to coordinate development of our Lab Manual. 
+
+# Assign Tasks
+Issues are great ways to assign tasks to a specific repository. 
+
+As an example, we will ask a colleague to help with a component of our Lab Manual. In this example, we will request assistance with a Lithium Battery Safety Page, to go within our Lab Management chapter. 
+
+1. Go to your lab manual github repository
+2. At the top, click on "Issues", then select the green New Issue Button (on the right)
+3. Create a title (concise, but informative), such as "Create Lithium Battery Safety qmd for Lab Manual"
+4. Write a detailed description of the task/need, so that this task can be completed as desired. It might be helpful to use the checklist option, so that tasks can be checked as they are completed. Add assignees (yourself + whomever will be tasked with doing the work), and give the issue a label.  Two examples are show, below:
+
+::: columns
+::: {.column width="50%"}
+
+![](images/issue_safetyExample1.jpg)
+
+:::
+::: {.column width="50%"}
+
+![](images/issue_safetyExample2.jpg)
+
+:::
+:::
+
+5. If there are additional discussions, or if you need to identify additional people to do components of this task, you can reply to the original post and include relevant information.
+6. When the task is complete, you can reply with a comment regarding the completion of the task,and then click the "Close Issue" button. 
+
+
+# Custom Issues for Repeated Tasks
 
 
 For this example, we will create a custom issue template for requesting that someone add information to a Github Repository
