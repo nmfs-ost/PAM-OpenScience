@@ -37,14 +37,11 @@ As an example, we will ask a colleague to help with a component of our Lab Manua
 
 ::: columns
 ::: {.column width="50%"}
-
 ![](images/issue_safetyExample1.jpg)
-
 :::
+
 ::: {.column width="50%"}
-
 ![](images/issue_safetyExample2.jpg)
-
 :::
 :::
 

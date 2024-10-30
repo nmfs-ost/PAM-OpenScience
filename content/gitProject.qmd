@@ -1,39 +1,35 @@
 ::: columns
 ::: {.column width="50%"}
+# Github Projects
+:::
 
-# Github Projects 
-
-::: 
 ::: {.column width="50%"}
-
-![](images/githubProjects.png){width=2in}
-
+![](images/githubProjects.png){width="2in"}
 :::
 :::
 
-Github Projects are adaptable task-boards that integrate issues to help you track and plan your work. You can create and customize multiple views by filtering, sorting, grouping your issues, and you can visualize your work with configurable charts and add custom fields to track metadata specific to your team. 
-
+Github Projects are adaptable task-boards that integrate issues to help you track and plan your work. You can create and customize multiple views by filtering, sorting, grouping your issues, and you can visualize your work with configurable charts and add custom fields to track metadata specific to your team.
 
 ## Create Lab Manual Project Board
+
 Here we will create a project board for our Lab Manuals, and use this to organize and track the development of our Lab Manuals. We will create an issue for each component of the Lab Manual, but here we will start with creating a few issues related to the "Lab Management" section.
 
-1. Open your Lab Manual Github Repository, and go to the "Projects" tab. Select "New Project"
-2. Select a template (we recommend "Team Planning" to start), Give it a name (example: "SAEL Lab Manual"), and select "Create Project".
-3. Create an example issue for a component of the lab manual. Under the "Todo" section (at the bottom), select "+Add item". Type "Add Lab Mngmt->Inventory. This will now show up as a 'card' under your Todo section. 
-4. Edit on the new card you made by clicking on the name within the card. Click on "Edit", and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click "Update Comment".Identify Assignees (on the right). Then select "Convert to Issue" at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual).
+1.  Open your Lab Manual Github Repository, and go to the "Projects" tab. Select "New Project"
+2.  Select a template (we recommend "Team Planning" to start), Give it a name (example: "SAEL Lab Manual"), and select "Create Project".
+3.  Create an example issue for a component of the lab manual. Under the "Todo" section (at the bottom), select "+Add item". Type "Add Lab Mngmt-\>Inventory. This will now show up as a 'card' under your Todo section.
+4.  Edit on the new card you made by clicking on the name within the card. Click on "Edit", and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click "Update Comment".Identify Assignees (on the right). Then select "Convert to Issue" at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual).
 
- 
 ![](images/addProjectTask.jpg)
 
-5. The Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue. 
+5.  The Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue.
 
 ## Add Previous Issues to Project Board
-Previously, we created an issue to Add a page on Lithium Battery Safety. Here we will add that issue to our Lab Manual Project Board. 
 
-1. Go to your Lab Manual Github Repository, and navigate to the "Issues" tab. Navigate to the issue you created previously ("Create Lithium Battery Safety qmd for Lab Manual").
-2. At the right, select Projects, add to your new Lab Manual Project. 
+Previously, we created an issue to Add a page on Lithium Battery Safety. Here we will add that issue to our Lab Manual Project Board.
 
-
+1.  Go to your Lab Manual Github Repository, and navigate to the "Issues" tab. Navigate to the issue you created previously ("Create Lithium Battery Safety qmd for Lab Manual").
+2.  At the right, select Projects, add to your new Lab Manual Project.
 
 ## Resources
+
 [NMFS Open Science Github Project Boards (examples)](https://nmfs-opensci.github.io/ResourceBook/content/project_management/github_project_boards.html)
