@@ -4,15 +4,40 @@
 :::
 
 ::: {.column width="50%"}
-![](images/githubDiscussionsLogo.png){width=2in}
+![](images/githubDiscussionsLogo.png){width="2in"}
 :::
 :::
 
-**Goal:** Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.
+Github Discussions are a collaborative communication forum for the community around an open source or internal project. Community members can ask and answer questions, share updates, and more. Rather than create a new discussion, we will work together within our Open Science Discussion board to learn new ways of working together as a team.
 
-***Under Construction*** 
+## Working in Discussions
 
+Here we will identify several different ways of working within discussions, and practice with those ways. For each example, we will have a lead who initiates the task, and then all other members will collaborate.
 
-![](images/workInProgress.jpg)
+1.  **Ideas -** Ideas to change or improve the project (Open-ended discussion)
 
+*Example:* Does anyone have an idea on helpful things to add to lab manual?
 
+2.  **Polls-** Polls with multiple options for the community to vote or discuss (Polls)
+
+*Example:* Give a few options for next steps in Github after the Lab Manual (Research Compendium, Repo for Repeated Reports, Project Boards for Analysis Management, Writing NMFS Reports, other)
+
+3.  **Q&A-** Questions for the community to answer, with a question/answer format (Question & Answer)
+
+*Example:* Do you need 1:1 help with your Lab Manual?
+
+4.  Show and Tell- Creations, experiments, or tests relevant to the project (Open-ended discussion)
+
+*Example:* Jennifer McCullough can add info/links to add NMFS Logos to their documents
+
+5.  **Announcements-** Updates and news from project maintainers (Announcement)
+
+*Example:* Add announcement: Openscapes Show & Tell for PAM-SI and community, IRA PAM SI Team Meeting, Wednesday, December 11, ⋅1:00 – 2:00pm Pacific Time
+
+6.  **General-** Anything relevant to the project (Open-ended discussion)
+
+## Resources
+
+[Github Discussions](https://resources.github.com/devops/process/planning/discussions/)
+
+[Getting Started with Github Discussions (video)](https://youtu.be/rgCMmg9lBNw?feature=shared)

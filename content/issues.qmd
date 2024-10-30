@@ -8,59 +8,81 @@
 :::
 
 ::: {.column width="50%"}
-![](images/githubIssuesLogo.png){width=2in}
+![](images/githubIssuesLogo.png){width="2in"}
 :::
 :::
 
 Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository. You can also break down your work into sub-issues and browse the full hierarchy of work to be done. Issues can have labels and milestones, there can be one or more people assigned to an issue, and you can work with issues within projects. You can also create custom issues for repeated tasks.
 
-Here we will work with issues independently and within Projects to coordinate development of our Lab Manual. 
+Here we will work with issues independently and within Projects to coordinate development of our Lab Manual.
 
-# Assign Tasks
-Issues are great ways to assign tasks to a specific repository. 
+## Create Issue from Github Pages
 
-As an example, we will ask a colleague to help with a component of our Lab Manual. In this example, we will request assistance with a Lithium Battery Safety Page, to go within our Lab Management chapter. 
+Our lab manuals have been set up to allow for directly submitting an issue related to a specific web page. We will create an issue as an example.
 
-1. Go to your lab manual github repository
-2. At the top, click on "Issues", then select the green New Issue Button (on the right)
-3. Create a title (concise, but informative), such as "Create Lithium Battery Safety qmd for Lab Manual"
-4. Write a detailed description of the task/need, so that this task can be completed as desired. It might be helpful to use the checklist option, so that tasks can be checked as they are completed. Add assignees (yourself + whomever will be tasked with doing the work), and give the issue a label.  Two examples are show, below:
+1.  Go to the [Open Science pages](https://sael-swfsc.github.io/OpenScience/). At the top right, you will see 'On this page', and below this you'll find a github symbol and 'Edit this page'.
+
+2.  Select any page on this document, click on the 'Report an Issue' at the top right, and suggest an edit. If you have a real suggestion, then add that suggestion! If you only want to do this as a test, then write "TEST" as your title. Assign the issue to Shannon Rankin, and give it a label. When you are finished, select the green "Submit new issue" button at the bottom.
+
+## Assign Tasks
+
+Issues are great ways to assign tasks to a specific repository.
+
+As an example, we will ask a colleague to help with a component of our Lab Manual. In this example, we will request assistance with a Lithium Battery Safety Page, to go within our Lab Management chapter.
+
+1.  Go to your Lab Manual github repository
+2.  At the top, click on "Issues", then select the green New Issue Button (on the right)
+3.  Create a title (concise, but informative), such as "Create Lithium Battery Safety info for Lab Manual"
+4.  Write a detailed description of the task/need, so that this task can be completed as desired. It might be helpful to use the checklist option, so that tasks can be checked as they are completed. Add assignees (yourself + whomever will be tasked with doing the work), and give the issue a label. Two examples are show, below:
 
 ::: columns
 ::: {.column width="50%"}
-
 ![](images/issue_safetyExample1.jpg)
-
 :::
+
 ::: {.column width="50%"}
-
 ![](images/issue_safetyExample2.jpg)
-
 :::
 :::
 
-5. If there are additional discussions, or if you need to identify additional people to do components of this task, you can reply to the original post and include relevant information.
-6. When the task is complete, you can reply with a comment regarding the completion of the task,and then click the "Close Issue" button. 
+5.  If there are additional discussions, or if you need to identify additional people to do components of this task, you can reply to the original post and include relevant information.
+6.  When the task is complete, you can reply with a comment regarding the completion of the task,and then click the "Close Issue" button.
 
+## Custom Issue Forms for Repeated Tasks
 
-# Custom Issues for Repeated Tasks
-
-
-For this example, we will create a custom issue template for requesting that someone add information to a Github Repository
+Creating your own custom Issue Template is ideal for repeated tasks. In this example, we will create an Issue Template for people to submit information on Outreach (blog, newpaper article, presentation, etc).
 
 1.  In Github, navigate to the main page of the repository. Under your repository name, click the *Settings*. If you cannot see the "Settings" tab, select the ... dropdown menu, then click *Settings*.
 
+2.  In the "Features" section, under *Issues*, click *Set up templates*. You may need to enable *Issues* and refresh the page before you can see the button.
 
-2.  In the "Features" section, under *Issues*, click *Set up templates*. You may need to enable *Issues* and refresh the page before you can see the button. 
+3.  Use the *Add Template* dropdown menu, and click on the type of template you'd like to create (here we will select *Feature Request*, which we can modify by selecting the Preview and Edit button and select:
 
-3.  Use the *Add Template* dropdown menu, and click on the type of template you'd like to create. 
+-   *Template Name:* Add Outreach Element
+-   *About:* Add Outreach Element to Database (blog, media, presentation, etc)
+-   *Template Content:* Modify by entering:
+    -   **Outreach Title** Title of article, presentation, etc.
+    -   **Authors, Affiliation** Add all Authors & the affiliation of the primary author. If media, include the newspaper, company, etc.
+    -   **DOI or Web-Link** Add DOI or URL to the location of the element. If there is no online presence, then attach to this Issue Form.
+    -   **Full Citation** Please provide a full citation in APA format (preferred).
+    -   **Additional context** Add any other context here (abstract, etc).
+-   Add Assignee (can add yourself, others if appropriate)
+-   Add Label. Right-click on Label and open in new tab. You can either create a new label, or modify an existing one. Here, I will modify the purple "good first issue" label by selecting the 'edit' button to the right, and change the Label Name to "outreach", and the Description to "Add outreach element". Once you have created that, you can go back to your Issue Template and add your new Outreach label (it still may appear as it's former label, but should come up correct!). ![](images/outreachLabel.jpg)
 
-4.  
+4.  At the top of the Issue Template edit page, select the green button "Propose change". Add a commit message, and then Select the Commit changes button at the bottom.
 
-5.  
+5.  Test use of this template. Go to repository, and select "Issues". Select your new issue template, add relevant information, and then select "Submit New Issue".
+
+## Issue Forms
+
+It is also possible to create custom issue forms, with dropdowns, checkboxes, etc. See Resources, below, for more information (we may build out a test example in the future).
 
 ## Resources
 
-[NMFS Open Science Github Project Boards (examples)](https://nmfs-opensci.github.io/ResourceBook/content/project_management/github_project_boards.html)
-
 [Creating Custom Github Issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms)
+
+[Creating GitHub Issue Templates- Eli Holmes](https://youtu.be/iCNA_zyawi8?feature=shared)
+
+[Create Github Issue Forms](https://youtu.be/qQE1BUkf2-s?feature=shared)
+
+[Github Issue Template Cheat Sheet](https://gist.github.com/Elliria/ee13ed5201aaaac6f77f55290f189f0a)- Explanation and examples for creating yaml code for Custom Issue Forms.
