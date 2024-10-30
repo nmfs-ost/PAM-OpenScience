@@ -21,6 +21,7 @@ Here we will create a project board for our Lab Manuals, and use this to organiz
 2. Select a template (we recommend "Team Planning" to start), Give it a name (example: "SAEL Lab Manual"), and select "Create Project".
 3. Create an example issue for a component of the lab manual. Under the "Todo" section (at the bottom), select "+Add item". Type "Add Lab Mngmt->Inventory. This will now show up as a 'card' under your Todo section. 
 4. Edit on the new card you made by clicking on the name within the card. Click on "Edit", and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click "Update Comment".Identify Assignees (on the right). Then select "Convert to Issue" at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual).
+ 
 ![](images/addProjectTask.jpg)
 5. The Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue. 
 
