@@ -54,7 +54,43 @@
     "href": "content/gitProject.html",
     "title": "Github Projects",
     "section": "",
-    "text": "Github Projects\n\n\n\n\n\nGoal: Learn how to use Github Projects (as well as plug-in apps) to collaborate with teams on PAM-SI Projects.\nUnder Construction",
+    "text": "Github Projects are adaptable task-boards that integrate issues to help you track and plan your work. You can create and customize multiple views by filtering, sorting, grouping your issues, and you can visualize your work with configurable charts and add custom fields to track metadata specific to your team.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html#create-lab-manual-project-board",
+    "href": "content/gitProject.html#create-lab-manual-project-board",
+    "title": "Github Projects",
+    "section": "Create Lab Manual Project Board",
+    "text": "Create Lab Manual Project Board\nHere we will create a project board for our Lab Manuals, and use this to organize and track the development of our Lab Manuals. We will create an issue for each component of the Lab Manual, but here we will start with creating a few issues related to the “Lab Management” section.\n\nOpen your Lab Manual Github Repository, and go to the “Projects” tab. Select “New Project”\nSelect a template (we recommend “Team Planning” to start), Give it a name (example: “SAEL Lab Manual”), and select “Create Project”.\nCreate an example issue for a component of the lab manual. Under the “Todo” section (at the bottom), select “+Add item”. Type “Add Lab Mngmt-&gt;Inventory. This will now show up as a ‘card’ under your Todo section.\nEdit on the new card you made by clicking on the name within the card. Click on “Edit”, and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click “Update Comment”.Identify Assignees (on the right). Then select “Convert to Issue” at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual). \nThe Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html#add-previous-issues-to-project-board",
+    "href": "content/gitProject.html#add-previous-issues-to-project-board",
+    "title": "Github Projects",
+    "section": "Add Previous Issues to Project Board",
+    "text": "Add Previous Issues to Project Board\nPreviously, we created an issue to Add a page on Lithium Battery Safety. Here we will add that issue to our Lab Manual Project Board.\n\nGo to your Lab Manual Github Repository, and navigate to the “Issues” tab. Navigate to the issue you created previously (“Create Lithium Battery Safety qmd for Lab Manual”).\nAt the right, select Projects, add to your new Lab Manual Project.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html#resources",
+    "href": "content/gitProject.html#resources",
+    "title": "Github Projects",
+    "section": "Resources",
+    "text": "Resources\nNMFS Open Science Github Project Boards (examples)",
     "crumbs": [
       "Lab Manual",
       "Github Collaboration",
@@ -122,7 +158,7 @@
     "href": "content/labManual.html",
     "title": "Lab Manual",
     "section": "",
-    "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\n[Collaborate with Github Issues, Projects, and Discussion]",
+    "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nGithub Collaboration, including: Issues, Projects, and Discussions",
     "crumbs": [
       "Lab Manual"
     ]
@@ -279,7 +315,7 @@
     "href": "content/gitCollaborate.html",
     "title": "Collaborate with Github",
     "section": "",
-    "text": "Collaborate with Github\n\n\n\n\n\nGithub has a number of tools that facilitate collaboration, including:\n\nIssues- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.\nProjects\nDiscussions",
+    "text": "Collaborate with Github\n\n\n\n\n\nGithub has a number of tools that facilitate collaboration, including:\n\nIssues- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.\nProjects- Github Projects are adaptable task-boards to help track and plan work\nDiscussions- Github Discussions is a platform for collaborative communication forum",
     "crumbs": [
       "Lab Manual",
       "Github Collaboration"
@@ -512,11 +548,59 @@
     ]
   },
   {
+    "objectID": "content/issues.html#create-issue-from-github-pages",
+    "href": "content/issues.html#create-issue-from-github-pages",
+    "title": "Github Issues",
+    "section": "Create Issue from Github Pages",
+    "text": "Create Issue from Github Pages\nOur lab manuals have been set up to allow for directly submitting an issue related to a specific web page. We will create an issue as an example.\n\nGo to the Open Science pages. At the top right, you will see ‘On this page’, and below this you’ll find a github symbol and ‘Edit this page’.\nSelect any page on this document, click on the ‘Report an Issue’ at the top right, and suggest an edit. If you have a real suggestion, then add that suggestion! If you only want to do this as a test, then write “TEST” as your title. Assign the issue to Shannon Rankin, and give it a label. When you are finished, select the green “Submit new issue” button at the bottom.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
+  },
+  {
+    "objectID": "content/issues.html#assign-tasks",
+    "href": "content/issues.html#assign-tasks",
+    "title": "Github Issues",
+    "section": "Assign Tasks",
+    "text": "Assign Tasks\nIssues are great ways to assign tasks to a specific repository.\nAs an example, we will ask a colleague to help with a component of our Lab Manual. In this example, we will request assistance with a Lithium Battery Safety Page, to go within our Lab Management chapter.\n\nGo to your Lab Manual github repository\nAt the top, click on “Issues”, then select the green New Issue Button (on the right)\nCreate a title (concise, but informative), such as “Create Lithium Battery Safety info for Lab Manual”\nWrite a detailed description of the task/need, so that this task can be completed as desired. It might be helpful to use the checklist option, so that tasks can be checked as they are completed. Add assignees (yourself + whomever will be tasked with doing the work), and give the issue a label. Two examples are show, below:\n\n\n\n\n\n\n\n\n\nIf there are additional discussions, or if you need to identify additional people to do components of this task, you can reply to the original post and include relevant information.\nWhen the task is complete, you can reply with a comment regarding the completion of the task,and then click the “Close Issue” button.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
+  },
+  {
+    "objectID": "content/issues.html#custom-issue-forms-for-repeated-tasks",
+    "href": "content/issues.html#custom-issue-forms-for-repeated-tasks",
+    "title": "Github Issues",
+    "section": "Custom Issue Forms for Repeated Tasks",
+    "text": "Custom Issue Forms for Repeated Tasks\nCreating your own custom Issue Template is ideal for repeated tasks. In this example, we will create an Issue Template for people to submit information on Outreach (blog, newpaper article, presentation, etc).\n\nIn Github, navigate to the main page of the repository. Under your repository name, click the Settings. If you cannot see the “Settings” tab, select the … dropdown menu, then click Settings.\nIn the “Features” section, under Issues, click Set up templates. You may need to enable Issues and refresh the page before you can see the button.\nUse the Add Template dropdown menu, and click on the type of template you’d like to create (here we will select Feature Request, which we can modify by selecting the Preview and Edit button and select:\n\n\nTemplate Name: Add Outreach Element\nAbout: Add Outreach Element to Database (blog, media, presentation, etc)\nTemplate Content: Modify by entering:\n\nOutreach Title Title of article, presentation, etc.\nAuthors, Affiliation Add all Authors & the affiliation of the primary author. If media, include the newspaper, company, etc.\nDOI or Web-Link Add DOI or URL to the location of the element. If there is no online presence, then attach to this Issue Form.\nFull Citation Please provide a full citation in APA format (preferred).\nAdditional context Add any other context here (abstract, etc).\n\nAdd Assignee (can add yourself, others if appropriate)\nAdd Label. Right-click on Label and open in new tab. You can either create a new label, or modify an existing one. Here, I will modify the purple “good first issue” label by selecting the ‘edit’ button to the right, and change the Label Name to “outreach”, and the Description to “Add outreach element”. Once you have created that, you can go back to your Issue Template and add your new Outreach label (it still may appear as it’s former label, but should come up correct!). \n\n\nAt the top of the Issue Template edit page, select the green button “Propose change”. Add a commit message, and then Select the Commit changes button at the bottom.\nTest use of this template. Go to repository, and select “Issues”. Select your new issue template, add relevant information, and then select “Submit New Issue”.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
+  },
+  {
+    "objectID": "content/issues.html#issue-forms",
+    "href": "content/issues.html#issue-forms",
+    "title": "Github Issues",
+    "section": "Issue Forms",
+    "text": "Issue Forms\nIt is also possible to create custom issue forms, with dropdowns, checkboxes, etc. See Resources, below, for more information (we may build out a test example in the future).",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Issues"
+    ]
+  },
+  {
     "objectID": "content/issues.html#resources",
     "href": "content/issues.html#resources",
     "title": "Github Issues",
     "section": "Resources",
-    "text": "Resources\nNMFS Open Science Github Project Boards (examples)\nCreating Custom Github Issues",
+    "text": "Resources\nCreating Custom Github Issues\nCreating GitHub Issue Templates- Eli Holmes\nCreate Github Issue Forms\nGithub Issue Template Cheat Sheet- Explanation and examples for creating yaml code for Custom Issue Forms.",
     "crumbs": [
       "Lab Manual",
       "Github Collaboration",
@@ -935,7 +1019,31 @@
     "href": "content/gitDiscussions.html",
     "title": "Github Discussions",
     "section": "",
-    "text": "Github Discussions\n\n\n\n\n\nGoal: Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.\nUnder Construction",
+    "text": "Github Discussions are a collaborative communication forum for the community around an open source or internal project. Community members can ask and answer questions, share updates, and more. Rather than create a new discussion, we will work together within our Open Science Discussion board to learn new ways of working together as a team.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Discussions"
+    ]
+  },
+  {
+    "objectID": "content/gitDiscussions.html#working-in-discussions",
+    "href": "content/gitDiscussions.html#working-in-discussions",
+    "title": "Github Discussions",
+    "section": "Working in Discussions",
+    "text": "Working in Discussions\nHere we will identify several different ways of working within discussions, and practice with those ways. For each example, we will have a lead who initiates the task, and then all other members will collaborate.\n\nIdeas - Ideas to change or improve the project (Open-ended discussion)\n\nExample: Does anyone have an idea on helpful things to add to lab manual?\n\nPolls- Polls with multiple options for the community to vote or discuss (Polls)\n\nExample: Give a few options for next steps in Github after the Lab Manual (Research Compendium, Repo for Repeated Reports, Project Boards for Analysis Management, Writing NMFS Reports, other)\n\nQ&A- Questions for the community to answer, with a question/answer format (Question & Answer)\n\nExample: Do you need 1:1 help with your Lab Manual?\n\nShow and Tell- Creations, experiments, or tests relevant to the project (Open-ended discussion)\n\nExample: Jennifer McCullough can add info/links to add NMFS Logos to their documents\n\nAnnouncements- Updates and news from project maintainers (Announcement)\n\nExample: Add announcement: Openscapes Show & Tell for PAM-SI and community, IRA PAM SI Team Meeting, Wednesday, December 11, ⋅1:00 – 2:00pm Pacific Time\n\nGeneral- Anything relevant to the project (Open-ended discussion)",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Discussions"
+    ]
+  },
+  {
+    "objectID": "content/gitDiscussions.html#resources",
+    "href": "content/gitDiscussions.html#resources",
+    "title": "Github Discussions",
+    "section": "Resources",
+    "text": "Resources\nGithub Discussions\nGetting Started with Github Discussions (video)",
     "crumbs": [
       "Lab Manual",
       "Github Collaboration",

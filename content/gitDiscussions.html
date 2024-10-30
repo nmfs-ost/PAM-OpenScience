@@ -123,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/knowledge.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sharing Knowledge</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Stack-Exchange.html" class="sidebar-item-text sidebar-link">
@@ -146,11 +146,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/coworking.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Co-Working</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/writersWorkshop.html" class="sidebar-item-text sidebar-link">
@@ -233,11 +233,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Team Organization</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/gitOrgs.html" class="sidebar-item-text sidebar-link">
@@ -262,11 +262,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/researchCompendium.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Research Compendium</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/createCompendium.html" class="sidebar-item-text sidebar-link">
@@ -286,8 +286,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#working-in-discussions" id="toc-working-in-discussions" class="nav-link active" data-scroll-target="#working-in-discussions">Working in Discussions</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -304,11 +311,41 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/githubDiscussionsLogo.png" class="img-fluid" style="width:2in"></p>
 </div>
 </div>
-<p><strong>Goal:</strong> Learn how to use Github Discussions to collaborate with teams on PAM-SI Projects.</p>
-<p><strong><em>Under Construction</em></strong></p>
-<p><img src="images/workInProgress.jpg" class="img-fluid"></p>
+<p>Github Discussions are a collaborative communication forum for the community around an open source or internal project. Community members can ask and answer questions, share updates, and more. Rather than create a new discussion, we will work together within our Open Science Discussion board to learn new ways of working together as a team.</p>
+<section id="working-in-discussions" class="level2">
+<h2 class="anchored" data-anchor-id="working-in-discussions">Working in Discussions</h2>
+<p>Here we will identify several different ways of working within discussions, and practice with those ways. For each example, we will have a lead who initiates the task, and then all other members will collaborate.</p>
+<ol type="1">
+<li><strong>Ideas -</strong> Ideas to change or improve the project (Open-ended discussion)</li>
+</ol>
+<p><em>Example:</em> Does anyone have an idea on helpful things to add to lab manual?</p>
+<ol start="2" type="1">
+<li><strong>Polls-</strong> Polls with multiple options for the community to vote or discuss (Polls)</li>
+</ol>
+<p><em>Example:</em> Give a few options for next steps in Github after the Lab Manual (Research Compendium, Repo for Repeated Reports, Project Boards for Analysis Management, Writing NMFS Reports, other)</p>
+<ol start="3" type="1">
+<li><strong>Q&amp;A-</strong> Questions for the community to answer, with a question/answer format (Question &amp; Answer)</li>
+</ol>
+<p><em>Example:</em> Do you need 1:1 help with your Lab Manual?</p>
+<ol start="4" type="1">
+<li>Show and Tell- Creations, experiments, or tests relevant to the project (Open-ended discussion)</li>
+</ol>
+<p><em>Example:</em> Jennifer McCullough can add info/links to add NMFS Logos to their documents</p>
+<ol start="5" type="1">
+<li><strong>Announcements-</strong> Updates and news from project maintainers (Announcement)</li>
+</ol>
+<p><em>Example:</em> Add announcement: Openscapes Show &amp; Tell for PAM-SI and community, IRA PAM SI Team Meeting, Wednesday, December 11, ⋅1:00 – 2:00pm Pacific Time</p>
+<ol start="6" type="1">
+<li><strong>General-</strong> Anything relevant to the project (Open-ended discussion)</li>
+</ol>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p><a href="https://resources.github.com/devops/process/planning/discussions/">Github Discussions</a></p>
+<p><a href="https://youtu.be/rgCMmg9lBNw?feature=shared">Getting Started with Github Discussions (video)</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -895,7 +932,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitDiscussions.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
