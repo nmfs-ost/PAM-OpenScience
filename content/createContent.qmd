@@ -50,9 +50,9 @@ To ensure your project will be saved correctly, you will need to double-check th
 
     ![](images/render.JPG){width="185"}
     
-            ::: callout-important
-        ## Note: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.
-        :::
+::: callout-important
+**Note:** The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.
+:::
 
 3.  Once you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.
 
