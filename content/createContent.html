@@ -356,11 +356,23 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Check YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click <strong>Command+Shift+C</strong>). Then, copy/paste entire yaml into a <a href="https://yamlchecker.com/">yamlchecker</a> to ensure proper indentation/spacing.</p></li>
 <li><p>Render Locally. In RStudio, go to the index.qmd and click on the ‘Render’ button (alternatively, in the Terminal window (bottom left), type ‘quarto render’). Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the “Background Jobs” to identify the errors.</p>
-<p><img src="images/render.JPG" class="img-fluid" width="185"></p>
-<pre><code>    ::: callout-important
-## Note: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.
-:::</code></pre></li>
-<li><p>Once you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit &amp; Push to Github section.</p></li>
+<p><img src="images/render.JPG" class="img-fluid" width="185"></p></li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Note:</strong> The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.</p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Once you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit &amp; Push to Github section.</li>
 </ol>
 </section>
 <section id="examples" class="level2">
