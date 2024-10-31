@@ -1031,7 +1031,19 @@
     "href": "content/gitDiscussions.html#working-in-discussions",
     "title": "Github Discussions",
     "section": "Working in Discussions",
-    "text": "Working in Discussions\nHere we will identify several different ways of working within discussions, and practice with those ways. For each example, we will have a lead who initiates the task, and then all other members will collaborate.\n\nIdeas - Ideas to change or improve the project (Open-ended discussion)\n\nExample: Does anyone have an idea on helpful things to add to lab manual?\n\nPolls- Polls with multiple options for the community to vote or discuss (Polls)\n\nExample: Give a few options for next steps in Github after the Lab Manual (Research Compendium, Repo for Repeated Reports, Project Boards for Analysis Management, Writing NMFS Reports, other)\n\nQ&A- Questions for the community to answer, with a question/answer format (Question & Answer)\n\nExample: Do you need 1:1 help with your Lab Manual?\n\nShow and Tell- Creations, experiments, or tests relevant to the project (Open-ended discussion)\n\nExample: Jennifer McCullough can add info/links to add NMFS Logos to their documents\n\nAnnouncements- Updates and news from project maintainers (Announcement)\n\nExample: Add announcement: Openscapes Show & Tell for PAM-SI and community, IRA PAM SI Team Meeting, Wednesday, December 11, ⋅1:00 – 2:00pm Pacific Time\n\nGeneral- Anything relevant to the project (Open-ended discussion)",
+    "text": "Working in Discussions\nHere we will identify several different ways of working within discussions, and practice with those ways. For each example, we will have a lead who initiates the task, and then all other members will collaborate. Our goal is to work with Github Discussions in this space, in order to identify how it will work for our own teams.\n\nIdeas - Ideas to change or improve the project (Open-ended discussion)\n\nExample: Does anyone have an idea on helpful things to add to lab manual?\n\nPolls- Polls with multiple options for the community to vote or discuss (Polls)\n\nExample: Give a few options for next steps in Github after the Lab Manual (Research Compendium, Repo for Repeated Reports, Project Boards for Analysis Management, Writing NMFS Reports, other)\n\nQ&A- Questions for the community to answer, with a question/answer format (Question & Answer)\n\nExample: Do you need 1:1 help with your Lab Manual?\n\nShow and Tell- Creations, experiments, or tests relevant to the project (Open-ended discussion)\n\nExample: Jennifer McCullough can add info/links to add NMFS Logos to their documents\n\nAnnouncements- Updates and news from project maintainers (Announcement)\n\nExample: Add announcement: Openscapes Show & Tell for PAM-SI and community, IRA PAM SI Team Meeting, Wednesday, December 11, ⋅1:00 – 2:00pm Pacific Time\n\nGeneral- Anything relevant to the project (Open-ended discussion)",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Discussions"
+    ]
+  },
+  {
+    "objectID": "content/gitDiscussions.html#link-to-nmfs-pam-github-discussions",
+    "href": "content/gitDiscussions.html#link-to-nmfs-pam-github-discussions",
+    "title": "Github Discussions",
+    "section": "Link to NMFS-PAM Github Discussions",
+    "text": "Link to NMFS-PAM Github Discussions",
     "crumbs": [
       "Lab Manual",
       "Github Collaboration",
