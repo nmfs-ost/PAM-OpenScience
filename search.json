@@ -158,7 +158,7 @@
     "href": "content/labManual.html",
     "title": "Lab Manual",
     "section": "",
-    "text": "Lab Manual\n\n\n\n\n\nDuring our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nGithub Collaboration, including: Issues, Projects, and Discussions",
+    "text": "During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nGithub Collaboration, including: Issues, Projects, and Discussions",
     "crumbs": [
       "Lab Manual"
     ]
@@ -476,7 +476,7 @@
     "href": "content/journalClub.html",
     "title": "Journal Club",
     "section": "",
-    "text": "Journal Club\n\n\n\n\n\nUnder Construction \nGoal: Encourage group discussions of new & exciting research.",
+    "text": "Under Construction \nGoal: Encourage group discussions of new & exciting research.",
     "crumbs": [
       "Co-Working",
       "Journal Club"
@@ -523,7 +523,7 @@
     "href": "content/knowledge.html",
     "title": "Sharing Knowledge",
     "section": "",
-    "text": "Sharing Knowledge\n\n\n\n\n\nOpen sharing of knowledge is a fundamental component of Open Science.\n\nBioacoustics Stack Exchange\nZotero Libraries\nResearch Compendium",
+    "text": "Open sharing of knowledge is a fundamental component of Open Science.\n\nBioacoustics Stack Exchange\nZotero Libraries\nResearch Compendium",
     "crumbs": [
       "Sharing Knowledge"
     ]
@@ -665,7 +665,7 @@
     "href": "content/researchCompendium.html",
     "title": "Research Compendium",
     "section": "",
-    "text": "Under Construction\nGoal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.",
+    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
     "crumbs": [
       "Research Compendium"
     ]
@@ -674,8 +674,8 @@
     "objectID": "content/researchCompendium.html#what-is-a-research-compendium",
     "href": "content/researchCompendium.html#what-is-a-research-compendium",
     "title": "Research Compendium",
-    "section": "What is a Research Compendium?",
-    "text": "What is a Research Compendium?\nA research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).",
+    "section": "",
+    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
     "crumbs": [
       "Research Compendium"
     ]
@@ -685,7 +685,7 @@
     "href": "content/researchCompendium.html#conventions",
     "title": "Research Compendium",
     "section": "Conventions",
-    "text": "Conventions\nBy following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions.",
+    "text": "Conventions\nBy following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.\nThe following link(s) are to oresearch compendium templates:\n\nWebsite Output Research Compendium Template",
     "crumbs": [
       "Research Compendium"
     ]
@@ -695,7 +695,7 @@
     "href": "content/organization.html",
     "title": "Github Organization",
     "section": "",
-    "text": "Github Organization\n\n\n\n\n\nUnder Construction\nGoals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.",
+    "text": "Under Construction\nGoals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.",
     "crumbs": [
       "Team Organization"
     ]
@@ -796,7 +796,7 @@
     "href": "content/coworking.html",
     "title": "Co-Working",
     "section": "",
-    "text": "Co-Working\n\n\n\n\n\nUnder Construction\nGoal: Introduce tips & tricks for co-working to work together through some of the lonely parts of research!",
+    "text": "Under Construction\nGoal: Introduce tips & tricks for co-working to work together through some of the lonely parts of research!",
     "crumbs": [
       "Co-Working"
     ]
@@ -986,7 +986,7 @@
     "href": "content/gitOrgs.html",
     "title": "Github Organizations",
     "section": "",
-    "text": "Github Organizations\n\n\n\n\n\nGoal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.\nUnder Construction",
+    "text": "Goal: Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with ‘owners’ and a ‘lab manual’ to serve as the primary go-to point for all components of the PAM-SI Team.\nUnder Construction",
     "crumbs": [
       "Team Organization",
       "Github Organizations"

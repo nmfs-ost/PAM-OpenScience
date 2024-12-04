@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-2f9c039ea7a9e575d83849e7716bb683.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-504eaef62a3362ffc665ddab0dff3f96.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -298,7 +298,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#what-is-a-research-compendium" id="toc-what-is-a-research-compendium" class="nav-link active" data-scroll-target="#what-is-a-research-compendium">What is a Research Compendium?</a></li>
-  <li><a href="#conventions" id="toc-conventions" class="nav-link" data-scroll-target="#conventions">Conventions</a></li>
+  <li><a href="#conventions" id="toc-conventions" class="nav-link" data-scroll-target="#conventions">Conventions</a>
+  <ul class="collapse">
+  <li><a href="#website-output-research-compendium-template" id="toc-website-output-research-compendium-template" class="nav-link" data-scroll-target="#website-output-research-compendium-template">Website Output Research Compendium Template</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/researchCompendium.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/researchCompendium.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -324,17 +327,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Under Construction</em></p>
-<p>Goal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.</p>
 <section id="what-is-a-research-compendium" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-research-compendium">What is a Research Compendium?</h2>
 <p>A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).</p>
+<p>By creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.</p>
 </section>
 <section id="conventions" class="level2">
 <h2 class="anchored" data-anchor-id="conventions">Conventions</h2>
-<p>By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions.</p>
+<p>By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.</p>
+<p>The following link(s) are to oresearch compendium templates:</p>
+<section id="website-output-research-compendium-template" class="level3">
+<h3 class="anchored" data-anchor-id="website-output-research-compendium-template"><a href="https://sael-swfsc.github.io/PAM_template_ResearchCompendium/">Website Output Research Compendium Template</a></h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -564,8 +570,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -676,7 +680,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
