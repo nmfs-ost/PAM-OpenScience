@@ -2,13 +2,15 @@
 title: Research Compendium
 ---
 
-*Under Construction*
-
-Goal: We will identify (or develop) a template repository to create a research compendium, along with a series of best practices.
-
 ## What is a Research Compendium?
 
 A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). 
 
+By creating a research compendium for your projects, you create a single location to serve as a 'home' for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready. 
+
 ## Conventions
-By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. 
+By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.
+
+The following link(s) are to oresearch compendium templates:
+
+### [Website Output Research Compendium Template](https://sael-swfsc.github.io/PAM_template_ResearchCompendium/)
