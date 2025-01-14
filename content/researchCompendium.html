@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2f9c039ea7a9e575d83849e7716bb683.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-504eaef62a3362ffc665ddab0dff3f96.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d60dc51e4780a8da6e803e03ea2fa71c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e19d0f8100c91b5b96a38b37e81d057c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -287,6 +287,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://github.com/SAEL-SWFSC/OpenScience/discussions" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Discussion Board</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -302,6 +308,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#website-output-research-compendium-template" id="toc-website-output-research-compendium-template" class="nav-link" data-scroll-target="#website-output-research-compendium-template">Website Output Research Compendium Template</a></li>
   </ul></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/researchCompendium.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/researchCompendium.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -330,17 +337,29 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-is-a-research-compendium" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-research-compendium">What is a Research Compendium?</h2>
 <p>A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).</p>
-<p>By creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.</p>
+<p>By creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:</p>
+<ul>
+<li><p>National Center for Environmental Information (<a href="https://www.ncei.noaa.gov/products/passive-acoustic-data">NCEI</a>): raw data, metadata, soundscape data</p></li>
+<li><p>Open Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include <a href="https://figshare.com/">Figshare</a>, <a href="https://zenodo.org/">Zenodo</a>, etc.</p></li>
+<li><p>Detection Data: Specific detections relevant to a project can be saved to <a href="https://www.fisheries.noaa.gov/resource/data/passive-acoustic-cetacean-map">PACM</a>, <a href="https://obis.org/">OBIS</a>, <a href="https://www.gbif.org/">GBIF</a>, or other public platforms.</p></li>
+<li><p>Google Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.</p></li>
+</ul>
+<p>You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.</p>
 </section>
 <section id="conventions" class="level2">
 <h2 class="anchored" data-anchor-id="conventions">Conventions</h2>
 <p>By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.</p>
-<p>The following link(s) are to oresearch compendium templates:</p>
+<p>The following link(s) are to our research compendium templates:</p>
 <section id="website-output-research-compendium-template" class="level3">
 <h3 class="anchored" data-anchor-id="website-output-research-compendium-template"><a href="https://sael-swfsc.github.io/PAM_template_ResearchCompendium/">Website Output Research Compendium Template</a></h3>
-
-
 </section>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<p><a href="https://github.com/SAEL-SWFSC/Adrift">Adrift in the California Current Research Compendium</a></p>
+<p><a href="https://github.com/shannonrankin/BANTER_BeakedWhales">Beaked Whale BANTER Research Compendium</a></p>
+
+
 </section>
 
 </main> <!-- /main -->
