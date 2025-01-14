@@ -4,13 +4,30 @@ title: Research Compendium
 
 ## What is a Research Compendium?
 
-A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). 
+A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).
 
-By creating a research compendium for your projects, you create a single location to serve as a 'home' for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready. 
+By creating a research compendium for your projects, you create a single location to serve as a 'home' for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:
+
+-   National Center for Environmental Information ([NCEI](https://www.ncei.noaa.gov/products/passive-acoustic-data)): raw data, metadata, soundscape data
+
+-   Open Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/), etc.
+
+-   Detection Data: Specific detections relevant to a project can be saved to [PACM](https://www.fisheries.noaa.gov/resource/data/passive-acoustic-cetacean-map), [OBIS](https://obis.org/), [GBIF](https://www.gbif.org/), or other public platforms.
+
+-   Google Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.
+
+You can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.
 
 ## Conventions
+
 By following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.
 
-The following link(s) are to oresearch compendium templates:
+The following link(s) are to our research compendium templates:
 
 ### [Website Output Research Compendium Template](https://sael-swfsc.github.io/PAM_template_ResearchCompendium/)
+
+## Examples
+
+[Adrift in the California Current Research Compendium](https://github.com/SAEL-SWFSC/Adrift)
+
+[Beaked Whale BANTER Research Compendium](https://github.com/shannonrankin/BANTER_BeakedWhales)
