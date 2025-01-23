@@ -11,7 +11,10 @@
 :::
 :::
 
-**Goal:** Describe Github organizations and teams, and identify their uses. Have each PAM-SI team develop an organization with 'owners' and a 'lab manual' to serve as the primary go-to point for all components of the PAM-SI Team.
+**Goal:** Describe Github organizations and teams, and identify their uses. 
+- Identify PAM-SI teams within the OST PAM - Strategic Initiative Team. Add team members.
+- Create a landing page for each PAM-SI team (see PAM-UxS page as an example), which will be updated as needed. This will serve as the primary go-to point for all components of the PAM-SI Team.
+- Add additional repositories relevant to this team. See the PAM-UxS team as an example. 
 
 
 ***Under Construction*** 
