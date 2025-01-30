@@ -59,8 +59,8 @@ website:
              - content/issues.qmd
              - content/gitProject.qmd
              - content/gitDiscussions.qmd
-             - text: "Open Science Discussions"
-               href: https://github.com/SAEL-SWFSC/OpenScience/discussions
+             # - text: "Open Science Discussions"
+             #   href: https://github.com/SAEL-SWFSC/OpenScience/discussions
       - section: content/organization.qmd
         text: Team Organization
         contents:

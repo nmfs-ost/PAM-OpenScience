@@ -1,16 +1,15 @@
-::: columns 
+::: columns
 ::: {.column width="50%"}
-
 # Github Organization
+:::
 
-::: 
 ::: {.column width="50%"}
-
 ![](images/githubTeamLogo.jpg)
-
 :::
 :::
 
-*Under Construction*
+Learn how to organize teams, projects, and communication within Github.
 
-Goals: Learn how to organize projects and teams within Github. This will be a focus for PAM-SI Openscapes Teams during Spring/Summer 2025.
+1.  [Github Teams & Organizations](https://sael-swfsc.github.io/OpenScience/content/gitOrgs.html)
+2.  [Github Projects](https://sael-swfsc.github.io/OpenScience/content/gitProject.html)
+3.  [Github Discussions](https://sael-swfsc.github.io/OpenScience/content/gitDiscussions.html)
