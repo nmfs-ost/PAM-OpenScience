@@ -298,8 +298,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#create-your-team" id="toc-create-your-team" class="nav-link active" data-scroll-target="#create-your-team"><strong>Create your team</strong></a></li>
+  <li><a href="#add-relevant-repositories" id="toc-add-relevant-repositories" class="nav-link" data-scroll-target="#add-relevant-repositories"><strong>Add Relevant Repositories</strong></a>
+  <ul class="collapse">
+  <li><a href="#transfer-existing-repositories." id="toc-transfer-existing-repositories." class="nav-link" data-scroll-target="#transfer-existing-repositories.">Transfer existing repositories.</a></li>
+  <li><a href="#add-new-repositories" id="toc-add-new-repositories" class="nav-link" data-scroll-target="#add-new-repositories">Add new repositories</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitOrgs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitOrgs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/organization.html">Team Organization</a></li><li class="breadcrumb-item"><a href="../content/gitOrgs.html">Github Organizations</a></li></ol></nav><h1 class="title display-7">Github Organizations</h1></header>
@@ -316,11 +327,51 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/githubTeamLogo.jpg" class="img-fluid" style="width:2in"></p>
 </div>
 </div>
-<p><strong>Goal:</strong> Describe Github organizations and teams, and identify their uses. - Identify PAM-SI teams within the OST PAM - Strategic Initiative Team. Add team members. - Create a landing page for each PAM-SI team (see PAM-UxS page as an example), which will be updated as needed. This will serve as the primary go-to point for all components of the PAM-SI Team. - Add additional repositories relevant to this team. See the PAM-UxS team as an example.</p>
+<p>Github Teams and Organizations provide a means of organizing research people and institutions.<br>
+- Github Organizations: Organizations are the ‘owners’ of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fishries has a single nmfs-ost Github Org, and each science center has a single Github Org. Best practices suggest minimizing the number of existing Github Organizations. - Github Teams: Github Teams are groups of users of common projects, and Github Teams provides a mechanism for access to collections of repositories. There can also be teams within teams. For example: the PAM Strategic Initiative Team has a number of additional teams within it (one for each PAM-SI Team).</p>
+<p>A team belongs to an organization, and an organization can have many teams. The nmfs-ost Enterprise Organization consists of a large number of teams, of which the PAM Strategic Initiative is one. We have also created a Team for each of the PAM-SI projects.</p>
+<p>In this exercise, we each PAM-SI Team will develop a strategy for their Github team and develop a “Lab Manual” repository for their team. For reference, here is a <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing">link</a> to the nmfs-ost Organization Standard Operating Procedures.</p>
+<section id="create-your-team" class="level2">
+<h2 class="anchored" data-anchor-id="create-your-team"><strong>Create your team</strong></h2>
+<ul>
+<li><p>Create a Team. The PAM-SI teams have been created for you; <a href="https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team">here</a> are directions if you’d like to create other teams. Here is a <a href="https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams">link</a> to the list of PAM Strategic Initiative Teams</p></li>
+<li><p>Identify PAM-SI teams within the OST PAM - Strategic Initiative Team. Add team members. Identify one or more administrators and ensure they have full administrative rights. If this team is within the nmfs-ost Organization, you may need to reach out to the Org Administrators to modify team members’ administrative rights. You can submit an Issue <a href="https://github.com/nmfs-ost/admin/issues">here</a> to request assistance from the nmsf-ost administrators.</p></li>
+<li><p>Create a Team Manual to serve as the primary go-to for all components/repositories/summaries of that team.</p>
+<ul>
+<li><p>Follow the <a href="https://sael-swfsc.github.io/OpenScience/content/labManual.html">methods</a> for creating a ‘Lab Manual’ for your team (a ‘Team Manual’). Use the same naming structure for your team manual as your name.</p></li>
+<li><p>ReadMe: Include an “About” statement to make it clear what this repository is.</p></li>
+<li><p>next steps: organize, etc.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="add-relevant-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="add-relevant-repositories"><strong>Add Relevant Repositories</strong></h2>
+<section id="transfer-existing-repositories." class="level3">
+<h3 class="anchored" data-anchor-id="transfer-existing-repositories.">Transfer existing repositories.</h3>
+<p>Transferring existing repositories is straight-forward as long as all users of that repository are on the nmfs-ost Enterprise Organization. For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg.</p>
+<ol type="1">
+<li>Ensure that all relevant NOAA personnel are listed as team members. If there are non-NOAA partners who require administrative access to the repository, refrain from transferring those repositories (you can still ‘point’ to those repositories from the Team Manual).</li>
+<li>Navigate to the Settings of your OldOrg, and scroll down to the ‘Danger Zone’. Select the Transfer button to transfer the repository, and select the nmfs-ost Organization. Rename your Repository to include the prefix ‘PAM’ as part of the name (to facilitate searching).</li>
+<li>Open the NewRepo in the nmfs-ost Enterprise organization. Can you see the settings? If not, you may not have admin rights. Submit an Issue <a href="https://github.com/nmfs-ost/admin/issues">here</a> to request assistance from the nmsf-ost administrators to provide you with administrative rights for that repository.</li>
+<li>If your OldRepo had GithubPages (a website), check the Settings –&gt; Github Pages to ensure that GithubPages is turned ‘on’. If you have links to the Github Pages in your Readme or on the right sidebar, update those links. Update links in any other important locations. If you suspect the broken link from your previous OldRepo will be problematic, you can create a redirect from your old Organization by following the methods outlined in the nmfs-ost SOP <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.r3mkqisulxei">‘Auto-redirect Github Pages’</a>.</li>
+</ol>
+</section>
+<section id="add-new-repositories" class="level3">
+<h3 class="anchored" data-anchor-id="add-new-repositories">Add new repositories</h3>
+<p>As the work of your PAM-SI team expands, add additional repositories as needed. These teams are intended as cross-office or National level projects</p>
+<ol type="1">
+<li>Identify active Repo Users. Will all active Repo Users have noaa emails? Will they have access to nmfs-ost? If not, then you can choose to either (1) host those repositories outside of the Enterprise Github nmfs-ost organization, or (2) require non-noaa users to submit push requests as a means of interacting with the repository. We have not yet tested this system to identify any problems.</li>
+<li>Create your repository (see <a href="https://docs.github.com/en/enterprise-cloud@latest/repositories/creating-and-managing-repositories/quickstart-for-repositories">Quickstart for repositories</a>) and use a thoughtful name that includes the Prefix ‘PAM’ (at a minimum). Use the word ‘test’ in the name if the purpose of this repo is to test something out (and later delete!). Consider using a template for your repo, such as our <a href="https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html">Research Compendium</a>or our <a href="https://sael-swfsc.github.io/OpenScience/content/labManual.html">Lab Manual</a> templates.</li>
+<li>Add Team Members</li>
+<li>Modify Readme to provide an “About” statement to make it clear what the purpose of the repository is.</li>
+<li>Create a page within the Team Manual to identify, link, and describe this repository (and summarize any results).</li>
+</ol>
 <p><strong><em>Under Construction</em></strong></p>
 <p><img src="images/workInProgress.jpg" class="img-fluid"></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -904,7 +955,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitOrgs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitOrgs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/OpenScience/edit/main/content/gitOrgs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/blob/main/content/gitOrgs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
