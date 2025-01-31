@@ -10,23 +10,27 @@
 
 Github Teams and Organizations provide a means of organizing research people and institutions.
 
-***Github Organizations:*** Organizations are the 'owners' of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fishries has a single nmfs-ost Github Org, and each science center has a single Github Org. Best practices suggest minimizing the number of existing Github Organizations.
+***Github Organizations:*** Organizations are the 'owners' of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fisheries has a single nmfs-ost Github Org, and each science center has a single Github Org. Best practices suggest minimizing the number of existing Github Organizations, deferring to 'Teams' for identifying groups within an Organization.
 
 ***Github Teams:*** Github Teams are groups of users of common projects, and Github Teams provides a mechanism for access to collections of repositories. There can also be teams within teams. For example: the PAM Strategic Initiative Team has a number of additional teams within it (one for each PAM-SI Team).
 
 A team belongs to an organization, and an organization can have many teams. The nmfs-ost Enterprise Organization consists of a large number of teams, of which the PAM Strategic Initiative is one. We have also created a Team for each of the PAM-SI projects.
 
-In this exercise, we each PAM-SI Team will develop a strategy for their Github team and develop a "Lab Manual" repository for their team. For reference, here is a [link](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing) to the nmfs-ost Organization Standard Operating Procedures.
+::: callout-note
+## Because of the large number of teams and repositories within the nmfs-ost organization, we HIGHLY recommend that all PAM-SI teams and repositories contain the prefix 'PAM' in their name (at a minimum!). Additional key words should also be considered.
+:::
+
+In this exercise, each PAM-SI Team will develop a strategy for their Github team and develop a "Lab Manual" repository to serve as the 'landing page' for their team. Throughout, we will use the [PAM-Glider team](https://github.com/orgs/nmfs-ost/teams/pam-glider) as an example. For reference, here is a [link](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing) to the nmfs-ost Organization Standard Operating Procedures.
 
 ## **Create your team**
 
--   **Create a Team.** The PAM-SI teams have been created for you; [here](https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team) are directions if you'd like to create other teams. Here is a [link](https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams) to the list of PAM Strategic Initiative Teams
+-   **Create a Team.** The PAM-SI teams have been created for you; [here](https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team) are directions if you'd like to create other teams. Here is a [link](https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams) to the list of PAM Strategic Initiative Teams.
 
 -   **Add Team Members.** Identify one or more administrators and ensure they have full administrative rights. If this team is within the nmfs-ost Organization, you may need to reach out to the Org Administrators to modify team members' administrative rights. You can submit an Issue [here](https://github.com/nmfs-ost/admin/issues) to request assistance from the nmsf-ost administrators.
 
 -   **Create a Team Manual.** This will serve as the primary go-to for all components of that team.
 
-    -   Follow the [methods](https://sael-swfsc.github.io/OpenScience/content/labManual.html) for creating a 'Lab Manual' for your team (a 'Team Manual'). Use the same naming structure for your team manual as your name.
+    -   Follow the [methods](https://sael-swfsc.github.io/OpenScience/content/labManual.html) for creating a 'Lab Manual' for your team (a 'Team Manual'). Use the same naming structure for your team manual as your name. For example, the repository for the PAM-Glider team will be titled "PAM-Glider".
 
     -   ReadMe: Include an "About" statement to make it clear what this repository is.
 
@@ -34,7 +38,7 @@ In this exercise, we each PAM-SI Team will develop a strategy for their Github t
 
     -   Create a page for each component of your research (see PAM-Glider site as an example). Provide any methods, figures, preliminary results, or other summary information that might be useful to the public or to our NOAA administrators and managers.
 
-    -   Add a 'contact us' Page
+    -   Add a 'contact us' Page. Your team can decide the best way to receive contacts (email or submission of an issue related to the repository). If you ask them to submit an issue, create an issue template that automatically identifies the Assignees for that issue (and ensure that those Assignees will automatically receive an email for that issue).
 
 -   **Align Team Manual with PAM_National_Network**
 
@@ -42,19 +46,17 @@ In this exercise, we each PAM-SI Team will develop a strategy for their Github t
 
     -   Create an Issue for that page by selecting the "Report an Issue" button on the upper right-hand side of the relevant page. Describe all the suggested changes (and provide any images or links to images to include), and provide a link to the website for your PAM-Team Manual website. Submit the issue and assign to Bella and yourself.
 
-## **Add Relevant Repositories**
+## Transfer existing repositories
 
-### Transfer existing repositories.
-
-Transferring existing repositories is straight-forward as long as all users of that repository are on the nmfs-ost Enterprise Organization. For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the [nmfs-ost SOP](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.k369jnadzdvr).
+For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the [nmfs-ost SOP](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.k369jnadzdvr).
 
 ::: callout-warning
-## NO PII/BII are allowed on Github (including confidential fisheries data, passwords, etc !)
+## NO PII/BII are allowed on Github!! This includes confidential fisheries data, passwords, etc!
 :::
 
-1.  **Identify Team Members.** Ensure that all relevant NOAA personnel are listed as team members. If there are non-NOAA partners who require administrative access to the repository, refrain from transferring those repositories (you can still 'point' to those repositories from the Team Manual).
+1.  **Identify Team Members.** Ensure that all relevant NOAA personnel are listed as team members on the new organization (nmfs-ost). If there are non-NOAA partners who require administrative access to the repository, you will need to use alternative methods for outside collaboration (see [Outside Collaborators](https://sael-swfsc.github.io/OpenScience/content/gitOrgs.html#outside-collaborators), below). If this is unacceptable, then you may wait on transferring the repository, but still link to that repository from your Team Manual.
 
-2.  **Prepare Project Boards.** Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as 'Issues', then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their 'status' tags, so you may want to include a comment stating their status prior to transferring the repository).
+2.  **Prepare Project Boards.** Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as 'Issues', then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their 'status' tags, so you may want to include a comment stating their status prior to transferring the repository). Closed issues do not transfer using this method and you may want to consider manually entering closed issues that should be retained.
 
 3.  **Transfer Repository.** Navigate to the Settings of your OldOrg, and scroll down to the 'Danger Zone'. Select the Transfer button to transfer the repository, and select the nmfs-ost Organization. Rename your Repository to include the prefix 'PAM' as part of the name (to facilitate searching).
 
