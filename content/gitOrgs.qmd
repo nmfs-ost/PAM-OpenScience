@@ -18,7 +18,7 @@ A team belongs to an organization, and an organization can have many teams. The 
 
 In this exercise, we each PAM-SI Team will develop a strategy for their Github team and develop a "Lab Manual" repository for their team. For reference, here is a [link](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing) to the nmfs-ost Organization Standard Operating Procedures.
 
-## **Create your team** 
+## **Create your team**
 
 -   **Create a Team.** The PAM-SI teams have been created for you; [here](https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team) are directions if you'd like to create other teams. Here is a [link](https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams) to the list of PAM Strategic Initiative Teams
 
@@ -44,7 +44,7 @@ In this exercise, we each PAM-SI Team will develop a strategy for their Github t
 
 ## **Add Relevant Repositories**
 
-### Transfer existing repositories. 
+### Transfer existing repositories.
 
 Transferring existing repositories is straight-forward as long as all users of that repository are on the nmfs-ost Enterprise Organization. For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the [nmfs-ost SOP](https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.k369jnadzdvr).
 
