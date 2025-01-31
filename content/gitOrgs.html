@@ -298,9 +298,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#create-your-team" id="toc-create-your-team" class="nav-link active" data-scroll-target="#create-your-team"><strong>Create your team</strong></a></li>
-  <li><a href="#add-relevant-repositories" id="toc-add-relevant-repositories" class="nav-link" data-scroll-target="#add-relevant-repositories"><strong>Add Relevant Repositories</strong></a>
+  <li><a href="#transfer-existing-repositories" id="toc-transfer-existing-repositories" class="nav-link" data-scroll-target="#transfer-existing-repositories">Transfer existing repositories</a>
   <ul class="collapse">
-  <li><a href="#transfer-existing-repositories." id="toc-transfer-existing-repositories." class="nav-link" data-scroll-target="#transfer-existing-repositories.">Transfer existing repositories.</a></li>
   <li><a href="#add-new-repositories" id="toc-add-new-repositories" class="nav-link" data-scroll-target="#add-new-repositories">Add new repositories</a></li>
   </ul></li>
   <li><a href="#outside-collaborators" id="toc-outside-collaborators" class="nav-link" data-scroll-target="#outside-collaborators">Outside Collaborators</a></li>
@@ -323,22 +322,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Github Teams and Organizations provide a means of organizing research people and institutions.</p>
-<p><strong><em>Github Organizations:</em></strong> Organizations are the ‘owners’ of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fishries has a single nmfs-ost Github Org, and each science center has a single Github Org. Best practices suggest minimizing the number of existing Github Organizations.</p>
+<p><strong><em>Github Organizations:</em></strong> Organizations are the ‘owners’ of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fisheries has a single nmfs-ost Github Org, and each science center has a single Github Org. Best practices suggest minimizing the number of existing Github Organizations, deferring to ‘Teams’ for identifying groups within an Organization.</p>
 <p><strong><em>Github Teams:</em></strong> Github Teams are groups of users of common projects, and Github Teams provides a mechanism for access to collections of repositories. There can also be teams within teams. For example: the PAM Strategic Initiative Team has a number of additional teams within it (one for each PAM-SI Team).</p>
 <p>A team belongs to an organization, and an organization can have many teams. The nmfs-ost Enterprise Organization consists of a large number of teams, of which the PAM Strategic Initiative is one. We have also created a Team for each of the PAM-SI projects.</p>
-<p>In this exercise, we each PAM-SI Team will develop a strategy for their Github team and develop a “Lab Manual” repository for their team. For reference, here is a <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing">link</a> to the nmfs-ost Organization Standard Operating Procedures.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Because of the large number of teams and repositories within the nmfs-ost organization, we HIGHLY recommend that all PAM-SI teams and repositories contain the prefix ‘PAM’ in their name (at a minimum!). Additional key words should also be considered.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>In this exercise, each PAM-SI Team will develop a strategy for their Github team and develop a “Lab Manual” repository to serve as the ‘landing page’ for their team. Throughout, we will use the <a href="https://github.com/orgs/nmfs-ost/teams/pam-glider">PAM-Glider team</a> as an example. For reference, here is a <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?usp=sharing">link</a> to the nmfs-ost Organization Standard Operating Procedures.</p>
 <section id="create-your-team" class="level2">
 <h2 class="anchored" data-anchor-id="create-your-team"><strong>Create your team</strong></h2>
 <ul>
-<li><p><strong>Create a Team.</strong> The PAM-SI teams have been created for you; <a href="https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team">here</a> are directions if you’d like to create other teams. Here is a <a href="https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams">link</a> to the list of PAM Strategic Initiative Teams</p></li>
+<li><p><strong>Create a Team.</strong> The PAM-SI teams have been created for you; <a href="https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team">here</a> are directions if you’d like to create other teams. Here is a <a href="https://github.com/orgs/nmfs-ost/teams/pam-strategic-initiative-team/teams">link</a> to the list of PAM Strategic Initiative Teams.</p></li>
 <li><p><strong>Add Team Members.</strong> Identify one or more administrators and ensure they have full administrative rights. If this team is within the nmfs-ost Organization, you may need to reach out to the Org Administrators to modify team members’ administrative rights. You can submit an Issue <a href="https://github.com/nmfs-ost/admin/issues">here</a> to request assistance from the nmsf-ost administrators.</p></li>
 <li><p><strong>Create a Team Manual.</strong> This will serve as the primary go-to for all components of that team.</p>
 <ul>
-<li><p>Follow the <a href="https://sael-swfsc.github.io/OpenScience/content/labManual.html">methods</a> for creating a ‘Lab Manual’ for your team (a ‘Team Manual’). Use the same naming structure for your team manual as your name.</p></li>
+<li><p>Follow the <a href="https://sael-swfsc.github.io/OpenScience/content/labManual.html">methods</a> for creating a ‘Lab Manual’ for your team (a ‘Team Manual’). Use the same naming structure for your team manual as your name. For example, the repository for the PAM-Glider team will be titled “PAM-Glider”.</p></li>
 <li><p>ReadMe: Include an “About” statement to make it clear what this repository is.</p></li>
 <li><p>Index.qmd: Create a home page that summarizes the goals and tasks of the teams. For suggestions, we recommend viewing the PAM-SI pages from the <a href="https://nmfs-ost.github.io/PAM_National_Network/content/SI%20coord/SI_Coordination.html">National PAM Network site</a> and the PAM-Glider site.</p></li>
 <li><p>Create a page for each component of your research (see PAM-Glider site as an example). Provide any methods, figures, preliminary results, or other summary information that might be useful to the public or to our NOAA administrators and managers.</p></li>
-<li><p>Add a ‘contact us’ Page</p></li>
+<li><p>Add a ‘contact us’ Page. Your team can decide the best way to receive contacts (email or submission of an issue related to the repository). If you ask them to submit an issue, create an issue template that automatically identifies the Assignees for that issue (and ensure that those Assignees will automatically receive an email for that issue).</p></li>
 </ul></li>
 <li><p><strong>Align Team Manual with PAM_National_Network</strong></p>
 <ul>
@@ -347,18 +359,16 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="add-relevant-repositories" class="level2">
-<h2 class="anchored" data-anchor-id="add-relevant-repositories"><strong>Add Relevant Repositories</strong></h2>
-<section id="transfer-existing-repositories." class="level3">
-<h3 class="anchored" data-anchor-id="transfer-existing-repositories.">Transfer existing repositories.</h3>
-<p>Transferring existing repositories is straight-forward as long as all users of that repository are on the nmfs-ost Enterprise Organization. For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.k369jnadzdvr">nmfs-ost SOP</a>.</p>
+<section id="transfer-existing-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="transfer-existing-repositories">Transfer existing repositories</h2>
+<p>For instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.k369jnadzdvr">nmfs-ost SOP</a>.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-NO PII/BII are allowed on Github (including confidential fisheries data, passwords, etc !)
+NO PII/BII are allowed on Github!! This includes confidential fisheries data, passwords, etc!
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -366,8 +376,8 @@ NO PII/BII are allowed on Github (including confidential fisheries data, passwor
 </div>
 </div>
 <ol type="1">
-<li><p><strong>Identify Team Members.</strong> Ensure that all relevant NOAA personnel are listed as team members. If there are non-NOAA partners who require administrative access to the repository, refrain from transferring those repositories (you can still ‘point’ to those repositories from the Team Manual).</p></li>
-<li><p><strong>Prepare Project Boards.</strong> Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as ‘Issues’, then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their ‘status’ tags, so you may want to include a comment stating their status prior to transferring the repository).</p></li>
+<li><p><strong>Identify Team Members.</strong> Ensure that all relevant NOAA personnel are listed as team members on the new organization (nmfs-ost). If there are non-NOAA partners who require administrative access to the repository, you will need to use alternative methods for outside collaboration (see <a href="https://sael-swfsc.github.io/OpenScience/content/gitOrgs.html#outside-collaborators">Outside Collaborators</a>, below). If this is unacceptable, then you may wait on transferring the repository, but still link to that repository from your Team Manual.</p></li>
+<li><p><strong>Prepare Project Boards.</strong> Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as ‘Issues’, then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their ‘status’ tags, so you may want to include a comment stating their status prior to transferring the repository). Closed issues do not transfer using this method and you may want to consider manually entering closed issues that should be retained.</p></li>
 <li><p><strong>Transfer Repository.</strong> Navigate to the Settings of your OldOrg, and scroll down to the ‘Danger Zone’. Select the Transfer button to transfer the repository, and select the nmfs-ost Organization. Rename your Repository to include the prefix ‘PAM’ as part of the name (to facilitate searching).</p></li>
 <li><p><strong>Identify Admin Settings.</strong> Open the NewRepo in the nmfs-ost Enterprise organization. Can you see the settings? If not, you may not have admin rights. Submit an Issue <a href="https://github.com/nmfs-ost/admin/issues">here</a> to request assistance from the nmsf-ost administrators to provide you with administrative rights for that repository.</p></li>
 <li><p><strong>Fix Github Pages.</strong> If your OldRepo had GithubPages (a website), check the Settings –&gt; Github Pages to ensure that GithubPages is turned ‘on’. If you have links to the Github Pages in your Readme or on the right sidebar, update those links. Update links in any other important locations. If you suspect the broken link from your previous OldRepo will be problematic, you can create a redirect from your old Organization by following the methods outlined in the nmfs-ost SOP <a href="https://docs.google.com/document/d/1ZaCn2yXqVA60ynsyp2u9EPvyNoolZ_tQBhs0s39BfTk/edit?tab=t.0#heading=h.r3mkqisulxei">‘Auto-redirect Github Pages’</a>.</p></li>
@@ -376,7 +386,6 @@ NO PII/BII are allowed on Github (including confidential fisheries data, passwor
 <p>Suggested Disclaimer:</p>
 <p><em>“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”</em></p></li>
 </ol>
-</section>
 <section id="add-new-repositories" class="level3">
 <h3 class="anchored" data-anchor-id="add-new-repositories">Add new repositories</h3>
 <p>As the work of your PAM-SI team expands, add additional repositories as needed. These teams are intended as cross-office or National level projects.</p>
