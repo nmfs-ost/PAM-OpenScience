@@ -13,19 +13,19 @@
 :::
 
 
-[Zotero](https://www.zotero.org/) is an open-source online reference
+[Zotero](https://www.zotero.org/){target="_blank"} is an open-source online reference
 manager, where references can be readily saved from Google scholar using
 a browser plugin.
 
 ## Getting started
 
-1.  Load [Zotero](https://www.zotero.org/) and create a
-    [login](https://www.zotero.org/user/login/)
+1.  Load [Zotero](https://www.zotero.org/){target="_blank"} and create a
+    [login](https://www.zotero.org/user/login/){target="_blank"}
 
-2.  [Download Zotero](https://www.zotero.org/) to your computer
+2.  [Download Zotero](https://www.zotero.org/){target="_blank"} to your computer
 
 3.  Install [Zotero
-    Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en)
+    Connector](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en){target="_blank"}
     to create a browser plugin so that you can directly save google
     scholar citations to your online reference list
 
@@ -90,7 +90,7 @@ Post in Bioacoustics Stack Exchange as a Question/Answer and tag as
 information is searchable on the web and accessible to the public.
 
 1.  Log into [Bioacoustics Stack
-    Exchange](https://bioacoustics.stackexchange.com) or follow these
+    Exchange](https://bioacoustics.stackexchange.com){target="_blank"} or follow these
     instructions to create an account: [join bioacoustics stack
     exchange](https://bioacoustics.stackexchange.com){target="\"_blank"}
 2.  Post a question (or have a colleague post a question), similar to
@@ -100,9 +100,9 @@ information is searchable on the web and accessible to the public.
     question, and then the other answers the question. Be sure to accept
     the answer once posted.
 3.  Here are two examples to follow: [Soundscape Zotero Group
-    Library](https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature)
+    Library](https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature){target="_blank"}
     and [PAM-Glider Group
-    Library](https://www.zotero.org/groups/5642642/pam-gliders)
+    Library](https://www.zotero.org/groups/5642642/pam-gliders){target="_blank"}
 
 ## Zotero and RStudio
 
@@ -110,7 +110,7 @@ You can integrate Zotero directly to your Quarto/RMarkdown document in
 RStudio, or to your Microsoft Word document. Here are some basics for
 using in Quarto/RMarkdown
 
-### Choose CSL: [Citation Style Language](https://citationstyles.org/)
+### Choose CSL: [Citation Style Language](https://citationstyles.org/){target="_blank"}
 
 Use Zotero to download the csl file for the journal you want to use.
 
@@ -163,7 +163,7 @@ document if the style calls for it. You may insert divs such as this;
 ```
 
 ::: callout-note
-## For more information, see Quarto [Citations Guide](https://quarto.org/docs/authoring/citations.html) and [Zotero Citations](https://quarto.org/docs/visual-editor/vscode/index.html#zotero-citations)
+## For more information, see Quarto [Citations Guide](https://quarto.org/docs/authoring/citations.html){target="_blank"} and [Zotero Citations](https://quarto.org/docs/visual-editor/vscode/index.html#zotero-citations){target="_blank"}
 :::
 
 ## 

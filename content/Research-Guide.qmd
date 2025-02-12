@@ -24,4 +24,4 @@ The purpose of this guide is to provide an approach to working on a research pro
 
 ***For additional information:***
 
-Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY).
+Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY){target="_blank"}.

@@ -25,13 +25,13 @@ Multiple people working on Github Repository and we want to insure that (1) we a
 
     1.  Github Desktop, create and name your branch. You can use the same name everytime, or you can create new branches at intervals. If you create many branches, you will want to delete them when they are no longer being used. When asked, publish Pull Request.
 
-        ![Using Github Desktop, create your own working branch in Github.](images/createBranch.jpg)
+        ![Using Github Desktop, create your own working branch in Github.](images/createBranch.jpg){target="_blank"}
 
 <!-- -->
 
 2.  **Update your Branch**
 
-    1.  If your branch is not new, make sure to update your branch so that it includes all updates on the main branch.  See [this video](https://youtu.be/uu92kFnp7iw?si=PLJqB4LM2v7u7ncT) by Eli Holmes (30sec through 6 min) to update your personal branch. ***NOTE:*** *We Will Use Different Methods To Update The Main Branch With The Modifications On Your Branch!*
+    1.  If your branch is not new, make sure to update your branch so that it includes all updates on the main branch.  See [this video](https://youtu.be/uu92kFnp7iw?si=PLJqB4LM2v7u7ncT){target="_blank"} by Eli Holmes (30sec through 6 min) to update your personal branch. ***NOTE:*** *We Will Use Different Methods To Update The Main Branch With The Modifications On Your Branch!*
 
     2.  You can also update mid-session, if that is important to the work you are doing.
 

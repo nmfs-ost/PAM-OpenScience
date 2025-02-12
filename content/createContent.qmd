@@ -2,11 +2,11 @@
 title: Create Content
 ---
 
-You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual).
+You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}.
 
 ## Modify Existing Content
 
-Here are basic instructions for modifying existing content, such as the example pages provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual): 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
+Here are basic instructions for modifying existing content, such as the example pages provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html){target="_blank"}.
 
 1)  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). As an example, we will change the "/content/Hardware.qmd" file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.
 
@@ -26,7 +26,7 @@ Here are basic instructions for modifying existing content, such as the example 
 
 ## Create New Content
 
-Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual): 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
+Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
 
 1.  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). Select **New Blank File**, and in the drop-down, select **Quarto Document**. Then give your file a logical and descriptive name.
 
@@ -60,11 +60,11 @@ To ensure your project will be saved correctly, you will need to double-check th
 
 Looking at other people's Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.
 
--   [Quarto gallery](https://quarto.org/docs/gallery/)
--   [nmfs-openscapes](https://nmfs-openscapes.github.io/)
--   [Faye lab manual](https://thefaylab.github.io/lab-manual/)
--   [quarto-titlepages](https://nmfs-opensci.github.io/quarto_titlepages/) Note the link to edit is broken. Go to repo and look in `documentation` directory.
+-   [Quarto gallery](https://quarto.org/docs/gallery/){target="_blank"}
+-   [nmfs-openscapes](https://nmfs-openscapes.github.io/){target="_blank"}
+-   [Faye lab manual](https://thefaylab.github.io/lab-manual/){target="_blank"}
+-   [quarto-titlepages](https://nmfs-opensci.github.io/quarto_titlepages/){target="_blank"} Note the link to edit is broken. Go to repo and look in `documentation` directory.
 
 ## Resources
 
--   [Quarto documentation](https://quarto.org/docs/guide/).
+-   [Quarto documentation](https://quarto.org/docs/guide/){target="_blank"}.

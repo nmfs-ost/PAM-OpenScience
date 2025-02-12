@@ -8,4 +8,4 @@ Presentations can be made in Quarto as three different slide formats including r
 
 ## HTML Slides Template
 
-[Methods Slides Template](Slides/methodsSlidesTemplate.qmd)
+[Methods Slides Template](Slides/methodsSlidesTemplate.qmd){target="_blank"}

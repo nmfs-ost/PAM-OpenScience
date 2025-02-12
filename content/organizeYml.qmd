@@ -16,13 +16,13 @@ Quarto Books are combinations of multiple documents (chapters) into a single man
 
 ### What is a YAML?
 
-YAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a [yaml checker](https://yamlchecker.com/) to be sure your yaml does not have errors.
+YAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a [yaml checker](https://yamlchecker.com/){target="_blank"} to be sure your yaml does not have errors.
 
 Quarto books/websites contain a \_quarto.yml file, which is the website's configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:
 
 ![](images/quarto-yml-site-side-by-side3.png)
 
-Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.html).
+Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.html){target="_blank"}.
 
 ## Modify YAML
 
@@ -30,7 +30,7 @@ Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.
 
     ![](images/ymlChangeURL.JPG){width="265"}
 
-2.  Change name and structure of Chapters. Does the chapter organization and naming fit your needs? Modify the contents component of the yaml to suit your needs, using 'sections' to identify identify sections with related chapters. Indentation and spacing are critical for yaml, so once you are ready, double-check your yaml by copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/).
+2.  Change name and structure of Chapters. Does the chapter organization and naming fit your needs? Modify the contents component of the yaml to suit your needs, using 'sections' to identify identify sections with related chapters. Indentation and spacing are critical for yaml, so once you are ready, double-check your yaml by copy/paste entire yaml into a [yamlchecker](https://yamlchecker.com/){target="_blank"}.
 
     **href:** refers to the name of the relevant qmd file (located in the contents folder).
 
@@ -44,8 +44,8 @@ Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.
 
 ## Resources
 
--   [Yaml Checker](https://yamlchecker.com/)
+-   [Yaml Checker](https://yamlchecker.com/){target="_blank"}
 
--   [Quarto Yaml Options (HTML)](https://quarto.org/docs/reference/formats/html.html)
+-   [Quarto Yaml Options (HTML)](https://quarto.org/docs/reference/formats/html.html){target="_blank"}
 
--   [Quarto Book Structure](https://quarto.org/docs/books/book-structure.html)
+-   [Quarto Book Structure](https://quarto.org/docs/books/book-structure.html){target="_blank"}

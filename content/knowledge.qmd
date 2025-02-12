@@ -13,8 +13,8 @@
 
 Open sharing of knowledge is a fundamental component of Open Science.
 
-1.   [Bioacoustics Stack Exchange](https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html)
+1.   [Bioacoustics Stack Exchange](https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html){target="_blank"}
 
-2.   [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html)
+2.   [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html){target="_blank"}
 
-3.   [Research Compendium](https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html)
+3.   [Research Compendium](https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html){target="_blank"}

@@ -4,7 +4,7 @@ title: Workshop Exercises
 
 ## Github Collaboration
 
-We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024). By all working together, we can have the bulk of the report completed by the end of the workshop. *Many hands make light work.*
+We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024){target="_blank"}. By all working together, we can have the bulk of the report completed by the end of the workshop. *Many hands make light work.*
 
 ***Exercise:***
 
@@ -14,31 +14,31 @@ To ensure that you are working with the most up to date repository, select "Fetc
 
 The exercises are:
 
-1.  [Add Introduction Draft Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-IntroText.html)
+1.  [Add Introduction Draft Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-IntroText.html){target="_blank"}
 
-2.  [Github section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Github.html)
+2.  [Github section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Github.html){target="_blank"}
 
-3.  [Add Authors](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Authors.html)
+3.  [Add Authors](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Authors.html){target="_blank"}
 
-4.  [List of Attendees](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.html)
+4.  [List of Attendees](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-ListAttendees.html){target="_blank"}
 
-5.  [Acknowledgements Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.html)
+5.  [Acknowledgements Text](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Acknowledge.html){target="_blank"}
 
-6.  [References](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-References.html)
+6.  [References](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-References.html){target="_blank"}
 
-7.  [NCEI Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-NCEI.html)
+7.  [NCEI Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-NCEI.html){target="_blank"}
 
-8.  [Cloud Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Cloud.html)
+8.  [Cloud Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Cloud.html){target="_blank"}
 
-9.  [Climate Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Climate.html)
+9.  [Trend Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Climate.html){target="_blank"}
 
-10. [Soundscape Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Soundscape.html)
+10. [Soundscape Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Soundscape.html){target="_blank"}
 
-11. [Stock Assessment Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-StockAssess.html)
+11. [Stock Assessment Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-StockAssess.html){target="_blank"}
 
-12. [Management Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Management.html)
+12. [Management Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Management.html){target="_blank"}
 
-13. [Detection Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Detection.html)
+13. [Detection Section](https://sael-swfsc.github.io/OpenScience/content/exercises/PAM-SI-Mtg-Exercises-Detection.html){target="_blank"}
 
 If you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.
 

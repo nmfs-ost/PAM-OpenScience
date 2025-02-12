@@ -6,21 +6,21 @@ title: Getting Started
 
 Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects
 
-Embrace the Open Science Mindset! Learn more about this approach and why it matters at [Openscapes.org](https://openscapes.org/) and the [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/approach/).
+Embrace the Open Science Mindset! Learn more about this approach and why it matters at [Openscapes.org](https://openscapes.org/){target="_blank"} and the [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/approach/){target="_blank"}.
 
 ## Add Software Tools
 
--   [Github Desktop](https://desktop.github.com/)
+-   [Github Desktop](https://desktop.github.com/){target="_blank"}
 
--   [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (v2022.07.2 build 576 or later)
+-   [RStudio](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"} (v2022.07.2 build 576 or later)
 
--   [R](https://www.r-project.org/)
+-   [R](https://www.r-project.org/){target="_blank"}
 
--   Create a [Github Login](https://github.com/)
+-   Create a [Github Login](https://github.com/){target="_blank"}
 
 ## Create a NEW Repository from a template:
 
-1.  Go to the Github Repository for the [PAM Lab Manual Template](https://github.com/nmfs-ost/PAM_template_lab_manual)
+1.  Go to the Github Repository for the [PAM Lab Manual Template](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}
 
 2.  Click on the 'Use this template' button in the top right, select 'Create new repository'
 
@@ -76,7 +76,7 @@ Clone your Test Repository to your local computer using Github Desktop:
 
 1.  File -\> Clone Repository -\> URL
 
-2.  Copy URL of your chosen Repository on Github, then save to your Documents -\> Github folder using the defaults. See [Introduction to Git/Github tutorial](https://rverse-tutorials.github.io/PSAW-2022/) for more help.
+2.  Copy URL of your chosen Repository on Github, then save to your Documents -\> Github folder using the defaults. See [Introduction to Git/Github tutorial](https://rverse-tutorials.github.io/PSAW-2022/){target="_blank"} for more help.
 
 ## Create a New Rstudio Project
 
@@ -160,8 +160,8 @@ title: "This is my title"
 
 ## Additional Resources
 
-[Introduction to Git/Github Tutorial](https://rverse-tutorials.github.io/PSAW-2022/) (Eli Holmes, NMFS)
+[Introduction to Git/Github Tutorial](https://rverse-tutorials.github.io/PSAW-2022/){target="_blank"} (Eli Holmes, NMFS)
 
-[Git for Humans](https://youtu.be/eWxxfttcMts) (Alice Bartlett)
+[Git for Humans](https://youtu.be/eWxxfttcMts){target="_blank"} (Alice Bartlett)
 
-[Happy Git with R](https://happygitwithr.com/) (Jenny Bryan)
+[Happy Git with R](https://happygitwithr.com/){target="_blank"} (Jenny Bryan)

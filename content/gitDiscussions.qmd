@@ -36,10 +36,10 @@ Here we will identify several different ways of working within discussions, and 
 
 6.  **General-** Anything relevant to the project (Open-ended discussion)
 
-## [Link to NMFS-PAM Github Discussions](https://github.com/SAEL-SWFSC/OpenScience/discussions)
+## [Link to NMFS-PAM Github Discussions](https://github.com/SAEL-SWFSC/OpenScience/discussions){target="_blank"}
 
 ## Resources
 
-[Github Discussions](https://resources.github.com/devops/process/planning/discussions/)
+[Github Discussions](https://resources.github.com/devops/process/planning/discussions/){target="_blank"}
 
-[Getting Started with Github Discussions (video)](https://youtu.be/rgCMmg9lBNw?feature=shared)
+[Getting Started with Github Discussions (video)](https://youtu.be/rgCMmg9lBNw?feature=shared){target="_blank"}

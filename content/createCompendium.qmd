@@ -10,7 +10,7 @@ Goals: Create a template and present step by step instructions to create the com
 ## Resources
 
 Research Compendium Templates:
-  * [emdelponte Website Based](https://github.com/emdelponte/research-compendium-website) 
+  * [emdelponte Website Based](https://github.com/emdelponte/research-compendium-website) {target="_blank"}
   * 
-[rrrpkg](https://github.com/ropensci/rrrpkg)- R package, and more info [here](https://annakrystalli.me/rrresearchACCE20/creating-a-research-compendium-with-rrtools.html)
-[rcompendium](https://frbcesab.github.io/rcompendium/)- R package 
+[rrrpkg](https://github.com/ropensci/rrrpkg){target="_blank"}- R package, and more info [here](https://annakrystalli.me/rrresearchACCE20/creating-a-research-compendium-with-rrtools.html){target="_blank"}
+[rcompendium](https://frbcesab.github.io/rcompendium/{target="_blank"})- R package 

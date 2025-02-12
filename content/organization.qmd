@@ -10,6 +10,6 @@
 
 Learn how to organize teams, projects, and communication within Github.
 
-1.  [Github Teams & Organizations](https://sael-swfsc.github.io/OpenScience/content/gitOrgs.html)
-2.  [Github Projects](https://sael-swfsc.github.io/OpenScience/content/gitProject.html)
-3.  [Github Discussions](https://sael-swfsc.github.io/OpenScience/content/gitDiscussions.html)
+1.  [Github Teams & Organizations](https://sael-swfsc.github.io/OpenScience/content/gitOrgs.html){target="_blank"}
+2.  [Github Projects](https://sael-swfsc.github.io/OpenScience/content/gitProject.html){target="_blank"}
+3.  [Github Discussions](https://sael-swfsc.github.io/OpenScience/content/gitDiscussions.html){target="_blank"}

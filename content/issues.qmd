@@ -20,7 +20,7 @@ Here we will work with issues independently and within Projects to coordinate de
 
 Our lab manuals have been set up to allow for directly submitting an issue related to a specific web page. We will create an issue as an example.
 
-1.  Go to the [Open Science pages](https://sael-swfsc.github.io/OpenScience/). At the top right, you will see 'On this page', and below this you'll find a github symbol and 'Edit this page'.
+1.  Go to the [Open Science pages](https://sael-swfsc.github.io/OpenScience/){target="_blank"}. At the top right, you will see 'On this page', and below this you'll find a github symbol and 'Edit this page'.
 
 2.  Select any page on this document, click on the 'Report an Issue' at the top right, and suggest an edit. If you have a real suggestion, then add that suggestion! If you only want to do this as a test, then write "TEST" as your title. Assign the issue to Shannon Rankin, and give it a label. When you are finished, select the green "Submit new issue" button at the bottom.
 
@@ -77,16 +77,16 @@ Creating your own custom Issue Template is ideal for repeated tasks. In this exa
 
 ## Issue Forms
 
-It is also possible to create custom issue forms, with dropdowns, checkboxes, etc. See Resources, below, for more information (we may build out a test example in the future), and find examples of form issues by Kourtney Burger [here](https://github.com/Kourtney-Burger/Inventree/issues) (click on 'new issue' to see forms).
+It is also possible to create custom issue forms, with dropdowns, checkboxes, etc. See Resources, below, for more information (we may build out a test example in the future), and find examples of form issues by Kourtney Burger [here](https://github.com/Kourtney-Burger/Inventree/issues){target="_blank"} (click on 'new issue' to see forms).
 
 ## Resources
 
-[Creating Custom Github Issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms)
+[Creating Custom Github Issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms){target="_blank"}
 
-[Creating GitHub Issue Templates- Eli Holmes](https://youtu.be/iCNA_zyawi8?feature=shared)
+[Creating GitHub Issue Templates- Eli Holmes](https://youtu.be/iCNA_zyawi8?feature=shared){target="_blank"}
 
-[Create Github Issue Forms](https://youtu.be/qQE1BUkf2-s?feature=shared)
+[Create Github Issue Forms](https://youtu.be/qQE1BUkf2-s?feature=shared){target="_blank"}
 
-[Example Github Issue Forms- Kourtney Burger](https://github.com/Kourtney-Burger/Inventree/issues)- Click on 'New Issue' button to see forms.
+[Example Github Issue Forms- Kourtney Burger](https://github.com/Kourtney-Burger/Inventree/issues){target="_blank"}- Click on 'New Issue' button to see forms.
 
-[Github Issue Template Cheat Sheet](https://gist.github.com/Elliria/ee13ed5201aaaac6f77f55290f189f0a)- Explanation and examples for creating yaml code for Custom Issue Forms.
+[Github Issue Template Cheat Sheet](https://gist.github.com/Elliria/ee13ed5201aaaac6f77f55290f189f0a){target="_blank"}- Explanation and examples for creating yaml code for Custom Issue Forms.

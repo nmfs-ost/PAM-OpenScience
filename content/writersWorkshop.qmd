@@ -34,10 +34,10 @@ Meetings are virtual and typically 2-3 hours in length. You should have your mat
 
 ## Resources
 
-Writing Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). [**https://doi.org/10.1002/bes2.1800**](https://doi.org/10.1002/bes2.1800)
+Writing Science: What makes scientific writing hard and how to make it easier (Kathleen Grogan). [**https://doi.org/10.1002/bes2.1800**](https://doi.org/10.1002/bes2.1800){target="_blank"}
 
-Defining the Role of Authors and Contributors (ICMJE). Link [here](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
+Defining the Role of Authors and Contributors (ICMJE). Link [here](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html){target="_blank"}.
 
-A guide to getting published in Ecology and Evolution (BES). Link [here](https://www.britishecologicalsociety.org/wp-content/uploads/BES-Guide-to-Getting-Published.pdf).
+A guide to getting published in Ecology and Evolution (BES). Link [here](https://www.britishecologicalsociety.org/wp-content/uploads/BES-Guide-to-Getting-Published.pdf){target="_blank"}.
 
-Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY).
+Video Tutorial: Beautiful reports and presentations with Quarto (RStudio). Link [here](https://youtu.be/hbf7Ai3jnxY){target="_blank"}.

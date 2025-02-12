@@ -32,4 +32,4 @@ Previously, we created an issue to Add a page on Lithium Battery Safety. Here we
 
 ## Resources
 
-[NMFS Open Science Github Project Boards (examples)](https://nmfs-opensci.github.io/ResourceBook/content/project_management/github_project_boards.html)
+[NMFS Open Science Github Project Boards (examples)](https://nmfs-opensci.github.io/ResourceBook/content/project_management/github_project_boards.html){target="_blank"}

@@ -10,18 +10,18 @@ The tasks outlined below will help us practice working together with a shared Gi
 
 1.  **Add Software Tools to your computer:**
 
-    1.  [Github Desktop](https://desktop.github.com/)
+    1.  [Github Desktop](https://desktop.github.com/){target="_blank"}
 
-        -   Sign [User Agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) for more information)
-        -   [SEFSC specific user agreement](https://drive.google.com/file/d/1HQBJFCa55inDFNdB-TEYkEw6h0rUPAG0/view); [NEFSC specific user agreement](https://drive.google.com/file/d/1YBD_tZQ0zTjG6FkClegp2N-joDjB8tBg/view?usp=drive_link)
+        -   Sign [User Agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view){target="_blank"} (see [NOAA Github Governance Team](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users){target="_blank"} for more information)
+        -   [SEFSC specific user agreement](https://drive.google.com/file/d/1HQBJFCa55inDFNdB-TEYkEw6h0rUPAG0/view){target="_blank"}; [NEFSC specific user agreement](https://drive.google.com/file/d/1YBD_tZQ0zTjG6FkClegp2N-joDjB8tBg/view?usp=drive_link)
 
-    2.  [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (v2022.07.2 build 576 or later)
+    2.  [RStudio](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"} (v2022.07.2 build 576 or later)
 
-    3.  [R](https://www.r-project.org/)
+    3.  [R](https://www.r-project.org/){target="_blank"}
 
-    4.  [Zotero](https://www.zotero.org/)
+    4.  [Zotero](https://www.zotero.org/){target="_blank"}
 
-    5.  Create a [Github Account](https://github.com/)
+    5.  Create a [Github Account](https://github.com/){target="_blank"}
 
 2.  **Request to join the PAM-SI Meeting Repository**
 
@@ -43,7 +43,7 @@ The tasks outlined below will help us practice working together with a shared Gi
 
     2.  File -\> Clone Repository -\> URL
 
-    3.  Paste in the URL for the PAM-SI Meeting Repo (provide link here). Save to your Documents -\> Github folder using the defaults. *It is highly recommended that you save Github Repository/RStudio Projects to these default locations (and for these instructions, we assume you will!).* See [Introduction to Git/Github tutorial](https://rverse-tutorials.github.io/PSAW-2022/) for more help.
+    3.  Paste in the URL for the PAM-SI Meeting Repo (provide link here). Save to your Documents -\> Github folder using the defaults. *It is highly recommended that you save Github Repository/RStudio Projects to these default locations (and for these instructions, we assume you will!).* See [Introduction to Git/Github tutorial](https://rverse-tutorials.github.io/PSAW-2022/){target="_blank"} for more help.
 
 4.  **Create/Open project in RStudio.**
 
