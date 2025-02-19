@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "Open Sciences for NOAA Fisheries PAM" 
-  site-url: "https://sael-swfsc.github.io/OpenScience/" 
-  repo-url: "https://github.com/SAEL-SWFSC/OpenScience"
+  site-url: "https://nmfs-ost.github.io/PAM-OpenScience/" 
+  repo-url: "https://github.com/nmfs-ost/PAM-OpenScience"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
