@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://sael-swfsc.github.io/OpenScience/
-        text: "PAM Open Science"
+        href: https://nmfs-ost.github.io/PAM_National_Network/
+        text: "National PAM Page"
       - icon: github
-        href: https://github.com/SAEL-SWFSC/OpenScience
-        text: "SAEL Open Science"
+        href: https://github.com/nmfs-ost/PAM-OpenScience
+        text: "PAM Open Science"
 
     style: "docked"
     search: true
