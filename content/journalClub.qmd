@@ -1,13 +1,13 @@
-::: columns
+::::: columns
 ::: {.column width="50%"}
 # Journal Club
 :::
 
 ::: {.column width="50%"}
-![](images/journalClubLogo.png){width=2in}
+![](images/journalClubLogo.png){width="2in"}
 :::
-:::
+:::::
 
-*Under Construction* ![](content/images/workInProgress.JPG)
+*Under Construction* ![](images/workInProgress.jpg)
 
-Goal: Encourage group discussions of new & exciting research. 
+Goal: Encourage group discussions of new & exciting research.
