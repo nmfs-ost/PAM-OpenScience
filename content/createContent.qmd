@@ -6,7 +6,7 @@ You can customize your content by (1) Modifying existing content, or (2) creatin
 
 ## Modify Existing Content
 
-Here are basic instructions for modifying existing content, such as the example pages provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html){target="_blank"}.
+Here are basic instructions for modifying existing content, such as the example pages provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://nmfs-ost.github.io/PAM_template_lab_manual/#how-to-use-this-template){target="_blank"}.
 
 1)  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). As an example, we will change the "/content/Hardware.qmd" file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.
 
@@ -26,7 +26,7 @@ Here are basic instructions for modifying existing content, such as the example 
 
 ## Create New Content
 
-Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
+Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual){target="_blank"}: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://nmfs-ost.github.io/PAM_template_lab_manual/#how-to-use-this-template).
 
 1.  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). Select **New Blank File**, and in the drop-down, select **Quarto Document**. Then give your file a logical and descriptive name.
 

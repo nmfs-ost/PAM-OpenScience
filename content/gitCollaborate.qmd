@@ -14,6 +14,6 @@ subtitle: Issues, Projects, and Discussions
 Github has a number of tools that facilitate collaboration, including:
 
 
-1. [Issues](https://sael-swfsc.github.io/OpenScience/content/issues.html){target="_blank"}- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.
-2. [Projects](https://sael-swfsc.github.io/OpenScience/content/gitProject.html){target="_blank"}- Github Projects are adaptable task-boards to help track and plan work
-3. [Discussions](https://sael-swfsc.github.io/OpenScience/content/gitDiscussions.html){target="_blank"}- Github Discussions is a platform for collaborative communication forum
+1. [Issues](https://nmfs-ost.github.io/PAM-OpenScience/content/issues.html){target="_blank"}- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.
+2. [Projects](https://nmfs-ost.github.io/PAM-OpenScience/content/gitProject.html){target="_blank"}- Github Projects are adaptable task-boards to help track and plan work
+3. [Discussions](https://nmfs-ost.github.io/PAM-OpenScience/content/gitDiscussions.html){target="_blank"}- Github Discussions is a platform for collaborative communication forum

@@ -17,4 +17,4 @@ Open sharing of knowledge is a fundamental component of Open Science.
 
 2.   [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html){target="_blank"}
 
-3.   [Research Compendium](https://sael-swfsc.github.io/OpenScience/content/researchCompendium.html){target="_blank"}
+3.   [Research Compendium](https://nmfs-ost.github.io/PAM-OpenScience/content/researchCompendium.html){target="_blank"}
