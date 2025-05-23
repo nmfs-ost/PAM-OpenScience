@@ -53,18 +53,19 @@ website:
           - content/gettingStarted.qmd
           - content/organizeYml.qmd
           - content/createContent.qmd
-          - section: content/gitCollaborate.qmd
-            text: Github Collaboration
-            contents:
-             - content/issues.qmd
-             - content/gitProject.qmd
-             - content/gitDiscussions.qmd
-             # - text: "Open Science Discussions"
-             #   href: https://github.com/SAEL-SWFSC/OpenScience/discussions
+ #          - section: content/gitCollaborate.qmd
+ #            text: Github Collaboration
+ #            contents:
+ #             - content/issues.qmd
+ #             - content/gitProject.qmd
+ #             - content/gitDiscussions.qmd
+ #             - text: "Open Science Discussions"
+ #               href: https://github.com/SAEL-SWFSC/OpenScience/discussions
       - section: content/organization.qmd
-        text: Team Organization
+        text: GitHub - Team Organization
         contents:
          - content/gitOrgs.qmd
+         - content/issues.qmd
          - content/gitProject.qmd
          - content/gitDiscussions.qmd
            
