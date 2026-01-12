@@ -1,0 +1,61 @@
+::::: columns
+::: {.column width="40%"}
+# Co-Working Meetings
+:::
+
+::: {.column width="60%"}
+![](images/coWorkingLogo.png){width="1in"}
+:::
+:::::
+
+Co-Working is a periodic virtual meeting space where we work on our individual projects *together*. There are different variations of co-working, but overall intentions are:
+
+-   Develop a strong sense of community
+
+-   Increase Productivity and Focus
+
+-   Combat Isolation (especially valuable for dispersed teams)
+
+-   Foster accountability
+
+-   Enhances Collaboration
+
+-   Minimize Distractions (turn off phones, email, etc)
+
+Meetings are virtual and typically 2-3 hours in length. Prior to the meeting you should have identified a task you plan to work on (have a goal!), and have your materials ready.
+
+**Meeting Timeline**
+
+1.  Have all your materials ready before the workshop begins. Identify a small manageable goal to complete during the co-working sesssion. For example, *I will work on paragraph 3 of my introduction. If I have extra time, I will begin on my methods.* Or, *I will develop the code to merge these datasets and create a combined table.* Or, *Jane Doe and I will work together to talk through a problem.*
+
+    Turn off ALL distractions (no email or web browser, turn off phone, etc)
+
+2.  First 5 minutes of workshop-- everyone briefly introduces the work they hope to complete in the first 90 min of the workshop. This is a great time to identify if you have a particular problem you are tackling (in case someone else in the meeting has the help you need!).
+
+    Identify break out groups for people who need to work in teams.
+
+    Select a person to keep the time-- they will give a 5 minute warning before the end of the 90 minutes.
+
+3.  Work on your task with videos on (accountability!), and your sound muted, unless you are in a break-out room. Stay focused on your one specific goal and avoid all distractions. Do not do anything that would distract the others from their work.
+
+4.  At 90 min mark, everyone briefly discuss how things went (if they had any obstacles). Take a 15 minute break
+
+5.  Everyone briefly discuss what they will do for the final 60 min of the workshop (one manageable task). Identify a person to keep the time. Work quietly (with videos on, sound muted) until the 5 minute warning is given.
+
+6.  Everyone give a brief update on what they accomplished, how they feel about their work.
+
+**Variations to Consider:**
+
+-   Have teams that want to do a 'sprint' to co-tackle a goal? Use a break out room and work together to do one larger project.
+
+-   Need help from someone on the team, use this time/space to work together to tackle the problem.
+
+-   Having problems focusing on a problem? Use the limited scope (3 hrs) and higher accountability (vocalizing goal, staying on video, giving update on progress) to try to improve productivity.
+
+-   Something not working? ***Change it!***
+
+## Resources
+
+[The ultimate guide to virtual co-working: Maximize productivity today](https://www.kumospace.com/blog/virtual-coworking-spaces-the-benefits-and-challenges) - Kumospace
+
+[Organising Coworking Calls or Meetings](https://book.the-turing-way.org/collaboration/coworking/) - The Turing Way Community
