@@ -10,322 +10,119 @@
     ]
   },
   {
-    "objectID": "content/gettingStarted.html",
-    "href": "content/gettingStarted.html",
-    "title": "Getting Started",
+    "objectID": "content/PAM-SI-Mtg-Exercises.html",
+    "href": "content/PAM-SI-Mtg-Exercises.html",
+    "title": "Workshop Exercises",
     "section": "",
-    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
+    "text": "We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024){target=“_blank”}. By all working together, we can have the bulk of the report completed by the end of the workshop. Many hands make light work.\nExercise:\nWe will all work together on one small part of the report to fill in some of the information we know we will need. We will split into pairs and each be assigned an exercise to complete. You will be tagged in your assignment through a Github issue and should receive an associated email. Find your assignment during the Github session either on github.com or through your email, then follow the instructions below.\nTo ensure that you are working with the most up to date repository, select “Fetch origin” on the top toolbar of Github Desktop before starting the exercise. If at any point you receive an error that you cannot fetch origin or push changes to github, follow the Step 5 of the “Pre Meeting Prep” instructions to login to github.com.\nThe exercises are:\n\nAdd Introduction Draft Text\nGithub section\nAdd Authors\nList of Attendees\nAcknowledgements Text\nReferences\nNCEI Section\nCloud Section\nTrend Section\nSoundscape Section\nStock Assessment Section\nManagement Section\nDetection Section\n\nIf you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.\nAt the end of the exercise, make sure everyone saves their changes and pushes their information up to Github, then we will render the output and view the results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we will work on the google docs linked in the agenda for notes during any given session, but then one person will summarize these notes into Github, and others can edit or revise."
   },
   {
-    "objectID": "content/gettingStarted.html#getting-started-with-github-and-rstudio-projects",
-    "href": "content/gettingStarted.html#getting-started-with-github-and-rstudio-projects",
-    "title": "Getting Started",
+    "objectID": "content/PAM-SI-Mtg-Exercises.html#github-collaboration",
+    "href": "content/PAM-SI-Mtg-Exercises.html#github-collaboration",
+    "title": "Workshop Exercises",
     "section": "",
-    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
+    "text": "We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024){target=“_blank”}. By all working together, we can have the bulk of the report completed by the end of the workshop. Many hands make light work.\nExercise:\nWe will all work together on one small part of the report to fill in some of the information we know we will need. We will split into pairs and each be assigned an exercise to complete. You will be tagged in your assignment through a Github issue and should receive an associated email. Find your assignment during the Github session either on github.com or through your email, then follow the instructions below.\nTo ensure that you are working with the most up to date repository, select “Fetch origin” on the top toolbar of Github Desktop before starting the exercise. If at any point you receive an error that you cannot fetch origin or push changes to github, follow the Step 5 of the “Pre Meeting Prep” instructions to login to github.com.\nThe exercises are:\n\nAdd Introduction Draft Text\nGithub section\nAdd Authors\nList of Attendees\nAcknowledgements Text\nReferences\nNCEI Section\nCloud Section\nTrend Section\nSoundscape Section\nStock Assessment Section\nManagement Section\nDetection Section\n\nIf you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.\nAt the end of the exercise, make sure everyone saves their changes and pushes their information up to Github, then we will render the output and view the results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we will work on the google docs linked in the agenda for notes during any given session, but then one person will summarize these notes into Github, and others can edit or revise."
   },
   {
-    "objectID": "content/gettingStarted.html#add-software-tools",
-    "href": "content/gettingStarted.html#add-software-tools",
-    "title": "Getting Started",
-    "section": "Add Software Tools",
-    "text": "Add Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/gettingStarted.html#create-a-new-repository-from-a-template",
-    "href": "content/gettingStarted.html#create-a-new-repository-from-a-template",
-    "title": "Getting Started",
-    "section": "Create a NEW Repository from a template:",
-    "text": "Create a NEW Repository from a template:\n\nGo to the Github Repository for the PAM Lab Manual Template\nClick on the ‘Use this template’ button in the top right, select ‘Create new repository’\n\nEdit repository settings\n\nSelect the ‘Include all branches’ option\nSelect your lab organization or yourself as the owner and set the repository name to ‘Lab name Lab Manual’\nMake description “Lab manual for ‘insert lab name and FMC’”\nMake the repo public\n\n\nClick create repository\nTurn on GitHub pages under Settings-&gt;Pages. You will set pages to be made from the gh-pages branch and root directory\n\nUpdate ‘Actions’ settings\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Actions permissions select ‘Allow all actions and reusable workflows’. Select save\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Workflow permissions select ‘Read and write permissions’\n\n\n\n\n\n\n\nImportantNote: Both of these settings may already be selected but you have to click save for both\n\n\n\n\n\n\n\nReturn to the main page of the repo to edit your website\n\nClick on ‘Code’ in the top left\nClick on the settings button next to the ‘About’ section on the right side of the repository\nSelect ‘Use your GitHub Pages website’. This should autopopulate the website\nSelect ‘Save Changes’",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/gettingStarted.html#clone-repository-to-local-computer",
-    "href": "content/gettingStarted.html#clone-repository-to-local-computer",
-    "title": "Getting Started",
-    "section": "Clone Repository to Local Computer",
-    "text": "Clone Repository to Local Computer\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your chosen Repository on Github, then save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/gettingStarted.html#create-a-new-rstudio-project",
-    "href": "content/gettingStarted.html#create-a-new-rstudio-project",
-    "title": "Getting Started",
-    "section": "Create a New Rstudio Project",
-    "text": "Create a New Rstudio Project\n\nCreate a new project in RStudio.\n\nOpen RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project.\n\nBrowse to find the appropriate folder in Documents-&gt; Github.\n\nModify the README.md file.\n\nIn the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\n\nOpen this file and edit using either Source Code or Visual Editor\n\n\nAdd the title of your repository (using # Title in Source Code or Heading 1 in Visual Editor)\nAdd text below the title describing the contents/purpose of this repository\nAdd the following Disclaimer and License (### Disclaimer if using Source Code):\nDisclaimer\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.\nLicense\nThis content was created by U.S. Government employees as part of their official duties. This content is not subject to copyright in the United States (17 U.S.C. §105) and is in the public domain within the United States of America. Additionally, copyright is waived worldwide through the CC0 1.0 Universal public domain dedication.\n\n\nSave! This Readme will show up at the bottom of our Github Repository\n\nModify the index.qmd file (home page)\n\nOpen the index.qmd file\n\n\n\nModify using Source Editor to add a title and introductory text for the home page (for website). Title will need to be written in this format:\n\ntitle: “This is my title”",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/gettingStarted.html#commit-push-to-github",
-    "href": "content/gettingStarted.html#commit-push-to-github",
-    "title": "Getting Started",
-    "section": "Commit & Push to Github",
-    "text": "Commit & Push to Github\n\nCommit & Push to Github.\n\nSave project in RStudio\nOpen your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).\n\nAt the bottom left, describe the modifications you made to the document, and then select ‘commit’.\nOnce the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\n\n\nCheck the updates on Github\n\nOpen your Github repository\nGo to Actions Tab- is it rendering? did it go through (green) or fail (red)?\n\nView the updated Github Repo ReadMe\nView the updated Website Homepage\n\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/gettingStarted.html#additional-resources",
-    "href": "content/gettingStarted.html#additional-resources",
-    "title": "Getting Started",
-    "section": "Additional Resources",
-    "text": "Additional Resources\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
-    "crumbs": [
-      "Lab Manual",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/createContent.html",
-    "href": "content/createContent.html",
-    "title": "Create Content",
+    "objectID": "content/rmarkdown.html",
+    "href": "content/rmarkdown.html",
+    "title": "R Markdown",
     "section": "",
-    "text": "You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the PAM Template Lab Manual.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
+    "text": "You can include R Markdown files in your project."
   },
   {
-    "objectID": "content/createContent.html#modify-existing-content",
-    "href": "content/createContent.html#modify-existing-content",
-    "title": "Create Content",
-    "section": "Modify Existing Content",
-    "text": "Modify Existing Content\nHere are basic instructions for modifying existing content, such as the example pages provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). As an example, we will change the “/content/Hardware.qmd” file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.\nIdentify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: “PAM Gliders”, “Drifting Recorders”, “Towed Arrays”, and “Handheld Hydrophones”.\n\nUsing the Source editor, use # to indicate Heading 1 style, ## for Heading 2 Style, etc.\nUsing the Visual editor, use the dropdown menu to select the Heading Style\n\nAdd Content using either the Source or Visual editor in RStudio. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.\nOnce your outline is developed, fill in the content. IF someone else will collate the content– they can create it in a separate document to be copied/pasted here, or they can directly modify this page.\nIf you find you need separate pages for each sub-heading (instead of one long subheading), then create New Content, and link the new content to the _quarto.yml.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
+    "objectID": "content/rmarkdown.html#r-markdown",
+    "href": "content/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
   },
   {
-    "objectID": "content/createContent.html#create-new-content",
-    "href": "content/createContent.html#create-new-content",
-    "title": "Create Content",
-    "section": "Create New Content",
-    "text": "Create New Content\nAgain, assuming you have an RStudio project for your Github Repository, such as the example provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). Select New Blank File, and in the drop-down, select Quarto Document. Then give your file a logical and descriptive name.\n\nUsing the Source editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).\n\nAdd Content using either the Source or Visual editor in RStudio.. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
+    "objectID": "content/rmarkdown.html#including-plots",
+    "href": "content/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   },
   {
-    "objectID": "content/createContent.html#render-and-save",
-    "href": "content/createContent.html#render-and-save",
-    "title": "Create Content",
-    "section": "Render and Save",
-    "text": "Render and Save\nTo ensure your project will be saved correctly, you will need to double-check that your yaml is correct, render locally, then push to github.\n\nCheck YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click Command+Shift+C). Then, copy/paste entire yaml into a yamlchecker to ensure proper indentation/spacing.\nRender Locally. In RStudio, go to the index.qmd and click on the ‘Render’ button (alternatively, in the Terminal window (bottom left), type ‘quarto render’). Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the “Background Jobs” to identify the errors.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.\n\n\n\nOnce you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
-  },
-  {
-    "objectID": "content/createContent.html#examples",
-    "href": "content/createContent.html#examples",
-    "title": "Create Content",
-    "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
-  },
-  {
-    "objectID": "content/createContent.html#resources",
-    "href": "content/createContent.html#resources",
-    "title": "Create Content",
-    "section": "Resources",
-    "text": "Resources\n\nQuarto documentation.",
-    "crumbs": [
-      "Lab Manual",
-      "Create Content"
-    ]
-  },
-  {
-    "objectID": "content/researchCompendium.html",
-    "href": "content/researchCompendium.html",
-    "title": "Research Compendium",
+    "objectID": "content/gitCollaborate.html",
+    "href": "content/gitCollaborate.html",
+    "title": "Collaborate with Github",
     "section": "",
-    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:\n\nNational Center for Environmental Information (NCEI): raw data, metadata, soundscape data\nOpen Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include Figshare, Zenodo, etc.\nDetection Data: Specific detections relevant to a project can be saved to PACM, OBIS, GBIF, or other public platforms.\nGoogle Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.\n\nYou can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
+    "text": "Collaborate with Github\n\n\n\n\n\nGithub has a number of tools that facilitate collaboration, including:\n\nIssues- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.\nProjects- Github Projects are adaptable task-boards to help track and plan work\nDiscussions- Github Discussions is a platform for collaborative communication forum",
     "crumbs": [
-      "Research Compendium"
+      "Lab Manual",
+      "Github Collaboration"
     ]
   },
   {
-    "objectID": "content/researchCompendium.html#what-is-a-research-compendium",
-    "href": "content/researchCompendium.html#what-is-a-research-compendium",
-    "title": "Research Compendium",
+    "objectID": "content/journalClub.html",
+    "href": "content/journalClub.html",
+    "title": "Journal Club",
     "section": "",
-    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:\n\nNational Center for Environmental Information (NCEI): raw data, metadata, soundscape data\nOpen Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include Figshare, Zenodo, etc.\nDetection Data: Specific detections relevant to a project can be saved to PACM, OBIS, GBIF, or other public platforms.\nGoogle Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.\n\nYou can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
-    "crumbs": [
-      "Research Compendium"
-    ]
-  },
-  {
-    "objectID": "content/researchCompendium.html#conventions",
-    "href": "content/researchCompendium.html#conventions",
-    "title": "Research Compendium",
-    "section": "Conventions",
-    "text": "Conventions\nBy following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.\nThe following link(s) are to our research compendium templates:\n\nWebsite Output Research Compendium Template",
-    "crumbs": [
-      "Research Compendium"
-    ]
-  },
-  {
-    "objectID": "content/researchCompendium.html#examples",
-    "href": "content/researchCompendium.html#examples",
-    "title": "Research Compendium",
-    "section": "Examples",
-    "text": "Examples\nAdrift in the California Current Research Compendium\nBeaked Whale BANTER Research Compendium",
-    "crumbs": [
-      "Research Compendium"
-    ]
-  },
-  {
-    "objectID": "content/openscapes.html",
-    "href": "content/openscapes.html",
-    "title": "Openscapes",
-    "section": "",
-    "text": "Openscapes\n\n\n\n\n\nOpenscapes is an open source approach and movement, and Openscapes is also an organization that facilitates adopting an open science way of working. We have identified a number of common projects that can serve as Openscapes Journeys.\nBelow we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the NMFS Openscapes Champions Program. These journeys are outlined in subsequent sections on this website.\n\nLab Manual - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual. In Progress\nTeam Organization - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects. Stay Tuned!\nResearch Compendium - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the ‘Team Organization’ journey. Stay Tuned!",
+    "text": "Under Construction \nGoal: Encourage group discussions of new & exciting research.",
     "crumbs": [
       "Co-Working",
-      "Openscapes"
+      "Journal Club"
     ]
   },
   {
-    "objectID": "content/createCompendium.html",
-    "href": "content/createCompendium.html",
-    "title": "Create Research Compendium",
+    "objectID": "content/publishing.html",
+    "href": "content/publishing.html",
+    "title": "Publishing",
     "section": "",
-    "text": "Under Construction\nGoals: Create a template and present step by step instructions to create the compendium. May need alternatives based on primary output (NOAA report, website, etc)",
-    "crumbs": [
-      "Research Compendium",
-      "Create Research Compendium"
-    ]
+    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
   },
   {
-    "objectID": "content/createCompendium.html#resources",
-    "href": "content/createCompendium.html#resources",
-    "title": "Create Research Compendium",
-    "section": "Resources",
-    "text": "Resources\nResearch Compendium Templates:\n\nemdelponte Website Based {target=“_blank”}\nrrrpkg- R package, and more info here\nrcompendium- R package",
-    "crumbs": [
-      "Research Compendium",
-      "Create Research Compendium"
-    ]
+    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "title": "Publishing",
+    "section": "Turn on GitHub Pages for your repo",
+    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
   },
   {
-    "objectID": "content/gitProject.html",
-    "href": "content/gitProject.html",
-    "title": "Github Projects",
+    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "title": "Publishing",
+    "section": "Do your first publish to gh-pages",
+    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
+  },
+  {
+    "objectID": "content/publishing.html#dont-like-using-gh-pages",
+    "href": "content/publishing.html#dont-like-using-gh-pages",
+    "title": "Publishing",
+    "section": "Don’t like using gh-pages?",
+    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+  },
+  {
+    "objectID": "content/organization.html",
+    "href": "content/organization.html",
+    "title": "Github Organization",
     "section": "",
-    "text": "Github Projects are adaptable task-boards that integrate issues to help you track and plan your work. You can create and customize multiple views by filtering, sorting, grouping your issues, and you can visualize your work with configurable charts and add custom fields to track metadata specific to your team.",
+    "text": "Learn how to organize teams, projects, and communication within Github.\n\nGithub Teams & Organizations\nGithub Projects\nGithub Discussions",
     "crumbs": [
-      "Lab Manual",
-      "Github Collaboration",
-      "Github Projects"
+      "Team Organization"
     ]
   },
   {
-    "objectID": "content/gitProject.html#create-lab-manual-project-board",
-    "href": "content/gitProject.html#create-lab-manual-project-board",
-    "title": "Github Projects",
-    "section": "Create Lab Manual Project Board",
-    "text": "Create Lab Manual Project Board\nHere we will create a project board for our Lab Manuals, and use this to organize and track the development of our Lab Manuals. We will create an issue for each component of the Lab Manual, but here we will start with creating a few issues related to the “Lab Management” section.\n\nOpen your Lab Manual Github Repository, and go to the “Projects” tab. Select “New Project”\nSelect a template (we recommend “Team Planning” to start), Give it a name (example: “SAEL Lab Manual”), and select “Create Project”.\nCreate an example issue for a component of the lab manual. Under the “Todo” section (at the bottom), select “+Add item”. Type “Add Lab Mngmt-&gt;Inventory. This will now show up as a ‘card’ under your Todo section.\nEdit on the new card you made by clicking on the name within the card. Click on “Edit”, and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click “Update Comment”.Identify Assignees (on the right). Then select “Convert to Issue” at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual).\n\n\n\nThe Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue.",
-    "crumbs": [
-      "Lab Manual",
-      "Github Collaboration",
-      "Github Projects"
-    ]
-  },
-  {
-    "objectID": "content/gitProject.html#add-previous-issues-to-project-board",
-    "href": "content/gitProject.html#add-previous-issues-to-project-board",
-    "title": "Github Projects",
-    "section": "Add Previous Issues to Project Board",
-    "text": "Add Previous Issues to Project Board\nPreviously, we created an issue to Add a page on Lithium Battery Safety. Here we will add that issue to our Lab Manual Project Board.\n\nGo to your Lab Manual Github Repository, and navigate to the “Issues” tab. Navigate to the issue you created previously (“Create Lithium Battery Safety qmd for Lab Manual”).\nAt the right, select Projects, add to your new Lab Manual Project.",
-    "crumbs": [
-      "Lab Manual",
-      "Github Collaboration",
-      "Github Projects"
-    ]
-  },
-  {
-    "objectID": "content/gitProject.html#resources",
-    "href": "content/gitProject.html#resources",
-    "title": "Github Projects",
-    "section": "Resources",
-    "text": "Resources\nNMFS Open Science Github Project Boards (examples)",
-    "crumbs": [
-      "Lab Manual",
-      "Github Collaboration",
-      "Github Projects"
-    ]
-  },
-  {
-    "objectID": "content/gitOrgs.html",
-    "href": "content/gitOrgs.html",
-    "title": "Github Organizations",
+    "objectID": "content/labManual.html",
+    "href": "content/labManual.html",
+    "title": "Lab Manual",
     "section": "",
-    "text": "Github Teams and Organizations provide a means of organizing research people and institutions.\nGithub Organizations: Organizations are the ‘owners’ of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fisheries has a single nmfs-ost Github Org.\nGithub Teams: Github Teams are groups of users of common projects, and there can also be teams within teams. For example: the PAM Strategic Initiative Team has a number of additional teams within it (one for each PAM-SI Team).\nA team belongs to an organization, and an organization can have many teams. Best practices suggest minimizing the number of existing Github Organizations, deferring to ‘Teams’ for identifying groups within an Organization.\nIn this exercise, each PAM-SI Team will develop a strategy for their Github team and develop a “Lab Manual” repository to serve as the ‘landing page’ for their team. Throughout, we will use the PAM-Glider team as an example. For reference, here is a link to the nmfs-ost Organization Standard Operating Procedures.",
+    "text": "During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nGithub Collaboration, including: Issues, Projects, and Discussions",
     "crumbs": [
-      "Team Organization",
-      "Github Organizations"
+      "Lab Manual"
     ]
   },
   {
-    "objectID": "content/gitOrgs.html#create-your-team",
-    "href": "content/gitOrgs.html#create-your-team",
-    "title": "Github Organizations",
-    "section": "Create your team",
-    "text": "Create your team\n\nCreate a Team. The PAM-SI teams have been created for you; here are directions if you’d like to create other teams. Here is a link to the list of PAM Strategic Initiative Teams.\nAdd Team Members. Identify one or more administrators and ensure they have full administrative rights. If this team is within the nmfs-ost Organization, you may need to reach out to the Org Administrators to modify team members’ administrative rights. You can submit an Issue here to request assistance from the nmsf-ost administrators.\nCreate a Team Manual. This will serve as the primary go-to for all components of that team.\n\nFollow the methods for creating a ‘Lab Manual’ for your team (a ‘Team Manual’). Use the same naming structure for your team manual as your name. For example, the repository for the PAM-Glider team will be titled “PAM-Glider”.\nReadMe: Include an “About” statement to make it clear what this repository is.\nIndex.qmd: Create a home page that summarizes the goals and tasks of the teams. For suggestions, we recommend viewing the PAM-SI pages from the National PAM Network site and the PAM-Glider site.\nCreate a page for each component of your research (see PAM-Glider site as an example). Provide any methods, figures, preliminary results, or other summary information that might be useful to the public or to our NOAA administrators and managers.\nAdd a ‘contact us’ Page. Your team can decide the best way to receive contacts (email or submission of an issue related to the repository). If you ask them to submit an issue, create an issue templatethat automatically identifies the Assignees for that issue (and ensure that those Assignees will automatically receive an email for that issue).\n\nAlign Team Manual with PAM_National_Network\n\nReview the PAM-SI Page for your Team. Identify inconsistencies, updates, and helpful figures.\nCreate an Issue for that page by selecting the “Report an Issue” button on the upper right-hand side of the relevant page. Describe all the suggested changes (and provide any images or links to images to include), and provide a link to the website for your PAM-Team Manual website. Submit the issue and assign to Bella and yourself.",
+    "objectID": "content/pathway-workflow.html",
+    "href": "content/pathway-workflow.html",
+    "title": "pathway",
+    "section": "",
+    "text": "DRAFT - NOT READY YET- IGNORE ME, PLEASE!\n\nCreate a new diagram by:\n\nGo to app.diagrams.net\nSave As –&gt; Name your diagram, save as XML (drawio) format, and save to your DEVICE and save in the appropriate folder in your Github repository. For example here is where the diagram below is saved: //documents/Github/OpenScience/output/OSworkflow.drawio\nNote: If this is a problem due to permissions/Enterprise accounts, then create a Diagrams repo outside of the Org, and you can link directly to this location (I think, but need to test).\nMake changes to your _quarto.yaml (in your root directory) and include the folder/diagram in your rendered site:\n\n\n\nproject: \n  type: website \n  output-dir: docs # or whatever your output directory is\n\n#Add this to ensure your diagrams folder is copied:\n       \nresources:\n-   output/OSworkflow.drawio\n\n# Or, if you have multiple diagrams:\n\nresources:\n-   output/*.drawio\n\n4.  Create Your Quarto Page with Embedded Diagram In your .qmd file (working in RStudio), add this code:\nAdd code chunk here (eval=FALSE) when I have the rest of the page rendered correctly\n5.  Adjust the Path The tricky part is the path. Since you're using Quarto and rendering to an output directory, here's what you need to know: If your .qmd file is in the root and your diagram is in output/:\nDuring rendering, the path depends on where the rendered HTML ends up If the rendered HTML is also in output/, use: var diagramPath = ‘OSworkflow.drawio’; If the rendered HTML is elsewhere, use: var diagramPath = ‘output/OSworkflow.drawio’;\nThe here() package won’t work in JavaScript, but you can use R to generate the correct path:\nFor the web, we need a relative path from the rendered HTML location\n\n\n\n  🔍 Zoom In\n  🔍 Zoom Out\n  ⟲ Reset View\n  Zoom: 100%\n\n\n\n\n\nHow Users Interact\nZoom in: Click “Zoom In” button OR scroll up with mouse wheel Zoom out: Click “Zoom Out” button OR scroll down with mouse wheel Pan: Click and drag anywhere on the diagram Reset: Click “Reset View” to return to original position and zoom Click links: Links in your diagram still work when you click them\nCustomization Options If you want to adjust any settings:\nChange zoom sensitivity: var delta = e.deltaY &gt; 0 ? 0.9 : 1.1; // Change these values (closer to 1 = less sensitive)\nChange button zoom amount: scale *= 1.2; // Make this larger for bigger zoom steps\nChange container height: height: 700px; /* Change to whatever you want */\nChange button colors: background-color: #007bff; /* Change to your preferred color */",
     "crumbs": [
-      "Team Organization",
-      "Github Organizations"
-    ]
-  },
-  {
-    "objectID": "content/gitOrgs.html#transfer-existing-repositories",
-    "href": "content/gitOrgs.html#transfer-existing-repositories",
-    "title": "Github Organizations",
-    "section": "Transfer existing repositories",
-    "text": "Transfer existing repositories\nFor instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the nmfs-ost SOP.\n\n\n\n\n\n\nWarningNO PII/BII are allowed on Github!! This includes confidential fisheries data, passwords, etc!\n\n\n\n\n\n\n\nIdentify Team Members. Ensure that all relevant NOAA personnel are listed as team members on the new organization (nmfs-ost). If there are non-NOAA partners who require administrative access to the repository, you will need to use alternative methods for outside collaboration (see Outside Collaborators, below). If this is unacceptable, then you may wait on transferring the repository, but still link to that repository from your Team Manual.\nPrepare Project Boards. Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as ‘Issues’, then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their ‘status’ tags, so you may want to include a comment stating their status prior to transferring the repository). Closed issues may not transfer using this method and you may want to consider manually entering closed issues that should be retained.\nCheck Discussion Boards All discussions should transfer if they are at the repository level and being transferred to an organization that does not allow for organization level discussions. Currently, the NMFS OST does not have a discussion board at the organization level, so any repositories transferred there should include the existing discussion boards. More information on discussions here\nTransfer Repository. Navigate to the Settings of your OldOrg, and scroll down to the ‘Danger Zone’. Select the Transfer button to transfer the repository, and select the nmfs-ost Organization. Rename your Repository to include the prefix ‘PAM’ as part of the name (to facilitate searching).\nIdentify Admin Settings. Open the NewRepo in the nmfs-ost Enterprise organization. Can you see the settings? If not, you may not have admin rights. Submit an Issue here to request assistance from the nmsf-ost administrators to provide you with administrative rights for that repository.\nFix Github Pages. If your OldRepo had GithubPages (a website), check the Settings –&gt; Github Pages to ensure that GithubPages is turned ‘on’. If you have links to the Github Pages in your Readme or on the right sidebar, update those links. Update links in any other important locations. If you suspect the broken link from your previous OldRepo will be problematic, you can create a redirect from your old Organization by following the methods outlined in the nmfs-ost SOP ‘Auto-redirect Github Pages’.\nAdd an “About” Statement. Open the ReadMe and provide an “About” statement to make it clear what the purpose of the repository is.\nAdd NOAA Disclaimer and License. Revise readme to ensure that there is a NOAA Disclaimer (below) and a License file for software (including R packages){target=“_blank”}.\nSuggested Disclaimer:\n“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”\n\n\nAdd new repositories\nAs the work of your PAM-SI team expands, add additional repositories as needed. These teams are intended as cross-office or National level projects.\n\nIdentify active Repo Users. Will all active Repo Users have noaa emails? Will they have access to nmfs-ost? If not, then you can choose to either (1) host those repositories outside of the Enterprise Github nmfs-ost organization, or (2) require non-noaa users to submit push requests as a means of interacting with the repository. We have not yet tested this system to identify any problems.\nCreate Repository. Create your repository (see Quickstart for repositories) and use a thoughtful name that includes the Prefix ‘PAM’ (at a minimum). Use the word ‘test’ in the name if the purpose of this repo is to test something out (and later delete!). Consider using a template for your repo, such as our Research Compendium or our [Lab Manual](https://nmfs-ost.github.io/PAM-OpenScience/content/labManual.html{target=“_blank”} templates.\nAdd Team Members and ensure they have the appropriate level of user access.\nAdd an “About” Statement. Open the ReadMe and provide an “About” statement to make it clear what the purpose of the repository is.\nAdd NOAA Disclaimer and License. Revise the ReadMe to ensure that there is a NOAA Disclaimer (below) and a License file for software (including R packages) .\nSuggested Disclaimer:\n“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”\nAdd Relevant Page to Team Manual. Create a page within the Team Manual to identify, link, and describe this repository (and summarize any results).",
-    "crumbs": [
-      "Team Organization",
-      "Github Organizations"
-    ]
-  },
-  {
-    "objectID": "content/gitOrgs.html#outside-collaborators",
-    "href": "content/gitOrgs.html#outside-collaborators",
-    "title": "Github Organizations",
-    "section": "Outside Collaborators",
-    "text": "Outside Collaborators\nIf you would like to request someone be added as an outside collaborator (because they do not have a noaa.gov email account), please contact the nmfs-ost GitHub organization administrators. Those outside of NOAA can collaborate by forking the repository and submitting a pull request to public repositories, and the GitHub Governance Team is clarifying which additional permissions are allowed for non-NOAA collaborators on GitHub Enterprise. See nmfs-ost SOP for more information.",
-    "crumbs": [
-      "Team Organization",
-      "Github Organizations"
+      "Finding Your Path",
+      "pathway"
     ]
   },
   {
@@ -1023,108 +820,332 @@
     ]
   },
   {
-    "objectID": "content/labManual.html",
-    "href": "content/labManual.html",
-    "title": "Lab Manual",
+    "objectID": "content/gitOrgs.html",
+    "href": "content/gitOrgs.html",
+    "title": "Github Organizations",
     "section": "",
-    "text": "During our first PAM-Team Openscapes (Fall 2024), we developed methods to create individual lab manuals (for each science center), and link them to a National NMFS PAM Lab Manual.\n\nGetting Started\nOrganize with Yaml\nCreate Content\nGithub Collaboration, including: Issues, Projects, and Discussions",
+    "text": "Github Teams and Organizations provide a means of organizing research people and institutions.\nGithub Organizations: Organizations are the ‘owners’ of shared repositories, discussions, and projects where these things are kept completely separate from each other. For example, NOAA Fisheries has a single nmfs-ost Github Org.\nGithub Teams: Github Teams are groups of users of common projects, and there can also be teams within teams. For example: the PAM Strategic Initiative Team has a number of additional teams within it (one for each PAM-SI Team).\nA team belongs to an organization, and an organization can have many teams. Best practices suggest minimizing the number of existing Github Organizations, deferring to ‘Teams’ for identifying groups within an Organization.\nIn this exercise, each PAM-SI Team will develop a strategy for their Github team and develop a “Lab Manual” repository to serve as the ‘landing page’ for their team. Throughout, we will use the PAM-Glider team as an example. For reference, here is a link to the nmfs-ost Organization Standard Operating Procedures.",
     "crumbs": [
-      "Lab Manual"
+      "Team Organization",
+      "Github Organizations"
     ]
   },
   {
-    "objectID": "content/organization.html",
-    "href": "content/organization.html",
-    "title": "Github Organization",
-    "section": "",
-    "text": "Learn how to organize teams, projects, and communication within Github.\n\nGithub Teams & Organizations\nGithub Projects\nGithub Discussions",
+    "objectID": "content/gitOrgs.html#create-your-team",
+    "href": "content/gitOrgs.html#create-your-team",
+    "title": "Github Organizations",
+    "section": "Create your team",
+    "text": "Create your team\n\nCreate a Team. The PAM-SI teams have been created for you; here are directions if you’d like to create other teams. Here is a link to the list of PAM Strategic Initiative Teams.\nAdd Team Members. Identify one or more administrators and ensure they have full administrative rights. If this team is within the nmfs-ost Organization, you may need to reach out to the Org Administrators to modify team members’ administrative rights. You can submit an Issue here to request assistance from the nmsf-ost administrators.\nCreate a Team Manual. This will serve as the primary go-to for all components of that team.\n\nFollow the methods for creating a ‘Lab Manual’ for your team (a ‘Team Manual’). Use the same naming structure for your team manual as your name. For example, the repository for the PAM-Glider team will be titled “PAM-Glider”.\nReadMe: Include an “About” statement to make it clear what this repository is.\nIndex.qmd: Create a home page that summarizes the goals and tasks of the teams. For suggestions, we recommend viewing the PAM-SI pages from the National PAM Network site and the PAM-Glider site.\nCreate a page for each component of your research (see PAM-Glider site as an example). Provide any methods, figures, preliminary results, or other summary information that might be useful to the public or to our NOAA administrators and managers.\nAdd a ‘contact us’ Page. Your team can decide the best way to receive contacts (email or submission of an issue related to the repository). If you ask them to submit an issue, create an issue templatethat automatically identifies the Assignees for that issue (and ensure that those Assignees will automatically receive an email for that issue).\n\nAlign Team Manual with PAM_National_Network\n\nReview the PAM-SI Page for your Team. Identify inconsistencies, updates, and helpful figures.\nCreate an Issue for that page by selecting the “Report an Issue” button on the upper right-hand side of the relevant page. Describe all the suggested changes (and provide any images or links to images to include), and provide a link to the website for your PAM-Team Manual website. Submit the issue and assign to Bella and yourself.",
     "crumbs": [
-      "Team Organization"
+      "Team Organization",
+      "Github Organizations"
     ]
   },
   {
-    "objectID": "content/publishing.html",
-    "href": "content/publishing.html",
-    "title": "Publishing",
-    "section": "",
-    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
-  },
-  {
-    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "title": "Publishing",
-    "section": "Turn on GitHub Pages for your repo",
-    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
-  },
-  {
-    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "title": "Publishing",
-    "section": "Do your first publish to gh-pages",
-    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
-  },
-  {
-    "objectID": "content/publishing.html#dont-like-using-gh-pages",
-    "href": "content/publishing.html#dont-like-using-gh-pages",
-    "title": "Publishing",
-    "section": "Don’t like using gh-pages?",
-    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
-  },
-  {
-    "objectID": "content/journalClub.html",
-    "href": "content/journalClub.html",
-    "title": "Journal Club",
-    "section": "",
-    "text": "Under Construction \nGoal: Encourage group discussions of new & exciting research.",
+    "objectID": "content/gitOrgs.html#transfer-existing-repositories",
+    "href": "content/gitOrgs.html#transfer-existing-repositories",
+    "title": "Github Organizations",
+    "section": "Transfer existing repositories",
+    "text": "Transfer existing repositories\nFor instructional purposes, we will refer to the original repository as the OldRepo and the New Repository (within the nmfs-ost org) as the NewRepo. If your previous repository was located within a different organization (say your science center org), we will refer to that as the OldOrg, and as the nmfs-ost as the NewOrg. For additional information, see the nmfs-ost SOP.\n\n\n\n\n\n\nWarningNO PII/BII are allowed on Github!! This includes confidential fisheries data, passwords, etc!\n\n\n\n\n\n\n\nIdentify Team Members. Ensure that all relevant NOAA personnel are listed as team members on the new organization (nmfs-ost). If there are non-NOAA partners who require administrative access to the repository, you will need to use alternative methods for outside collaboration (see Outside Collaborators, below). If this is unacceptable, then you may wait on transferring the repository, but still link to that repository from your Team Manual.\nPrepare Project Boards. Do you have any project boards linked to this repository? Project boards do not transfer; however, if you ensure that all Project Board entries are saved as ‘Issues’, then the Issues will transfer over and you can rebuild your Project Board in the new org (note that they will not retain their ‘status’ tags, so you may want to include a comment stating their status prior to transferring the repository). Closed issues may not transfer using this method and you may want to consider manually entering closed issues that should be retained.\nCheck Discussion Boards All discussions should transfer if they are at the repository level and being transferred to an organization that does not allow for organization level discussions. Currently, the NMFS OST does not have a discussion board at the organization level, so any repositories transferred there should include the existing discussion boards. More information on discussions here\nTransfer Repository. Navigate to the Settings of your OldOrg, and scroll down to the ‘Danger Zone’. Select the Transfer button to transfer the repository, and select the nmfs-ost Organization. Rename your Repository to include the prefix ‘PAM’ as part of the name (to facilitate searching).\nIdentify Admin Settings. Open the NewRepo in the nmfs-ost Enterprise organization. Can you see the settings? If not, you may not have admin rights. Submit an Issue here to request assistance from the nmsf-ost administrators to provide you with administrative rights for that repository.\nFix Github Pages. If your OldRepo had GithubPages (a website), check the Settings –&gt; Github Pages to ensure that GithubPages is turned ‘on’. If you have links to the Github Pages in your Readme or on the right sidebar, update those links. Update links in any other important locations. If you suspect the broken link from your previous OldRepo will be problematic, you can create a redirect from your old Organization by following the methods outlined in the nmfs-ost SOP ‘Auto-redirect Github Pages’.\nAdd an “About” Statement. Open the ReadMe and provide an “About” statement to make it clear what the purpose of the repository is.\nAdd NOAA Disclaimer and License. Revise readme to ensure that there is a NOAA Disclaimer (below) and a License file for software (including R packages){target=“_blank”}.\nSuggested Disclaimer:\n“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”\n\n\nAdd new repositories\nAs the work of your PAM-SI team expands, add additional repositories as needed. These teams are intended as cross-office or National level projects.\n\nIdentify active Repo Users. Will all active Repo Users have noaa emails? Will they have access to nmfs-ost? If not, then you can choose to either (1) host those repositories outside of the Enterprise Github nmfs-ost organization, or (2) require non-noaa users to submit push requests as a means of interacting with the repository. We have not yet tested this system to identify any problems.\nCreate Repository. Create your repository (see Quickstart for repositories) and use a thoughtful name that includes the Prefix ‘PAM’ (at a minimum). Use the word ‘test’ in the name if the purpose of this repo is to test something out (and later delete!). Consider using a template for your repo, such as our Research Compendium or our [Lab Manual](https://nmfs-ost.github.io/PAM-OpenScience/content/labManual.html{target=“_blank”} templates.\nAdd Team Members and ensure they have the appropriate level of user access.\nAdd an “About” Statement. Open the ReadMe and provide an “About” statement to make it clear what the purpose of the repository is.\nAdd NOAA Disclaimer and License. Revise the ReadMe to ensure that there is a NOAA Disclaimer (below) and a License file for software (including R packages) .\nSuggested Disclaimer:\n“This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”\nAdd Relevant Page to Team Manual. Create a page within the Team Manual to identify, link, and describe this repository (and summarize any results).",
     "crumbs": [
-      "Co-Working",
-      "Journal Club"
+      "Team Organization",
+      "Github Organizations"
     ]
   },
   {
-    "objectID": "content/gitCollaborate.html",
-    "href": "content/gitCollaborate.html",
-    "title": "Collaborate with Github",
+    "objectID": "content/gitOrgs.html#outside-collaborators",
+    "href": "content/gitOrgs.html#outside-collaborators",
+    "title": "Github Organizations",
+    "section": "Outside Collaborators",
+    "text": "Outside Collaborators\nIf you would like to request someone be added as an outside collaborator (because they do not have a noaa.gov email account), please contact the nmfs-ost GitHub organization administrators. Those outside of NOAA can collaborate by forking the repository and submitting a pull request to public repositories, and the GitHub Governance Team is clarifying which additional permissions are allowed for non-NOAA collaborators on GitHub Enterprise. See nmfs-ost SOP for more information.",
+    "crumbs": [
+      "Team Organization",
+      "Github Organizations"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html",
+    "href": "content/gitProject.html",
+    "title": "Github Projects",
     "section": "",
-    "text": "Collaborate with Github\n\n\n\n\n\nGithub has a number of tools that facilitate collaboration, including:\n\nIssues- Github issues are a tool for tracking and planning work, tasks, ideas, and bugs in a Github Repository.\nProjects- Github Projects are adaptable task-boards to help track and plan work\nDiscussions- Github Discussions is a platform for collaborative communication forum",
+    "text": "Github Projects are adaptable task-boards that integrate issues to help you track and plan your work. You can create and customize multiple views by filtering, sorting, grouping your issues, and you can visualize your work with configurable charts and add custom fields to track metadata specific to your team.",
     "crumbs": [
       "Lab Manual",
-      "Github Collaboration"
+      "Github Collaboration",
+      "Github Projects"
     ]
   },
   {
-    "objectID": "content/rmarkdown.html",
-    "href": "content/rmarkdown.html",
-    "title": "R Markdown",
+    "objectID": "content/gitProject.html#create-lab-manual-project-board",
+    "href": "content/gitProject.html#create-lab-manual-project-board",
+    "title": "Github Projects",
+    "section": "Create Lab Manual Project Board",
+    "text": "Create Lab Manual Project Board\nHere we will create a project board for our Lab Manuals, and use this to organize and track the development of our Lab Manuals. We will create an issue for each component of the Lab Manual, but here we will start with creating a few issues related to the “Lab Management” section.\n\nOpen your Lab Manual Github Repository, and go to the “Projects” tab. Select “New Project”\nSelect a template (we recommend “Team Planning” to start), Give it a name (example: “SAEL Lab Manual”), and select “Create Project”.\nCreate an example issue for a component of the lab manual. Under the “Todo” section (at the bottom), select “+Add item”. Type “Add Lab Mngmt-&gt;Inventory. This will now show up as a ‘card’ under your Todo section.\nEdit on the new card you made by clicking on the name within the card. Click on “Edit”, and add information related to this issue (including any instructions as to the info you want to add, how it should be added, etc). When you are done, click “Update Comment”.Identify Assignees (on the right). Then select “Convert to Issue” at the bottom right. Choose the appropriate repository to link the Project page to (your Lab Manual).\n\n\n\nThe Task is now saved as an Issue within the Lab Manual Project Board. Select a label (documentation?) and close issue.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html#add-previous-issues-to-project-board",
+    "href": "content/gitProject.html#add-previous-issues-to-project-board",
+    "title": "Github Projects",
+    "section": "Add Previous Issues to Project Board",
+    "text": "Add Previous Issues to Project Board\nPreviously, we created an issue to Add a page on Lithium Battery Safety. Here we will add that issue to our Lab Manual Project Board.\n\nGo to your Lab Manual Github Repository, and navigate to the “Issues” tab. Navigate to the issue you created previously (“Create Lithium Battery Safety qmd for Lab Manual”).\nAt the right, select Projects, add to your new Lab Manual Project.",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/gitProject.html#resources",
+    "href": "content/gitProject.html#resources",
+    "title": "Github Projects",
+    "section": "Resources",
+    "text": "Resources\nNMFS Open Science Github Project Boards (examples)",
+    "crumbs": [
+      "Lab Manual",
+      "Github Collaboration",
+      "Github Projects"
+    ]
+  },
+  {
+    "objectID": "content/createCompendium.html",
+    "href": "content/createCompendium.html",
+    "title": "Create Research Compendium",
     "section": "",
-    "text": "You can include R Markdown files in your project."
+    "text": "Under Construction\nGoals: Create a template and present step by step instructions to create the compendium. May need alternatives based on primary output (NOAA report, website, etc)",
+    "crumbs": [
+      "Research Compendium",
+      "Create Research Compendium"
+    ]
   },
   {
-    "objectID": "content/rmarkdown.html#r-markdown",
-    "href": "content/rmarkdown.html#r-markdown",
-    "title": "R Markdown",
-    "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+    "objectID": "content/createCompendium.html#resources",
+    "href": "content/createCompendium.html#resources",
+    "title": "Create Research Compendium",
+    "section": "Resources",
+    "text": "Resources\nResearch Compendium Templates:\n\nemdelponte Website Based {target=“_blank”}\nrrrpkg- R package, and more info here\nrcompendium- R package",
+    "crumbs": [
+      "Research Compendium",
+      "Create Research Compendium"
+    ]
   },
   {
-    "objectID": "content/rmarkdown.html#including-plots",
-    "href": "content/rmarkdown.html#including-plots",
-    "title": "R Markdown",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
-  },
-  {
-    "objectID": "content/PAM-SI-Mtg-Exercises.html",
-    "href": "content/PAM-SI-Mtg-Exercises.html",
-    "title": "Workshop Exercises",
+    "objectID": "content/openscapes.html",
+    "href": "content/openscapes.html",
+    "title": "Openscapes",
     "section": "",
-    "text": "We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024){target=“_blank”}. By all working together, we can have the bulk of the report completed by the end of the workshop. Many hands make light work.\nExercise:\nWe will all work together on one small part of the report to fill in some of the information we know we will need. We will split into pairs and each be assigned an exercise to complete. You will be tagged in your assignment through a Github issue and should receive an associated email. Find your assignment during the Github session either on github.com or through your email, then follow the instructions below.\nTo ensure that you are working with the most up to date repository, select “Fetch origin” on the top toolbar of Github Desktop before starting the exercise. If at any point you receive an error that you cannot fetch origin or push changes to github, follow the Step 5 of the “Pre Meeting Prep” instructions to login to github.com.\nThe exercises are:\n\nAdd Introduction Draft Text\nGithub section\nAdd Authors\nList of Attendees\nAcknowledgements Text\nReferences\nNCEI Section\nCloud Section\nTrend Section\nSoundscape Section\nStock Assessment Section\nManagement Section\nDetection Section\n\nIf you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.\nAt the end of the exercise, make sure everyone saves their changes and pushes their information up to Github, then we will render the output and view the results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we will work on the google docs linked in the agenda for notes during any given session, but then one person will summarize these notes into Github, and others can edit or revise."
+    "text": "Openscapes\n\n\n\n\n\nOpenscapes is an open source approach and movement, and Openscapes is also an organization that facilitates adopting an open science way of working. We have identified a number of common projects that can serve as Openscapes Journeys.\nBelow we identify Journeys in Openscapes that were developed for our NMFS PAM teams during the NMFS Openscapes Champions Program. These journeys are outlined in subsequent sections on this website.\n\nLab Manual - The first NMFS Openscapes PAM Team developed lab manuals that would feed into the National PAM Lab Manual. In Progress\nTeam Organization - As part of the IRA funded PAM-Strategic Initiative, we identified a series of national goals and created teams to advance projects to work towards these goals. This Journey outlines how to collaborate with teams on various projects. Stay Tuned!\nResearch Compendium - A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc). This journey serves as both a stand-alone and as a sub-component of the ‘Team Organization’ journey. Stay Tuned!",
+    "crumbs": [
+      "Co-Working",
+      "Openscapes"
+    ]
   },
   {
-    "objectID": "content/PAM-SI-Mtg-Exercises.html#github-collaboration",
-    "href": "content/PAM-SI-Mtg-Exercises.html#github-collaboration",
-    "title": "Workshop Exercises",
+    "objectID": "content/researchCompendium.html",
+    "href": "content/researchCompendium.html",
+    "title": "Research Compendium",
     "section": "",
-    "text": "We will create our Workshop Report using our meeting Github Repository (https://github.com/SAEL-SWFSC/PAM-SI-Mtg-March2024){target=“_blank”}. By all working together, we can have the bulk of the report completed by the end of the workshop. Many hands make light work.\nExercise:\nWe will all work together on one small part of the report to fill in some of the information we know we will need. We will split into pairs and each be assigned an exercise to complete. You will be tagged in your assignment through a Github issue and should receive an associated email. Find your assignment during the Github session either on github.com or through your email, then follow the instructions below.\nTo ensure that you are working with the most up to date repository, select “Fetch origin” on the top toolbar of Github Desktop before starting the exercise. If at any point you receive an error that you cannot fetch origin or push changes to github, follow the Step 5 of the “Pre Meeting Prep” instructions to login to github.com.\nThe exercises are:\n\nAdd Introduction Draft Text\nGithub section\nAdd Authors\nList of Attendees\nAcknowledgements Text\nReferences\nNCEI Section\nCloud Section\nTrend Section\nSoundscape Section\nStock Assessment Section\nManagement Section\nDetection Section\n\nIf you are interested in more practice, go to the issues tab on github.com, assign yourself to the Detection Section, and complete that exercise.\nAt the end of the exercise, make sure everyone saves their changes and pushes their information up to Github, then we will render the output and view the results. How long did it take us to work on that? Continue throughout the workshop, having one or more people draft the paper– we will work on the google docs linked in the agenda for notes during any given session, but then one person will summarize these notes into Github, and others can edit or revise."
+    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:\n\nNational Center for Environmental Information (NCEI): raw data, metadata, soundscape data\nOpen Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include Figshare, Zenodo, etc.\nDetection Data: Specific detections relevant to a project can be saved to PACM, OBIS, GBIF, or other public platforms.\nGoogle Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.\n\nYou can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
+    "crumbs": [
+      "Research Compendium"
+    ]
+  },
+  {
+    "objectID": "content/researchCompendium.html#what-is-a-research-compendium",
+    "href": "content/researchCompendium.html#what-is-a-research-compendium",
+    "title": "Research Compendium",
+    "section": "",
+    "text": "A research compendium is a comprehensive collection of all the digital components related to a research project, including data, code, and text (protocols, reports, metadata, etc).\nBy creating a research compendium for your projects, you create a single location to serve as a ‘home’ for all components of your project. For components that are too large to store in the repository (raw data or larger data products), you can identify links to those data/data products in the repository. For example:\n\nNational Center for Environmental Information (NCEI): raw data, metadata, soundscape data\nOpen Science Data Platforms: digital platform that allows researchers to access, share, and store research data. Examples include Figshare, Zenodo, etc.\nDetection Data: Specific detections relevant to a project can be saved to PACM, OBIS, GBIF, or other public platforms.\nGoogle Drive: Providing public access to documents stored on google drive can be complicated, especially for NOAA drives. To create a fully accessible research compendium, we recommend avoiding storing important documents on google drive if an alternative is available.\n\nYou can keep your repository private while it is in progress (if that is important to you), and then make it public when you are ready.",
+    "crumbs": [
+      "Research Compendium"
+    ]
+  },
+  {
+    "objectID": "content/researchCompendium.html#conventions",
+    "href": "content/researchCompendium.html#conventions",
+    "title": "Research Compendium",
+    "section": "Conventions",
+    "text": "Conventions\nBy following suggested conventions, we can find our way around our own data, and also that of others who follow the same conventions. Our goal is to (eventually) create a few optional github templates for Research Compendiums, providing different final reporting options. These may evolve over time, but we hope to retain the same folder conventions.\nThe following link(s) are to our research compendium templates:\n\nWebsite Output Research Compendium Template",
+    "crumbs": [
+      "Research Compendium"
+    ]
+  },
+  {
+    "objectID": "content/researchCompendium.html#examples",
+    "href": "content/researchCompendium.html#examples",
+    "title": "Research Compendium",
+    "section": "Examples",
+    "text": "Examples\nAdrift in the California Current Research Compendium\nBeaked Whale BANTER Research Compendium",
+    "crumbs": [
+      "Research Compendium"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html",
+    "href": "content/createContent.html",
+    "title": "Create Content",
+    "section": "",
+    "text": "You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the PAM Template Lab Manual.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html#modify-existing-content",
+    "href": "content/createContent.html#modify-existing-content",
+    "title": "Create Content",
+    "section": "Modify Existing Content",
+    "text": "Modify Existing Content\nHere are basic instructions for modifying existing content, such as the example pages provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). As an example, we will change the “/content/Hardware.qmd” file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.\nIdentify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: “PAM Gliders”, “Drifting Recorders”, “Towed Arrays”, and “Handheld Hydrophones”.\n\nUsing the Source editor, use # to indicate Heading 1 style, ## for Heading 2 Style, etc.\nUsing the Visual editor, use the dropdown menu to select the Heading Style\n\nAdd Content using either the Source or Visual editor in RStudio. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.\nOnce your outline is developed, fill in the content. IF someone else will collate the content– they can create it in a separate document to be copied/pasted here, or they can directly modify this page.\nIf you find you need separate pages for each sub-heading (instead of one long subheading), then create New Content, and link the new content to the _quarto.yml.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html#create-new-content",
+    "href": "content/createContent.html#create-new-content",
+    "title": "Create Content",
+    "section": "Create New Content",
+    "text": "Create New Content\nAgain, assuming you have an RStudio project for your Github Repository, such as the example provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). Select New Blank File, and in the drop-down, select Quarto Document. Then give your file a logical and descriptive name.\n\nUsing the Source editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).\n\nAdd Content using either the Source or Visual editor in RStudio.. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html#render-and-save",
+    "href": "content/createContent.html#render-and-save",
+    "title": "Create Content",
+    "section": "Render and Save",
+    "text": "Render and Save\nTo ensure your project will be saved correctly, you will need to double-check that your yaml is correct, render locally, then push to github.\n\nCheck YAML. Open your yaml, and ensure that all chapter pages exist at qmd documents in the content folder. If there are any that are not created yet (but you want to save the structure), then comment them out in the yaml (select those lines and click Command+Shift+C). Then, copy/paste entire yaml into a yamlchecker to ensure proper indentation/spacing.\nRender Locally. In RStudio, go to the index.qmd and click on the ‘Render’ button (alternatively, in the Terminal window (bottom left), type ‘quarto render’). Hopefully it will render to an HTML (open as a local website), and you can view your changes. If there are errors, you can navigate to the “Background Jobs” to identify the errors.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote: The HTML output is saved in the _site folder. To view the HTML, you can open the index.html in this folder.\n\n\n\nOnce you have addressed any errors and you are happy with the changes, save in RStudio, and Commit changes and push to github using the directions outlined in Commit & Push to Github section.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html#examples",
+    "href": "content/createContent.html#examples",
+    "title": "Create Content",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/createContent.html#resources",
+    "href": "content/createContent.html#resources",
+    "title": "Create Content",
+    "section": "Resources",
+    "text": "Resources\n\nQuarto documentation.",
+    "crumbs": [
+      "Lab Manual",
+      "Create Content"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html",
+    "href": "content/gettingStarted.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#getting-started-with-github-and-rstudio-projects",
+    "href": "content/gettingStarted.html#getting-started-with-github-and-rstudio-projects",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#add-software-tools",
+    "href": "content/gettingStarted.html#add-software-tools",
+    "title": "Getting Started",
+    "section": "Add Software Tools",
+    "text": "Add Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#create-a-new-repository-from-a-template",
+    "href": "content/gettingStarted.html#create-a-new-repository-from-a-template",
+    "title": "Getting Started",
+    "section": "Create a NEW Repository from a template:",
+    "text": "Create a NEW Repository from a template:\n\nGo to the Github Repository for the PAM Lab Manual Template\nClick on the ‘Use this template’ button in the top right, select ‘Create new repository’\n\nEdit repository settings\n\nSelect the ‘Include all branches’ option\nSelect your lab organization or yourself as the owner and set the repository name to ‘Lab name Lab Manual’\nMake description “Lab manual for ‘insert lab name and FMC’”\nMake the repo public\n\n\nClick create repository\nTurn on GitHub pages under Settings-&gt;Pages. You will set pages to be made from the gh-pages branch and root directory\n\nUpdate ‘Actions’ settings\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Actions permissions select ‘Allow all actions and reusable workflows’. Select save\n\nUnder Settings -&gt; Actions -&gt; General -&gt; Workflow permissions select ‘Read and write permissions’\n\n\n\n\n\n\n\nImportantNote: Both of these settings may already be selected but you have to click save for both\n\n\n\n\n\n\n\nReturn to the main page of the repo to edit your website\n\nClick on ‘Code’ in the top left\nClick on the settings button next to the ‘About’ section on the right side of the repository\nSelect ‘Use your GitHub Pages website’. This should autopopulate the website\nSelect ‘Save Changes’",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#clone-repository-to-local-computer",
+    "href": "content/gettingStarted.html#clone-repository-to-local-computer",
+    "title": "Getting Started",
+    "section": "Clone Repository to Local Computer",
+    "text": "Clone Repository to Local Computer\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your chosen Repository on Github, then save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#create-a-new-rstudio-project",
+    "href": "content/gettingStarted.html#create-a-new-rstudio-project",
+    "title": "Getting Started",
+    "section": "Create a New Rstudio Project",
+    "text": "Create a New Rstudio Project\n\nCreate a new project in RStudio.\n\nOpen RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project.\n\nBrowse to find the appropriate folder in Documents-&gt; Github.\n\nModify the README.md file.\n\nIn the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\n\nOpen this file and edit using either Source Code or Visual Editor\n\n\nAdd the title of your repository (using # Title in Source Code or Heading 1 in Visual Editor)\nAdd text below the title describing the contents/purpose of this repository\nAdd the following Disclaimer and License (### Disclaimer if using Source Code):\nDisclaimer\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.\nLicense\nThis content was created by U.S. Government employees as part of their official duties. This content is not subject to copyright in the United States (17 U.S.C. §105) and is in the public domain within the United States of America. Additionally, copyright is waived worldwide through the CC0 1.0 Universal public domain dedication.\n\n\nSave! This Readme will show up at the bottom of our Github Repository\n\nModify the index.qmd file (home page)\n\nOpen the index.qmd file\n\n\n\nModify using Source Editor to add a title and introductory text for the home page (for website). Title will need to be written in this format:\n\ntitle: “This is my title”",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#commit-push-to-github",
+    "href": "content/gettingStarted.html#commit-push-to-github",
+    "title": "Getting Started",
+    "section": "Commit & Push to Github",
+    "text": "Commit & Push to Github\n\nCommit & Push to Github.\n\nSave project in RStudio\nOpen your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary).\n\nAt the bottom left, describe the modifications you made to the document, and then select ‘commit’.\nOnce the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\n\n\nCheck the updates on Github\n\nOpen your Github repository\nGo to Actions Tab- is it rendering? did it go through (green) or fail (red)?\n\nView the updated Github Repo ReadMe\nView the updated Website Homepage\n\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/gettingStarted.html#additional-resources",
+    "href": "content/gettingStarted.html#additional-resources",
+    "title": "Getting Started",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
+    "crumbs": [
+      "Lab Manual",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "content/pathway.html",
+    "href": "content/pathway.html",
+    "title": "pathway",
+    "section": "",
+    "text": "How do you get started on your pathway into Open Science?\nFirst things First: Do you need a lab manual? Is all of your information accessible from ONE PLACE? Yes? Great! No? Do this FIRST! Why?? (give reasons why, and what this would look like).\nHere we suggest an approach to lay out an approach to help you identify a path forward by: - What Do you Do? Create a workflow diagram and identify the state of workflow components as they related to status and potential for improvement. - What to Improve? Use a decision tool to identify and prioritize components for improvement based on your experience, your time, and your need. - How to Improve? Use a dashboard to help you identify ways to improve your key component and see if there are appropriate templates or other developments/tools you can leverage to make this as easy as possible. - Closing the Loop- Once you have this improved ‘enough’, then SHARE your work (how? create a template, share as an example, show n’ tell?) and start this process again to revise your workflow and identify the next step. (give explicit instructions for revising your workflow)",
+    "crumbs": [
+      "Finding Your Path"
+    ]
   }
 ]

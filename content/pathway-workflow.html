@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Presentations – Open Sciences for NOAA Fisheries PAM</title>
+<title>pathway – Open Sciences for NOAA Fisheries PAM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,6 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/labManual.html" rel="next">
+<link href="../content/pathway.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -247,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Presentations</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/pathway.html">Finding Your Path</a></li><li class="breadcrumb-item"><a href="../content/pathway-workflow.html">pathway</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -346,14 +383,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/pathway.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Finding Your Path</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pathway-workflow.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/pathway-workflow.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">pathway</span></a>
   </div>
 </li>
@@ -485,18 +522,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto-slides" id="toc-quarto-slides" class="nav-link active" data-scroll-target="#quarto-slides">Quarto Slides</a></li>
-  <li><a href="#html-slides-template" id="toc-html-slides-template" class="nav-link" data-scroll-target="#html-slides-template">HTML Slides Template</a></li>
+  <li><a href="#draft---not-ready-yet--ignore-me-please" id="toc-draft---not-ready-yet--ignore-me-please" class="nav-link active" data-scroll-target="#draft---not-ready-yet--ignore-me-please">DRAFT - NOT READY YET- IGNORE ME, PLEASE!</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/edit/main/content/Presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/blob/main/content/Presentations.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/edit/main/content/pathway-workflow.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/blob/main/content/pathway-workflow.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/pathway.html">Finding Your Path</a></li><li class="breadcrumb-item"><a href="../content/pathway-workflow.html">pathway</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
+<h1 class="title">pathway</h1>
 </div>
 
 
@@ -513,13 +549,205 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="quarto-slides" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-slides">Quarto Slides</h2>
-<p>Presentations can be made in Quarto as three different slide formats including reveal.js (HTML), PowerPoint (MS Office), and Beamer (LaTeX/PDF).</p>
-</section>
-<section id="html-slides-template" class="level2">
-<h2 class="anchored" data-anchor-id="html-slides-template">HTML Slides Template</h2>
-<p><a href="Slides/methodsSlidesTemplate.qmd" target="_blank">Methods Slides Template</a></p>
+<section id="draft---not-ready-yet--ignore-me-please" class="level1">
+<h1>DRAFT - NOT READY YET- IGNORE ME, PLEASE!</h1>
+<ol type="1">
+<li>Create a new diagram by:
+<ol type="1">
+<li><p>Go to <a href="https://app.diagrams.net/">app.diagrams.net</a></p></li>
+<li><p>Save As –&gt; Name your diagram, save as XML (drawio) format, and save to your DEVICE and save in the appropriate folder in your Github repository. For example here is where the diagram below is saved: //documents/Github/OpenScience/output/OSworkflow.drawio</p>
+<p><em><strong>Note:</strong> If this is a problem due to permissions/Enterprise accounts, then create a Diagrams repo outside of the Org, and you can link directly to this location (I think, but need to test).</em></p></li>
+<li><p>Make changes to your _quarto.yaml (in your root directory) and include the folder/diagram in your rendered site:</p></li>
+</ol></li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>project<span class="sc">:</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> website </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  output<span class="sc">-</span>dir<span class="sc">:</span> docs <span class="co"># or whatever your output directory is</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Add this to ensure your diagrams folder is copied:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>resources<span class="sc">:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span>   output<span class="sc">/</span>OSworkflow.drawio</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Or, if you have multiple diagrams:</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>resources<span class="sc">:</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span>   output<span class="sc">/</span><span class="er">*</span>.drawio</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<pre><code>4.  Create Your Quarto Page with Embedded Diagram In your .qmd file (working in RStudio), add this code:</code></pre>
+<p>Add code chunk here (eval=FALSE) when I have the rest of the page rendered correctly</p>
+<pre><code>5.  Adjust the Path The tricky part is the path. Since you're using Quarto and rendering to an output directory, here's what you need to know: If your .qmd file is in the root and your diagram is in output/:</code></pre>
+<p>During rendering, the path depends on where the rendered HTML ends up If the rendered HTML is also in output/, use: var diagramPath = ‘OSworkflow.drawio’; If the rendered HTML is elsewhere, use: var diagramPath = ‘output/OSworkflow.drawio’;</p>
+<p>The here() package won’t work in JavaScript, but you can use R to generate the correct path:</p>
+<p>For the web, we need a relative path from the rendered HTML location</p>
+<style>
+  .svg-controls {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .svg-controls button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .svg-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .svg-viewer-container {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    cursor: grab;
+  }
+  
+  .svg-viewer-container:active {
+    cursor: grabbing;
+  }
+  
+  .svg-viewer-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>
+
+<div class="svg-controls">
+  <button onclick="zoomIn()">🔍 Zoom In</button>
+  <button onclick="zoomOut()">🔍 Zoom Out</button>
+  <button onclick="resetView()">⟲ Reset View</button>
+  <span id="zoom-level" style="margin-left: 15px; font-family: monospace;">Zoom: 100%</span>
+</div>
+
+<div id="svg-viewer" class="svg-viewer-container"></div>
+
+<script>
+  // Load and setup SVG with pan/zoom
+  (function() {
+    var container = document.getElementById('svg-viewer');
+    var scale = 1;
+    var translateX = 0;
+    var translateY = 0;
+    var isDragging = false;
+    var startX, startY;
+    var svg;
+    
+    // Load the SVG
+    fetch('../output/OSworkflow.svg')
+      .then(response => response.text())
+      .then(svgText => {
+        container.innerHTML = svgText;
+        svg = container.querySelector('svg');
+        
+        if (svg) {
+          // Remove any existing width/height attributes to make it scalable
+          svg.removeAttribute('width');
+          svg.removeAttribute('height');
+          
+          // Get the viewBox or create one
+          var viewBox = svg.getAttribute('viewBox');
+          if (!viewBox) {
+            var bbox = svg.getBBox();
+            svg.setAttribute('viewBox', `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+          }
+          
+          updateTransform();
+        }
+      })
+      .catch(error => {
+        container.innerHTML = '<p style="color: red; padding: 20px;">Error loading diagram: ' + error.message + '</p>';
+      });
+    
+    // Mouse drag functionality
+    container.addEventListener('mousedown', function(e) {
+      isDragging = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+      if (isDragging) {
+        translateX = e.clientX - startX;
+        translateY = e.clientY - startY;
+        updateTransform();
+      }
+    });
+    
+    document.addEventListener('mouseup', function() {
+      isDragging = false;
+    });
+    
+    // Mouse wheel zoom
+    container.addEventListener('wheel', function(e) {
+      e.preventDefault();
+      var delta = e.deltaY > 0 ? 0.9 : 1.1;
+      
+      // Get mouse position relative to container
+      var rect = container.getBoundingClientRect();
+      var mouseX = e.clientX - rect.left;
+      var mouseY = e.clientY - rect.top;
+      
+      // Adjust translate to zoom toward mouse position
+      translateX = mouseX - (mouseX - translateX) * delta;
+      translateY = mouseY - (mouseY - translateY) * delta;
+      
+      scale *= delta;
+      scale = Math.max(0.1, Math.min(scale, 10)); // Limit zoom range
+      
+      updateTransform();
+    });
+    
+    // Update SVG transform
+    function updateTransform() {
+      if (svg) {
+        svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        document.getElementById('zoom-level').textContent = 'Zoom: ' + Math.round(scale * 100) + '%';
+      }
+    }
+    
+    // Global functions for buttons
+    window.zoomIn = function() {
+      scale *= 1.2;
+      scale = Math.min(scale, 10);
+      updateTransform();
+    };
+    
+    window.zoomOut = function() {
+      scale *= 0.8;
+      scale = Math.max(scale, 0.1);
+      updateTransform();
+    };
+    
+    window.resetView = function() {
+      scale = 1;
+      translateX = 0;
+      translateY = 0;
+      updateTransform();
+    };
+  })();
+</script>
+<p>How Users Interact</p>
+<p>Zoom in: Click “Zoom In” button OR scroll up with mouse wheel Zoom out: Click “Zoom Out” button OR scroll down with mouse wheel Pan: Click and drag anywhere on the diagram Reset: Click “Reset View” to return to original position and zoom Click links: Links in your diagram still work when you click them</p>
+<p>Customization Options If you want to adjust any settings:</p>
+<p>Change zoom sensitivity: var delta = e.deltaY &gt; 0 ? 0.9 : 1.1; // Change these values (closer to 1 = less sensitive)</p>
+<p>Change button zoom amount: scale *= 1.2; // Make this larger for bigger zoom steps</p>
+<p>Change container height: height: 700px; /* Change to whatever you want */</p>
+<p>Change button colors: background-color: #007bff; /* Change to your preferred color */</p>
 
 
 </section>
@@ -938,6 +1166,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/pathway.html" class="pagination-link" aria-label="Finding Your Path">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Finding Your Path</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/labManual.html" class="pagination-link" aria-label="Lab Manual">
+        <span class="nav-page-text">Lab Manual</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -946,7 +1186,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/edit/main/content/Presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/blob/main/content/Presentations.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/edit/main/content/pathway-workflow.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/blob/main/content/pathway-workflow.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-OpenScience/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
