@@ -1,0 +1,16 @@
+---
+title: "pathway"
+format: html
+---
+
+How do you get started on your pathway into Open Science? 
+
+First things First: Do you need a lab manual? Is all of your information accessible from ONE PLACE? Yes? Great! No? Do this FIRST! Why?? (give reasons why, and what this would look like). 
+
+Here we suggest an approach to lay out an approach to help you identify a path forward by:
+- What Do you Do? Create a workflow diagram and identify the state of workflow components as they related to status and potential for improvement.
+- What to Improve? Use a decision tool to identify and prioritize components for improvement based on your experience, your time, and your need. 
+- How to Improve? Use a dashboard to help you identify ways to improve your key component and see if there are appropriate templates or other developments/tools you can leverage to make this as easy as possible. 
+- Closing the Loop- Once you have this improved 'enough', then SHARE your work (how? create a template, share as an example, show n' tell?) and start this process again to revise your workflow and identify the next step. (give explicit instructions for revising your workflow)
+
+

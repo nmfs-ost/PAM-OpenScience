@@ -1,0 +1,237 @@
+---
+title: "pathway"
+format: html
+---
+# DRAFT - NOT READY YET- IGNORE ME, PLEASE!
+1.  Create a new diagram by:
+    1.  Go to [app.diagrams.net](https://app.diagrams.net/)
+
+    2.  Save As –\> Name your diagram, save as XML (drawio) format, and save to your DEVICE and save in the appropriate folder in your Github repository. For example here is where the diagram below is saved: //documents/Github/OpenScience/output/OSworkflow.drawio
+
+        ***Note:** If this is a problem due to permissions/Enterprise accounts, then create a Diagrams repo outside of the Org, and you can link directly to this location (I think, but need to test).*
+
+    3.  Make changes to your _quarto.yaml (in your root directory) and include the folder/diagram in your rendered site:
+    
+``` {r eval=FALSE}
+project: 
+  type: website 
+  output-dir: docs # or whatever your output directory is
+
+#Add this to ensure your diagrams folder is copied:
+       
+resources:
+-   output/OSworkflow.drawio
+
+# Or, if you have multiple diagrams:
+
+resources:
+-   output/*.drawio
+```
+
+    4.  Create Your Quarto Page with Embedded Diagram In your .qmd file (working in RStudio), add this code:
+Add code chunk here (eval=FALSE) when I have the rest of the page rendered correctly
+
+    5.  Adjust the Path The tricky part is the path. Since you're using Quarto and rendering to an output directory, here's what you need to know: If your .qmd file is in the root and your diagram is in output/:
+
+During rendering, the path depends on where the rendered HTML ends up If the rendered HTML is also in output/, use: var diagramPath = 'OSworkflow.drawio'; If the rendered HTML is elsewhere, use: var diagramPath = 'output/OSworkflow.drawio';
+
+The here() package won't work in JavaScript, but you can use R to generate the correct path:
+
+``` {r eval=FALSE}
+#| echo: false
+library(here) 
+diagram_path <- here("output", "OSworkflow.svg")
+```
+
+For the web, we need a relative path from the rendered HTML location
+
+
+```{=html}
+<style>
+  .svg-controls {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .svg-controls button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .svg-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .svg-viewer-container {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    cursor: grab;
+  }
+  
+  .svg-viewer-container:active {
+    cursor: grabbing;
+  }
+  
+  .svg-viewer-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>
+
+<div class="svg-controls">
+  <button onclick="zoomIn()">🔍 Zoom In</button>
+  <button onclick="zoomOut()">🔍 Zoom Out</button>
+  <button onclick="resetView()">⟲ Reset View</button>
+  <span id="zoom-level" style="margin-left: 15px; font-family: monospace;">Zoom: 100%</span>
+</div>
+
+<div id="svg-viewer" class="svg-viewer-container"></div>
+
+<script>
+  // Load and setup SVG with pan/zoom
+  (function() {
+    var container = document.getElementById('svg-viewer');
+    var scale = 1;
+    var translateX = 0;
+    var translateY = 0;
+    var isDragging = false;
+    var startX, startY;
+    var svg;
+    
+    // Load the SVG
+    fetch('../output/OSworkflow.svg')
+      .then(response => response.text())
+      .then(svgText => {
+        container.innerHTML = svgText;
+        svg = container.querySelector('svg');
+        
+        if (svg) {
+          // Remove any existing width/height attributes to make it scalable
+          svg.removeAttribute('width');
+          svg.removeAttribute('height');
+          
+          // Get the viewBox or create one
+          var viewBox = svg.getAttribute('viewBox');
+          if (!viewBox) {
+            var bbox = svg.getBBox();
+            svg.setAttribute('viewBox', `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+          }
+          
+          updateTransform();
+        }
+      })
+      .catch(error => {
+        container.innerHTML = '<p style="color: red; padding: 20px;">Error loading diagram: ' + error.message + '</p>';
+      });
+    
+    // Mouse drag functionality
+    container.addEventListener('mousedown', function(e) {
+      isDragging = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+      if (isDragging) {
+        translateX = e.clientX - startX;
+        translateY = e.clientY - startY;
+        updateTransform();
+      }
+    });
+    
+    document.addEventListener('mouseup', function() {
+      isDragging = false;
+    });
+    
+    // Mouse wheel zoom
+    container.addEventListener('wheel', function(e) {
+      e.preventDefault();
+      var delta = e.deltaY > 0 ? 0.9 : 1.1;
+      
+      // Get mouse position relative to container
+      var rect = container.getBoundingClientRect();
+      var mouseX = e.clientX - rect.left;
+      var mouseY = e.clientY - rect.top;
+      
+      // Adjust translate to zoom toward mouse position
+      translateX = mouseX - (mouseX - translateX) * delta;
+      translateY = mouseY - (mouseY - translateY) * delta;
+      
+      scale *= delta;
+      scale = Math.max(0.1, Math.min(scale, 10)); // Limit zoom range
+      
+      updateTransform();
+    });
+    
+    // Update SVG transform
+    function updateTransform() {
+      if (svg) {
+        svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        document.getElementById('zoom-level').textContent = 'Zoom: ' + Math.round(scale * 100) + '%';
+      }
+    }
+    
+    // Global functions for buttons
+    window.zoomIn = function() {
+      scale *= 1.2;
+      scale = Math.min(scale, 10);
+      updateTransform();
+    };
+    
+    window.zoomOut = function() {
+      scale *= 0.8;
+      scale = Math.max(scale, 0.1);
+      updateTransform();
+    };
+    
+    window.resetView = function() {
+      scale = 1;
+      translateX = 0;
+      translateY = 0;
+      updateTransform();
+    };
+  })();
+</script>
+```
+
+
+How Users Interact
+
+Zoom in: Click "Zoom In" button OR scroll up with mouse wheel
+Zoom out: Click "Zoom Out" button OR scroll down with mouse wheel
+Pan: Click and drag anywhere on the diagram
+Reset: Click "Reset View" to return to original position and zoom
+Click links: Links in your diagram still work when you click them
+
+Customization Options
+If you want to adjust any settings:
+
+Change zoom sensitivity:
+var delta = e.deltaY > 0 ? 0.9 : 1.1;  // Change these values (closer to 1 = less sensitive)
+
+Change button zoom amount:
+scale *= 1.2;  // Make this larger for bigger zoom steps
+
+Change container height:
+height: 700px;  /* Change to whatever you want */
+
+Change button colors:
+background-color: #007bff;  /* Change to your preferred color */
+
+
+
