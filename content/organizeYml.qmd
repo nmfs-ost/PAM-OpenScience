@@ -46,6 +46,8 @@ Learn more, [here](https://openscapes.github.io/quarto-website-tutorial/explore.
 
 -   [Yaml Checker](https://yamlchecker.com/){target="_blank"}
 
+-   [Yamline](https://yamline.com/){target="_blank"}
+
 -   [Quarto Yaml Options (HTML)](https://quarto.org/docs/reference/formats/html.html){target="_blank"}
 
 -   [Quarto Book Structure](https://quarto.org/docs/books/book-structure.html){target="_blank"}
