@@ -48,10 +48,10 @@ website:
           - content/writersWorkshop.qmd
           - content/journalClub.qmd
           - content/openscapes.qmd
-      - section: content/pathway.qmd
-        text: Finding Your Path
-        contents:
-          - content/pathway-workflow.qmd
+      # - section: content/pathway.qmd
+      #   text: Finding Your Path
+      #   contents:
+      #     - content/pathway-workflow.qmd
       #     - content/pathway-decision.qmd
       #     - content/pathway-path.qmd       
       - section: content/labManual.qmd
