@@ -44,7 +44,6 @@ website:
       - section: content/coworking.qmd
         text: Co-Working
         contents:
-          - content/CoWorkMeetings.qmd
           - content/writersWorkshop.qmd
           - content/journalClub.qmd
           - content/openscapes.qmd
