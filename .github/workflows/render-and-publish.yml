@@ -9,14 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v4.2.2 
         
       - name: Set up R (needed for Rmd)
         uses: r-lib/actions/setup-r@v2
 
       - name: Install packages (needed for Rmd)
         run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "jsonlite", "here"))'
-
+        
+      - name: Render document
+        run: Rscript -e 'rmarkdown::render("document.Rmd")'
+        
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
