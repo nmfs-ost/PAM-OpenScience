@@ -8,7 +8,6 @@ View html output here:
 <https://sael-swfsc.github.io/OpenScience/>
 
 
-
 To Do:
 - compile information for gitProjects, gitOrgs, gitDiscussions
 - compendium template (consider pre-registration)
