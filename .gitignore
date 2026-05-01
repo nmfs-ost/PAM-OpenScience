@@ -9,3 +9,4 @@
 /_site/
 
 **/*.quarto_ipynb
+.positai
