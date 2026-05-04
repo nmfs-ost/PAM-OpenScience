@@ -7,32 +7,40 @@ name: Render and Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    # Grant permissions needed to publish to GitHub Pages
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4.2.2 
-        
-      - name: Set up R (needed for Rmd)
-        uses: r-lib/actions/setup-r@v2
+        uses: actions/checkout@v4
 
-      - name: Install packages (needed for Rmd)
-        run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "jsonlite", "here"))'
-        
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true # Speeds up package installation on Linux
+
+      - name: Set up Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Set up renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1 # Increment this to manually break cache if needed
+
       - name: Render document
         run: Rscript -e 'rmarkdown::render("document.Rmd")'
-        
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          # To install LaTeX to build PDF book 
           tinytex: true 
-          # uncomment below and fill to pin a version
-          # version: 0.9.600
-      
-      # add software dependencies here
 
-      - name: Publish to GitHub Pages (and render)
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
