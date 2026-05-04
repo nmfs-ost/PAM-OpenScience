@@ -30,8 +30,8 @@ jobs:
         with:
           cache-version: 1 # Increment this to manually break cache if needed
 
-      - name: Render document
-        run: Rscript -e 'rmarkdown::render("document.Rmd")'
+      # - name: Render document
+      #   run: Rscript -e 'rmarkdown::render("document.Rmd")'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
