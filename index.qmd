@@ -62,8 +62,7 @@ us at a Co-Working meeting!*
 :::
 :::::
 
-*In the spirit of collaborative open science, if you have an idea or
-suggestion for expanding or improving this set of Open Science
+*In the spirit of collaborative open science, share any ideas or suggestions for expanding or improving this set of Open Science
 materials, please follow the instructions below to submit and issue.*
 
 Submit an Issue on THIS repository requesting help:
