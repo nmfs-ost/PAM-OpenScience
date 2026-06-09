@@ -550,9 +550,19 @@
   {
     "objectID": "content/reproducibleTemplates.html",
     "href": "content/reproducibleTemplates.html",
-    "title": "Reproducible Templates",
+    "title": "Reproducible Report Templates",
     "section": "",
-    "text": "Under Construction\n\nResearch Compendiums\nPIFSC Report Templates",
+    "text": "Under Construction",
+    "crumbs": [
+      "Reproducible Templates"
+    ]
+  },
+  {
+    "objectID": "content/reproducibleTemplates.html#reproducible-reports-with-quarto-github-templates",
+    "href": "content/reproducibleTemplates.html#reproducible-reports-with-quarto-github-templates",
+    "title": "Reproducible Report Templates",
+    "section": "Reproducible Reports with Quarto & GitHub Templates",
+    "text": "Reproducible Reports with Quarto & GitHub Templates\nThis page provides the PAM community with standardized GitHub repository templates and Quarto publishing workflows to streamline, automate, and share reproducible technical and scientific reports. Quarto documents allow users to embed code and dynamically render data outputs, while the GitHub repo templates handle the automated updates and report deployment pipelines.\nSee some examples below on how the PAM team is using these tools:\n\nResearch Compendiums\nPIFSC Report Templates",
     "crumbs": [
       "Reproducible Templates"
     ]
