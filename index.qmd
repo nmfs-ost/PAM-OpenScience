@@ -47,7 +47,7 @@ Yvonne Barkley (PIFSC)
 us at a Co-Working meeting!*
 
 # NMFS PAM Open Science Calendar
-Are the calendar events not showing up? Unblock third party cookies for this site [(top right of browser)](images/3rdPartyCookiesFix.png)
+Are the calendar events not showing up? Unblock third party cookies for this site [(top right of browser)](content/images/3rdPartyCookiesFix.png)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_ee915939656dc82685f9d52a01c2b5cad6c8e0dec772e55272465ba18d63b9d9%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
 
