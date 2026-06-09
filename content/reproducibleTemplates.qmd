@@ -1,5 +1,5 @@
 ---
-title: "reproducibleTemplates"
+title: "Reproducible Templates"
 format: html
 ---
 

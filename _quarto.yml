@@ -75,13 +75,13 @@ website:
          - content/issues.qmd
          - content/gitDiscussions.qmd
       - section: content/reproducibleTemplates.qmd
-        text: Reproducible Tempaltes
+        text: Reproducible Templates
         contents:
          - section: content/researchCompendium.qmd
            text: Research Compendium
            contents:
               - content/createCompendium.qmd
-              - content/PIFSCtemplates.qmd
+         - content/PIFSCtemplates.qmd
       # - section: "Working with Quarto"
       #   contents:
       #   - content/websiteBuild.qmd
