@@ -1,0 +1,16 @@
+---
+title: "Reproducible Templates"
+format: html
+---
+
+*Under Construction*
+
+-   [Research Compendiums](https://nmfs-ost.github.io/PAM-OpenScience/content/researchCompendium.html)
+
+-   [PIFSC Templates](https://sites.google.com/noaa.gov/pifsc-intranet/publications-station/templates-and-report-types?authuser=0)
+
+    -   [Tech Memos](https://github.com/noaa-pifsc/PIFSC_TechMemo_Template)
+
+    -   [Admin Reports](https://github.com/noaa-pifsc/PIFSC_AdminReport_Template)
+
+    -   [Data Reports](https://github.com/noaa-pifsc/PIFSC_DataReport_Template)

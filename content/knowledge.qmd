@@ -1,20 +1,21 @@
-::: columns
-:::{.column width="40%"}
-
+::::: columns
+::: {.column width="40%"}
 # Sharing Knowledge
-
 :::
-:::{.column width="60%"}
 
-![](images/shareKnowledgeLogo.png){width=1in} 
-
+::: {.column width="60%"}
+![](images/shareKnowledgeLogo.png){width="1in"}
 :::
-:::
+:::::
 
 Open sharing of knowledge is a fundamental component of Open Science.
 
-1.   [Bioacoustics Stack Exchange](https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html){target="_blank"}
+1.  [Bioacoustics Stack Exchange](https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html){target="_blank"}
 
-2.   [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html){target="_blank"}
+2.  [Wildlabs](https://wildlabs.net/en)
 
-3.   [Research Compendium](https://nmfs-ost.github.io/PAM-OpenScience/content/researchCompendium.html){target="_blank"}
+    1.  [Acoustics group](https://wildlabs.net/en/groups/acoustics)
+
+    2.  [Open Source Solutions group](https://wildlabs.net/en/groups/open-source-solutions)
+
+3.  [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html){target="_blank"}
