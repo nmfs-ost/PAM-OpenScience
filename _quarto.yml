@@ -72,12 +72,16 @@ website:
         contents:
          - content/gitOrgs.qmd
          - content/gitProject.qmd
+         - content/issues.qmd
          - content/gitDiscussions.qmd
-           
-      - section: content/researchCompendium.qmd
-        text: Research Compendium
+      - section: content/reproducibleTemplates.qmd
+        text: Reproducible Tempaltes
         contents:
-         - content/createCompendium.qmd
+         - section: content/researchCompendium.qmd
+           text: Research Compendium
+           contents:
+              - content/createCompendium.qmd
+              - content/PIFSCtemplates.qmd
       # - section: "Working with Quarto"
       #   contents:
       #   - content/websiteBuild.qmd
