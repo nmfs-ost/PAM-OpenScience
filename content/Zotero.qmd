@@ -100,7 +100,7 @@ information is searchable on the web and accessible to the public.
     question, and then the other answers the question. Be sure to accept
     the answer once posted.
 3.  Here are two examples to follow: [Soundscape Zotero Group
-    Library](https://bioacoustics.stackexchange.com/questions/1375/is-there-a-central-repository-for-soundscape-literature){target="_blank"}
+    Library](https://www.zotero.org/groups/58164/soundscape){target="_blank"}
     and [PAM-Glider Group
     Library](https://www.zotero.org/groups/5642642/pam-gliders){target="_blank"}
 
