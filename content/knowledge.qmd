@@ -18,4 +18,4 @@ Open sharing of knowledge is a fundamental component of Open Science.
 
     2.  [Open Source Solutions group](https://wildlabs.net/en/groups/open-source-solutions)
 
-3.  [Zotero Libraries](https://sael-swfsc.github.io/OpenScience/content/Zotero.html){target="_blank"}
+3.  [Zotero Libraries](https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html){target="_blank"}
