@@ -19,3 +19,7 @@ Open sharing of knowledge is a fundamental component of Open Science.
     2.  [Open Source Solutions group](https://wildlabs.net/en/groups/open-source-solutions)
 
 3.  [Zotero Libraries](https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html){target="_blank"}
+
+    1.  [Soundscape Zotero Group Library](https://www.zotero.org/groups/58164/soundscape)
+
+    2.  [PAM-Glider Group Library](https://www.zotero.org/groups/5642642/pam-gliders)
