@@ -10,7 +10,7 @@
 
 Open sharing of knowledge is a fundamental component of Open Science.
 
-1.  [Bioacoustics Stack Exchange](https://sael-swfsc.github.io/OpenScience/content/Stack-Exchange.html){target="_blank"}
+1.  [Bioacoustics Stack Exchange](https://nmfs-ost.github.io/PAM-OpenScience/content/Stack-Exchange.html){target="_blank"}
 
 2.  [Wildlabs](https://wildlabs.net/en)
 
